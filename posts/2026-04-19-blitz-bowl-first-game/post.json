@@ -1,0 +1,49 @@
+{
+  "slug": "2026-04-19-blitz-bowl-first-game",
+  "date": "2026-04-19",
+  "title": "Blitz Bowl hits the table",
+  "type": "game-night",
+  "game": "Blitz Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Blitz Bowl hits the table, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Blitz Bowl hits the table, photo 2",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Blitz Bowl hits the table, photo 3",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Blitz Bowl hits the table, photo 4",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Blitz Bowl hits the table, photo 5",
+      "width": 1082,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "69dbed96f86d1800750ae720",
+      "sentAt": "2026-04-19T11:27:40.118Z"
+    }
+  },
+  "source": "instagram-archive"
+}

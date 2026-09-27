@@ -1,0 +1,61 @@
+{
+  "slug": "2026-02-01-tali",
+  "date": "2026-02-01",
+  "title": "Tali’Zorah vas Normandy",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 3",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 4",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 5",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 6",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Tali’Zorah vas Normandy, photo 7",
+      "width": 1079,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6973d133ef0e2d965208ffba",
+      "sentAt": "2026-02-01T12:27:38.493Z"
+    }
+  },
+  "source": "instagram-archive"
+}

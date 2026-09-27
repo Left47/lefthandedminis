@@ -1,0 +1,49 @@
+{
+  "slug": "2026-01-13-garrus",
+  "date": "2026-01-13",
+  "title": "Garrus Vakarian",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Garrus Vakarian, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Garrus Vakarian, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Garrus Vakarian, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Garrus Vakarian, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Garrus Vakarian, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "695d74e2e902da52d006a6b8",
+      "sentAt": "2026-01-13T12:03:23.944Z"
+    }
+  },
+  "source": "instagram-archive"
+}

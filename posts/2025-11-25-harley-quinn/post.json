@@ -1,0 +1,67 @@
+{
+  "slug": "2025-11-25-harley-quinn",
+  "date": "2025-11-25",
+  "title": "Harley Quinn",
+  "type": "finished",
+  "game": "DC United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Harley Quinn, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Harley Quinn, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Harley Quinn, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Harley Quinn, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Harley Quinn, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Harley Quinn, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Harley Quinn, photo 7",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Harley Quinn, photo 8",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6922622055e4d0dd3a0c243c",
+      "sentAt": "2025-11-25T12:03:35.466Z"
+    }
+  },
+  "source": "instagram-archive"
+}

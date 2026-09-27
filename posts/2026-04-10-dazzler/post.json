@@ -1,0 +1,49 @@
+{
+  "slug": "2026-04-10-dazzler",
+  "date": "2026-04-10",
+  "title": "Dazzler",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Dazzler, photo 1",
+      "width": 787,
+      "height": 984
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Dazzler, photo 2",
+      "width": 831,
+      "height": 1043
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Dazzler, photo 3",
+      "width": 843,
+      "height": 1051
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Dazzler, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Dazzler, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "69d56eedb819957fae01e300",
+      "sentAt": "2026-04-10T10:57:30.242Z"
+    }
+  },
+  "source": "instagram-archive"
+}

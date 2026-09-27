@@ -1,0 +1,49 @@
+{
+  "slug": "2025-11-30-symbiote-spider-man",
+  "date": "2025-11-30",
+  "title": "Black suit Spider-Man",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Black suit Spider-Man, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Black suit Spider-Man, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Black suit Spider-Man, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Black suit Spider-Man, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Black suit Spider-Man, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6924d5026e19930262041e76",
+      "sentAt": "2025-11-30T12:27:26.961Z"
+    }
+  },
+  "source": "instagram-archive"
+}

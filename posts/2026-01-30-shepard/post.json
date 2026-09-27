@@ -1,0 +1,73 @@
+{
+  "slug": "2026-01-30-shepard",
+  "date": "2026-01-30",
+  "title": "Commander Shepard",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Commander Shepard, photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Commander Shepard, photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Commander Shepard, photo 3",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Commander Shepard, photo 4",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Commander Shepard, photo 5",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Commander Shepard, photo 6",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Commander Shepard, photo 7",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Commander Shepard, photo 8",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "09.jpg",
+      "alt": "Commander Shepard, photo 9",
+      "width": 1079,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6973d0742a0aee655e0d115d",
+      "sentAt": "2026-01-30T11:58:10.753Z"
+    }
+  },
+  "source": "instagram-archive"
+}

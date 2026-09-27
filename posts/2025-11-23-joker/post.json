@@ -1,0 +1,55 @@
+{
+  "slug": "2025-11-23-joker",
+  "date": "2025-11-23",
+  "title": "The Joker",
+  "type": "finished",
+  "game": "DC United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "The Joker, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "The Joker, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "The Joker, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "The Joker, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "The Joker, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "The Joker, photo 6",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6922620e1650f5da0f07720d",
+      "sentAt": "2025-11-23T12:27:41.711Z"
+    }
+  },
+  "source": "instagram-archive"
+}

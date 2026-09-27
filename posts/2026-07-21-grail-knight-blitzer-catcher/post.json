@@ -1,0 +1,43 @@
+{
+  "slug": "2026-07-21-grail-knight-blitzer-catcher",
+  "date": "2026-07-21",
+  "title": "Grail Knight Blitzer & Catcher",
+  "type": "wip",
+  "game": "Blood Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Grail Knight Blitzer & Catcher, photo 1",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Grail Knight Blitzer & Catcher, photo 2",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Grail Knight Blitzer & Catcher, photo 3",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Grail Knight Blitzer & Catcher, photo 4",
+      "width": 1012,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6a60e26c56fbd6f5c08184f0",
+      "sentAt": "2026-07-21T22:01:44.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "2026-08-05-zeratul-wip",
+  "date": "2026-08-05",
+  "title": "Zeratul, still in progress",
+  "type": "wip",
+  "game": "StarCraft",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Zeratul, still in progress, photo 1",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Zeratul, still in progress, photo 2",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Zeratul, still in progress, photo 3",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Zeratul, still in progress, photo 4",
+      "width": 1081,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6a6bee3c380639aa89072e94",
+      "sentAt": "2026-08-05T21:02:33.254Z"
+    }
+  },
+  "source": "instagram-archive"
+}

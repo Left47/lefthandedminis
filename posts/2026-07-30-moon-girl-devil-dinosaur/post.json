@@ -1,0 +1,43 @@
+{
+  "slug": "2026-07-30-moon-girl-devil-dinosaur",
+  "date": "2026-07-30",
+  "title": "Moon Girl & Devil Dinosaur",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Moon Girl & Devil Dinosaur, photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Moon Girl & Devil Dinosaur, photo 2",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Moon Girl & Devil Dinosaur, photo 3",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Moon Girl & Devil Dinosaur, photo 4",
+      "width": 1081,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6a6acc94b6861a59120b83f5",
+      "sentAt": "2026-07-30T04:01:51.458Z"
+    }
+  },
+  "source": "instagram-archive"
+}

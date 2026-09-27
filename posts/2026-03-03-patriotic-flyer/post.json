@@ -1,0 +1,25 @@
+{
+  "slug": "2026-03-03-patriotic-flyer",
+  "date": "2026-03-03",
+  "title": "Captain America (Sam Wilson), Election Day",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Captain America (Sam Wilson), Election Day",
+      "width": 1002,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "69a72858220e309751259618",
+      "sentAt": "2026-03-03T17:57:02.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

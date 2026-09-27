@@ -1,0 +1,55 @@
+{
+  "slug": "2026-02-27-human-thrower",
+  "date": "2026-02-27",
+  "title": "Human Thrower",
+  "type": "finished",
+  "game": "Blitz Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Human Thrower, photo 1",
+      "width": 1066,
+      "height": 1331
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Human Thrower, photo 2",
+      "width": 1066,
+      "height": 1331
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Human Thrower, photo 3",
+      "width": 1062,
+      "height": 1331
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Human Thrower, photo 4",
+      "width": 1062,
+      "height": 1331
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Human Thrower, photo 5",
+      "width": 1064,
+      "height": 1331
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Human Thrower, photo 6",
+      "width": 1064,
+      "height": 1331
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "699e6c672b9422d5b80f4b59",
+      "sentAt": "2026-02-27T11:57:46.700Z"
+    }
+  },
+  "source": "instagram-archive"
+}

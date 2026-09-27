@@ -1,0 +1,49 @@
+{
+  "slug": "2026-04-03-velvet-backdrop",
+  "date": "2026-04-03",
+  "title": "Foam vs. velvet backdrops",
+  "type": "tip",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Foam vs. velvet backdrops, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Foam vs. velvet backdrops, photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Foam vs. velvet backdrops, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Foam vs. velvet backdrops, photo 4",
+      "width": 1078,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Foam vs. velvet backdrops, photo 5",
+      "width": 1078,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "69cd57ec1a89f4ced40da48e",
+      "sentAt": "2026-04-03T10:57:39.919Z"
+    }
+  },
+  "source": "instagram-archive"
+}

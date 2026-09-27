@@ -1,0 +1,55 @@
+{
+  "slug": "2026-01-16-wrex",
+  "date": "2026-01-16",
+  "title": "Wrex",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Wrex, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Wrex, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Wrex, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Wrex, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Wrex, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Wrex, photo 6",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "695d752008315bed5409d72e",
+      "sentAt": "2026-01-16T11:57:36.137Z"
+    }
+  },
+  "source": "instagram-archive"
+}

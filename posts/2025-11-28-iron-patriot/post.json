@@ -1,0 +1,49 @@
+{
+  "slug": "2025-11-28-iron-patriot",
+  "date": "2025-11-28",
+  "title": "Iron Patriot",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Iron Patriot, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Iron Patriot, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Iron Patriot, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Iron Patriot, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Iron Patriot, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6922622e7fa5b34a710a5476",
+      "sentAt": "2025-11-28T11:57:26.704Z"
+    }
+  },
+  "source": "instagram-archive"
+}

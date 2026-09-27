@@ -1,0 +1,43 @@
+{
+  "slug": "2025-11-07-huntress",
+  "date": "2025-11-07",
+  "title": "Huntress",
+  "type": "finished",
+  "game": "DC United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Huntress, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Huntress, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Huntress, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Huntress, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68dfec199e74cd1a62060395",
+      "sentAt": "2025-11-07T11:57:23.541Z"
+    }
+  },
+  "source": "instagram-archive"
+}

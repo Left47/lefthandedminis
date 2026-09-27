@@ -1,0 +1,49 @@
+{
+  "slug": "2026-02-10-liara",
+  "date": "2026-02-10",
+  "title": "Liara T’Soni",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Liara T’Soni, photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Liara T’Soni, photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Liara T’Soni, photo 3",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Liara T’Soni, photo 4",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Liara T’Soni, photo 5",
+      "width": 1079,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6973d19bde4ae657f60b5930",
+      "sentAt": "2026-02-10T12:03:50.217Z"
+    }
+  },
+  "source": "instagram-archive"
+}

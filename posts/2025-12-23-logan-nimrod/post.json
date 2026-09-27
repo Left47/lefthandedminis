@@ -1,0 +1,49 @@
+{
+  "slug": "2025-12-23-logan-nimrod",
+  "date": "2025-12-23",
+  "title": "Logan & Nimrod",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Logan & Nimrod, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Logan & Nimrod, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Logan & Nimrod, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Logan & Nimrod, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Logan & Nimrod, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "693393ee3402eefbc0028a15",
+      "sentAt": "2025-12-23T12:03:31.566Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "2026-02-20-tomb-guardian",
+  "date": "2026-02-20",
+  "title": "Tomb Guardian",
+  "type": "finished",
+  "game": "Blood Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Tomb Guardian, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Tomb Guardian, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Tomb Guardian, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Tomb Guardian, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Tomb Guardian, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Tomb Guardian, photo 6",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "698d2675bc9cf9d6d906476b",
+      "sentAt": "2026-02-20T11:57:48.164Z"
+    }
+  },
+  "source": "instagram-archive"
+}

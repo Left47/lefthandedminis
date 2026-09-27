@@ -1,0 +1,25 @@
+{
+  "slug": "2026-01-25-mass-effect-squad",
+  "date": "2026-01-25",
+  "title": "The Normandy squad",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "The Normandy squad",
+      "width": 1350,
+      "height": 707
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6973d2ff49e2b81f8103c160",
+      "sentAt": "2026-01-25T12:27:10.614Z"
+    }
+  },
+  "source": "instagram-archive"
+}

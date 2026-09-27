@@ -1,0 +1,43 @@
+{
+  "slug": "2026-04-24-human-team",
+  "date": "2026-04-24",
+  "title": "The full human team",
+  "type": "finished",
+  "game": "Blitz Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "The full human team, photo 1",
+      "width": 1350,
+      "height": 708
+    },
+    {
+      "file": "02.jpg",
+      "alt": "The full human team, photo 2",
+      "width": 1350,
+      "height": 708
+    },
+    {
+      "file": "03.jpg",
+      "alt": "The full human team, photo 3",
+      "width": 1350,
+      "height": 708
+    },
+    {
+      "file": "04.jpg",
+      "alt": "The full human team, photo 4",
+      "width": 1350,
+      "height": 708
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "69cd59edf1555e4a050183e4",
+      "sentAt": "2026-04-24T10:57:32.062Z"
+    }
+  },
+  "source": "instagram-archive"
+}

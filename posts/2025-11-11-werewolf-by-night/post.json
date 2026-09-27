@@ -1,0 +1,37 @@
+{
+  "slug": "2025-11-11-werewolf-by-night",
+  "date": "2025-11-11",
+  "title": "Werewolf by Night",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Werewolf by Night, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Werewolf by Night, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Werewolf by Night, photo 3",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6912b90142cfc0c88c094265",
+      "sentAt": "2025-11-11T12:03:45.840Z"
+    }
+  },
+  "source": "instagram-archive"
+}

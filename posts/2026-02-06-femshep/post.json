@@ -1,0 +1,67 @@
+{
+  "slug": "2026-02-06-femshep",
+  "date": "2026-02-06",
+  "title": "Commander Shepard (FemShep)",
+  "type": "finished",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Commander Shepard (FemShep), photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Commander Shepard (FemShep), photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Commander Shepard (FemShep), photo 3",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Commander Shepard (FemShep), photo 4",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Commander Shepard (FemShep), photo 5",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Commander Shepard (FemShep), photo 6",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Commander Shepard (FemShep), photo 7",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Commander Shepard (FemShep), photo 8",
+      "width": 1079,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6973d23dd808ab4f6a0c7052",
+      "sentAt": "2026-02-06T11:57:55.381Z"
+    }
+  },
+  "source": "instagram-archive"
+}

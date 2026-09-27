@@ -1,0 +1,49 @@
+{
+  "slug": "2026-02-22-tomb-kings-blitzer",
+  "date": "2026-02-22",
+  "title": "Tomb Kings Blitzer",
+  "type": "finished",
+  "game": "Blood Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Tomb Kings Blitzer, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Tomb Kings Blitzer, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Tomb Kings Blitzer, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Tomb Kings Blitzer, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Tomb Kings Blitzer, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "698d274287b7f77745099500",
+      "sentAt": "2026-02-22T12:27:39.418Z"
+    }
+  },
+  "source": "instagram-archive"
+}

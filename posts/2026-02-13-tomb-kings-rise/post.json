@@ -1,0 +1,37 @@
+{
+  "slug": "2026-02-13-tomb-kings-rise",
+  "date": "2026-02-13",
+  "title": "Tomb Kings in black and gold",
+  "type": "finished",
+  "game": "Blood Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Tomb Kings in black and gold, photo 1",
+      "width": 1350,
+      "height": 709
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Tomb Kings in black and gold, photo 2",
+      "width": 1350,
+      "height": 709
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Tomb Kings in black and gold, photo 3",
+      "width": 1350,
+      "height": 709
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "698d29bb90b980da3005a7ec",
+      "sentAt": "2026-02-13T11:57:25.685Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "2026-06-18-galactus-game-night",
+  "date": "2026-06-18",
+  "title": "Sending Galactus packing",
+  "type": "game-night",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Giant unpainted Galactus towering over the Marvel United board",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Sending Galactus packing, photo 2",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Sending Galactus packing, photo 3",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Sending Galactus packing, photo 4",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Sending Galactus packing, photo 5",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Sending Galactus packing, photo 6",
+      "width": 1012,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6a346de974e7acda790b0471",
+      "sentAt": "2026-06-18T17:39:23.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

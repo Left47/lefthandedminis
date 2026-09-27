@@ -1,0 +1,43 @@
+{
+  "slug": "2026-03-03-human-catcher",
+  "date": "2026-03-03",
+  "title": "Human Catcher",
+  "type": "finished",
+  "game": "Blitz Bowl",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Human Catcher, photo 1",
+      "width": 1066,
+      "height": 1331
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Human Catcher, photo 2",
+      "width": 1059,
+      "height": 1328
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Human Catcher, photo 3",
+      "width": 1061,
+      "height": 1330
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Human Catcher, photo 4",
+      "width": 1066,
+      "height": 1331
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "699f28f12933a1246b00ca30",
+      "sentAt": "2026-03-03T12:03:22.971Z"
+    }
+  },
+  "source": "instagram-archive"
+}

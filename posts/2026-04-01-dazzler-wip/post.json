@@ -1,0 +1,37 @@
+{
+  "slug": "2026-04-01-dazzler-wip",
+  "date": "2026-04-01",
+  "title": "Dazzler, base coats",
+  "type": "wip",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Dazzler, base coats, photo 1",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Dazzler, base coats, photo 2",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Dazzler, base coats, photo 3",
+      "width": 1012,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "69ce511dc1732da1ab3e4fcf",
+      "sentAt": "2026-04-01T23:10:33.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}
