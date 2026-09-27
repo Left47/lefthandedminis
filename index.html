@@ -106,10 +106,14 @@
   /* about */
   .about{background:var(--paper);border-top:4px solid var(--ink);border-bottom:4px solid var(--ink)}
   .about .wrap{display:grid;gap:28px;padding-top:40px;padding-bottom:44px;align-items:center}
-  @media(min-width:760px){.about .wrap{grid-template-columns:260px 1fr}}
-  .about .panel{background:var(--blue-tint);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:18px;max-width:260px;
+  @media(min-width:760px){.about .wrap{grid-template-columns:300px 1fr}}
+  @media(max-width:759px){.about .panel{max-width:240px}}
+  .about .panel{background:var(--blue-tint);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:18px;max-width:300px;
     background-image:radial-gradient(rgba(0,74,173,.18) 1.4px,transparent 1.5px);background-size:12px 12px}
-  .about .panel img{display:block;width:100%;height:auto}
+  .about .panel{margin:0;padding:10px}
+  .about .panel img{display:block;width:100%;height:auto;border:2px solid var(--ink)}
+  .about figcaption{font:900 13px Lato,sans-serif;text-align:center;padding-top:8px}
+  .about p a{color:var(--blue);font-weight:900}
   .about h2,.gear h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;font-size:34px;margin:0 0 12px;letter-spacing:.01em}
   .about p{margin:0 0 14px;max-width:62ch;font-size:17px}
   .about .kicker{color:var(--red);font:900 13px Lato,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
@@ -168,14 +172,16 @@
 
 <section class="about" id="about">
   <div class="wrap">
-    <div class="panel"><img src="assets/logo-fist.png" alt="Left-Handed Minis fist-and-paintbrush logo"></div>
+    <figure class="panel">
+      <img src="assets/about-first-minis.jpg" alt="Jim smiling at the table, holding up a painted mini above a Marvel United board full of painted heroes">
+      <figcaption>Me with my first minis</figcaption>
+    </figure>
     <div>
       <div class="kicker">About</div>
-      <h2>One lefty, a lot of tiny heroes</h2>
-      <p>Left-Handed Minis is my painting table: superheroes from Marvel United and DC United, the Normandy crew from Mass Effect, a growing pile of StarCraft, and a Bretonnian Blood Bowl team, the Holy Hand Grenadiers, that gets a little more painted every matchday.</p>
-      <p>I haven't been painting all that long, and that's kind of the point. This is where I share the progression: the WIPs that still need highlights, the photography experiments, and the games where the dice had other plans.</p>
-      <p>The hobby's supposed to be fun. Perfection is optional.</p>
-      <p>Want to talk shop or work together? Email me at <a href="mailto:lefthandedminis@gmail.com">lefthandedminis@gmail.com</a>.</p>
+      <h2>Hi, I'm Jim!</h2>
+      <p>I'm a tech professional by day, an amateur miniature painter by night, and a dad all the time. My painting journey began in 2023 after a paint-and-take session at SDCC sparked my interest. Since then, I've focused on bringing characters from board games like Marvel United and X-Men to life with color and creativity.</p>
+      <p>I live in Cary, NC, with my wonderful wife, two energetic young daughters, and our sweet old rescue poodle. Painting miniatures has become a fulfilling way to unwind, challenge myself, and add a personal touch to our favorite games.</p>
+      <p><a href="mailto:lefthandedminis@gmail.com">lefthandedminis@gmail.com</a></p>
     </div>
   </div>
 </section>
