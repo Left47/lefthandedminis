@@ -4,85 +4,133 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Left-Handed Minis</title>
-<meta name="description" content="Painted miniatures, game nights, and match reports from Left-Handed Minis.">
+<meta name="description" content="Small figures, big adventures. Painted miniatures, game nights, and Blood Bowl match reports from Left-Handed Minis.">
+<meta property="og:title" content="Left-Handed Minis">
+<meta property="og:description" content="Small figures, big adventures.">
+<meta property="og:image" content="assets/logo-badge.png">
+<meta name="theme-color" content="#004AAD">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#15120f; --surface:#1f1a16; --line:#342c25; --text:#f3ece3; --muted:#a89a8b;
-    --accent:#e0a93a; --accent-ink:#1a1206; --win:#7fc98a; --loss:#e27a6f; --draw:#c9b77f;
-    --radius:14px;
+    --blue:#004AAD; --blue-deep:#003B8A; --blue-tint:#E6EDF7;
+    --red:#BA1B2B; --yellow:#FFDD00;
+    --ink:#212121; --muted:#5F6368; --paper:#FFFFFF; --bg:#F4F4F4; --line:#212121;
+    --win:#1E8E4E; --loss:#BA1B2B; --draw:#8A6D00;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 Inter,system-ui,sans-serif}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Lato,system-ui,sans-serif}
   a{color:inherit}
-  header{padding:48px 16px 24px;max-width:1120px;margin:0 auto}
-  .kicker{color:var(--accent);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:12px}
-  h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(36px,8vw,64px);line-height:1;margin:10px 0 12px;letter-spacing:-.02em}
-  header p{color:var(--muted);max-width:52ch;margin:0}
-  header nav{margin-top:18px;display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
-  header nav a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px}
-  header nav a:hover{color:var(--text);border-color:var(--accent)}
-  .filters{max-width:1120px;margin:0 auto;padding:0 16px 20px;display:flex;gap:8px;flex-wrap:wrap}
-  .chip{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 14px;font:500 13px Inter,sans-serif;cursor:pointer}
-  .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-  main{max-width:1120px;margin:0 auto;padding:0 16px 64px;display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
-  .card{all:unset;cursor:pointer;display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .15s,border-color .15s}
-  .card:hover,.card:focus-visible{transform:translateY(-2px);border-color:var(--accent)}
-  .card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-  .card .img{aspect-ratio:4/5;position:relative;background:#000}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+
+  /* hero: comic panel with halftone */
+  .hero{background:var(--blue);color:#fff;position:relative;overflow:hidden;border-bottom:4px solid var(--ink)}
+  .hero::before{content:"";position:absolute;inset:0;
+    background-image:radial-gradient(rgba(255,255,255,.16) 1.6px,transparent 1.7px);
+    background-size:14px 14px;
+    -webkit-mask-image:linear-gradient(115deg,transparent 35%,#000 85%);mask-image:linear-gradient(115deg,transparent 35%,#000 85%)}
+  .hero .wrap{position:relative;padding-top:28px;padding-bottom:32px;display:grid;gap:22px}
+  .badge{background:#fff;border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:8px 12px;width:max-content;max-width:100%}
+  .badge img{display:block;height:auto;width:min(260px,70vw)}
+  .tagline{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(40px,9.5vw,84px);line-height:.95;letter-spacing:.005em;margin:0}
+  .tagline span{color:var(--yellow);display:block}
+  .intro{max-width:56ch;margin:0;font-size:17px;color:rgba(255,255,255,.92)}
+  .socials{display:flex;flex-wrap:wrap;gap:8px}
+  .socials a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:700;font-size:14px;
+    background:#fff;color:var(--ink);border:2px solid var(--ink);border-radius:999px;padding:6px 14px;box-shadow:3px 3px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+  .socials a:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}
+  .socials a.primary{background:var(--yellow)}
+  .socials a:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:32px;padding-bottom:14px}
+  .section-head h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;font-size:30px;margin:0;letter-spacing:.01em}
+  .filters{display:flex;gap:8px;flex-wrap:wrap}
+  .chip{border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:999px;padding:5px 13px;font:700 13px Lato,sans-serif;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--blue);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+
+  main.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));padding-bottom:56px}
+  .card{all:unset;cursor:pointer;display:block;background:var(--paper);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+  .card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+  .card:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+  .card .img{aspect-ratio:4/5;position:relative;background:#111;border-bottom:3px solid var(--ink)}
   .card img{width:100%;height:100%;object-fit:cover;display:block}
-  .count{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.6);font-size:12px;padding:3px 8px;border-radius:999px}
+  .count{position:absolute;top:10px;right:10px;background:var(--ink);color:#fff;font:700 12px Lato,sans-serif;padding:3px 9px;border-radius:999px}
+  .kind{position:absolute;left:10px;bottom:10px;background:var(--yellow);color:var(--ink);border:2px solid var(--ink);font:900 11px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px}
   .meta{padding:12px 14px 14px}
-  .meta h2{font:700 17px/1.25 "Bricolage Grotesque",sans-serif;margin:0 0 6px}
+  .meta h3{font:900 18px/1.2 Lato,sans-serif;margin:0 0 6px}
   .sub{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px;flex-wrap:wrap}
-  .res{font-weight:600;padding:1px 8px;border-radius:6px;font-size:12px;color:#111}
+  .res{font-weight:900;padding:1px 8px;font-size:12px;color:#fff;border:2px solid var(--ink)}
   .res.W{background:var(--win)} .res.L{background:var(--loss)} .res.D{background:var(--draw)}
   .empty{color:var(--muted)}
+
   /* viewer */
-  dialog{border:0;padding:0;background:var(--bg);color:var(--text);width:min(1000px,100vw);max-width:100vw;max-height:100dvh;height:100dvh;margin:auto}
-  @media(min-width:760px){dialog{height:auto;max-height:92vh;border-radius:18px;border:1px solid var(--line)}}
-  dialog::backdrop{background:rgba(0,0,0,.8)}
+  dialog{border:0;padding:0;background:var(--paper);color:var(--ink);width:min(1000px,100vw);max-width:100vw;max-height:100dvh;height:100dvh;margin:auto}
+  @media(min-width:760px){dialog{height:auto;max-height:92vh;border:3px solid var(--ink);box-shadow:10px 10px 0 var(--ink)}}
+  dialog::backdrop{background:rgba(0,33,77,.82)}
   .viewer{display:grid;grid-template-columns:1fr;height:100%;overflow:auto}
-  @media(min-width:760px){.viewer{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);max-height:92vh}}
-  .slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;background:#000;scrollbar-width:none}
+  @media(min-width:760px){.viewer{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);max-height:calc(92vh - 6px)}}
+  .media{background:#111;display:flex;flex-direction:column}
+  .slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;aspect-ratio:4/5}
   .slides::-webkit-scrollbar{display:none}
-  .slides img{flex:0 0 100%;width:100%;aspect-ratio:4/5;object-fit:cover;scroll-snap-align:center}
-  .dots{display:flex;gap:6px;justify-content:center;padding:10px 0;background:#000}
-  .dots button{width:8px;height:8px;border-radius:50%;border:0;padding:0;background:#555;cursor:pointer}
-  .dots button[aria-current="true"]{background:var(--accent)}
-  .side{padding:20px 16px 28px;display:flex;flex-direction:column;gap:14px;min-width:0}
+  .slides img{flex:0 0 100%;width:100%;height:100%;object-fit:contain;scroll-snap-align:center;background:#111}
+  .dots{display:flex;gap:7px;justify-content:center;padding:10px 0}
+  .dots button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:#666;cursor:pointer}
+  .dots button[aria-current="true"]{background:var(--yellow)}
+  .side{padding:22px 18px 28px;display:flex;flex-direction:column;gap:14px;min-width:0}
   @media(min-width:760px){.side{overflow:auto}}
-  .side h2{font:800 24px/1.15 "Bricolage Grotesque",sans-serif;margin:0}
-  .tabs{display:flex;gap:6px}
-  .caption{white-space:pre-wrap;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:15px}
-  .caption .tag{color:var(--accent)}
+  .side h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:30px;line-height:1.02;margin:4px 0 0}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap}
+  .caption{white-space:pre-wrap;background:var(--bg);border:2px solid var(--ink);padding:14px;font-size:15px}
+  .caption .tag{color:var(--blue);font-weight:700}
   .row{display:flex;gap:10px;align-items:center;justify-content:space-between;color:var(--muted);font-size:13px}
-  .btn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:10px;padding:7px 12px;font:500 13px Inter,sans-serif;cursor:pointer}
-  .btn:hover{border-color:var(--accent)}
-  .close{position:absolute;top:10px;left:10px;z-index:2;background:rgba(0,0,0,.6);border:0;color:#fff;width:36px;height:36px;border-radius:50%;font-size:20px;cursor:pointer}
-  footer{text-align:center;color:var(--muted);font-size:13px;padding:0 16px 40px}
+  .btn{border:2px solid var(--ink);background:var(--yellow);color:var(--ink);padding:7px 13px;font:900 13px Lato,sans-serif;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+  .btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+  .close{position:absolute;top:10px;left:10px;z-index:2;background:#fff;border:2px solid var(--ink);color:var(--ink);width:38px;height:38px;border-radius:50%;font:900 20px/1 Lato,sans-serif;cursor:pointer;box-shadow:2px 2px 0 var(--ink)}
+
+  footer{border-top:4px solid var(--ink);background:var(--paper)}
+  footer .wrap{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:20px;padding-bottom:28px;font-size:14px;color:var(--muted)}
+  footer img{height:64px;width:auto;display:block}
+  footer a{color:var(--blue);font-weight:700}
 </style>
 </head>
 <body>
-<header>
-  <div class="kicker">Left-Handed Minis</div>
-  <h1>From the hobby table</h1>
-  <p>Painted miniatures, game nights, and Blood Bowl match reports. Perfection optional.</p>
-  <nav>
-    <a href="https://instagram.com/lefthandedminis" rel="noopener">Instagram</a>
-    <a href="https://www.threads.net/@lefthandedminis" rel="noopener">Threads</a>
-  </nav>
+<header class="hero">
+  <div class="wrap">
+    <a class="badge" href="https://lefthandedminis.com" aria-label="Left-Handed Minis home"><img src="assets/logo-badge.png" alt="Left-Handed Minis"></a>
+    <h1 class="tagline">Small figures,<span>big adventures</span></h1>
+    <p class="intro">Painted miniatures, game nights, and Holy Hand Grenadiers match reports from a lefty who's learning as he goes. Perfection optional.</p>
+    <nav class="socials" aria-label="Follow Left-Handed Minis">
+      <a class="primary" href="https://instagram.com/lefthandedminis" rel="noopener">Instagram</a>
+      <a href="https://www.threads.net/@lefthandedminis" rel="noopener">Threads</a>
+      <a href="https://tiktok.com/@lefthandedminis" rel="noopener">TikTok</a>
+      <a href="https://www.youtube.com/@lefthandedminis" rel="noopener">YouTube</a>
+      <a href="https://bsky.app/profile/lefthandedminis.bsky.social" rel="noopener">Bluesky</a>
+      <a href="https://lefthandedminis.com" rel="noopener">lefthandedminis.com</a>
+    </nav>
+  </div>
 </header>
-<div class="filters" id="filters" role="group" aria-label="Filter posts"></div>
-<main id="grid" aria-live="polite"><p class="empty">Loading posts…</p></main>
-<footer>Photos &amp; words by Left-Handed Minis</footer>
+
+<div class="wrap section-head">
+  <h2>From the hobby table</h2>
+  <div class="filters" id="filters" role="group" aria-label="Filter by game"></div>
+</div>
+<main class="wrap grid" id="grid" aria-live="polite"><p class="empty">Loading posts…</p></main>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/logo-fist.png" alt="">
+    <span>Photos &amp; words by Left-Handed Minis · <a href="mailto:lefthandedminis@gmail.com">lefthandedminis@gmail.com</a></span>
+  </div>
+</footer>
 
 <dialog id="viewer" aria-label="Post viewer">
   <button class="close" id="close" aria-label="Close">×</button>
   <div class="viewer">
-    <div><div class="slides" id="slides"></div><div class="dots" id="dots"></div></div>
+    <div class="media"><div class="slides" id="slides"></div><div class="dots" id="dots"></div></div>
     <div class="side">
       <div>
         <div class="sub" id="vsub"></div>
@@ -98,14 +146,16 @@
 <script>
 const posts = [];
 let filter = 'All';
+const LABELS = {instagram:'Instagram', threads:'Threads', tiktok:'TikTok', bluesky:'Bluesky', youtube:'YouTube', facebook:'Facebook'};
+const KINDS = {'match-report':'Match report', build:'Build', wip:'WIP', finished:'Finished', 'game-night':'Game night'};
 const fmtDate = d => new Date(d + 'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
-const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const resClass = r => (r||'').trim().charAt(0).toUpperCase();
 
 async function load(){
   try{
     const slugs = await (await fetch('posts/index.json',{cache:'no-cache'})).json();
-    for (const slug of slugs){
+    await Promise.all(slugs.map(async slug => {
       const base = 'posts/' + slug + '/';
       const p = await (await fetch(base + 'post.json',{cache:'no-cache'})).json();
       p.base = base; p.caps = {};
@@ -113,7 +163,7 @@ async function load(){
         try{ p.caps[k] = (await (await fetch(base + f,{cache:'no-cache'})).text()).trim(); }catch(e){}
       }
       posts.push(p);
-    }
+    }));
     posts.sort((a,b)=> b.date.localeCompare(a.date));
     renderFilters(); render();
   }catch(e){
@@ -130,19 +180,18 @@ function render(){
   const list = posts.filter(p=> filter==='All' || p.game===filter);
   const grid = document.getElementById('grid');
   if(!list.length){ grid.innerHTML = '<p class="empty">No posts yet.</p>'; return; }
-  grid.innerHTML = list.map((p,i)=>`
+  grid.innerHTML = list.map(p=>`
     <button class="card" data-i="${posts.indexOf(p)}" aria-label="Open ${esc(p.title)}">
       <div class="img"><img loading="lazy" src="${p.base + p.images[0].file}" alt="${esc(p.images[0].alt||'')}">
-        ${p.images.length>1?`<span class="count">1/${p.images.length}</span>`:''}</div>
-      <div class="meta"><h2>${esc(p.title)}</h2>
-        <div class="sub">${p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:''}<span>${esc(p.game||'')}</span><span>·</span><span>${fmtDate(p.date)}</span></div>
+        ${p.images.length>1?`<span class="count">${p.images.length} photos</span>`:''}
+        ${KINDS[p.type]?`<span class="kind">${KINDS[p.type]}</span>`:''}</div>
+      <div class="meta"><h3>${esc(p.title)}</h3>
+        <div class="sub">${p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:''}<span>${esc(p.game||'')}</span><span aria-hidden="true">·</span><span>${fmtDate(p.date)}</span></div>
       </div>
     </button>`).join('');
   grid.querySelectorAll('.card').forEach(c=> c.onclick = ()=> open(posts[+c.dataset.i]));
 }
-function highlight(t){
-  return esc(t).replace(/(^|\s)([#@][\w.]+)/g,'$1<span class="tag">$2</span>');
-}
+const highlight = t => esc(t).replace(/(^|\s)([#@][\w.]+)/g,'$1<span class="tag">$2</span>');
 function open(p){
   const slides = document.getElementById('slides'), dots = document.getElementById('dots');
   slides.innerHTML = p.images.map(im=>`<img src="${p.base+im.file}" alt="${esc(im.alt||'')}">`).join('');
@@ -150,18 +199,18 @@ function open(p){
   dots.querySelectorAll('button').forEach((b,i)=> b.onclick = ()=> slides.scrollTo({left:i*slides.clientWidth,behavior:'smooth'}));
   slides.onscroll = ()=>{ const i=Math.round(slides.scrollLeft/slides.clientWidth); dots.querySelectorAll('button').forEach((b,j)=>b.setAttribute('aria-current', j===i)); };
   document.getElementById('vtitle').textContent = p.title;
-  document.getElementById('vsub').innerHTML = [p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:'', esc(p.league||p.game||''), fmtDate(p.date)].filter(Boolean).join(' <span>·</span> ');
+  document.getElementById('vsub').innerHTML = [p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:'', esc(p.league||p.game||''), fmtDate(p.date)].filter(Boolean).join(' <span aria-hidden="true">·</span> ');
   const keys = Object.keys(p.caps), tabs = document.getElementById('tabs');
   const show = k => {
     tabs.querySelectorAll('.chip').forEach(b=> b.setAttribute('aria-pressed', b.dataset.k===k));
     document.getElementById('caption').innerHTML = highlight(p.caps[k]||'');
     document.getElementById('chars').textContent = (p.caps[k]||'').length + ' characters';
-    document.getElementById('copy').onclick = async e => { try{ await navigator.clipboard.writeText(p.caps[k]); e.target.textContent='Copied'; setTimeout(()=>e.target.textContent='Copy caption',1400);}catch(_){} };
+    document.getElementById('copy').onclick = async e => { try{ await navigator.clipboard.writeText(p.caps[k]); e.target.textContent='Copied!'; setTimeout(()=>e.target.textContent='Copy caption',1400);}catch(_){} };
   };
-  tabs.innerHTML = keys.map(k=>`<button class="chip" data-k="${k}">${({instagram:'Instagram',threads:'Threads',tiktok:'TikTok',bluesky:'Bluesky'})[k]||k}</button>`).join('');
+  tabs.innerHTML = keys.length>1 ? keys.map(k=>`<button class="chip" data-k="${k}">${LABELS[k]||k}</button>`).join('') : '';
   tabs.querySelectorAll('.chip').forEach(b=> b.onclick = ()=> show(b.dataset.k));
   if(keys.length) show(keys[0]);
-  const d = document.getElementById('viewer'); d.showModal(); slides.scrollLeft = 0;
+  document.getElementById('viewer').showModal(); slides.scrollLeft = 0;
 }
 document.getElementById('close').onclick = ()=> document.getElementById('viewer').close();
 document.getElementById('viewer').addEventListener('click', e=>{ if(e.target.id==='viewer') e.target.close(); });

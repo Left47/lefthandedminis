@@ -1,0 +1,45 @@
+{
+  "slug": "2026-08-19-md2-chaos-chosen",
+  "date": "2026-08-19",
+  "title": "Grenadiers 0–2 Monarchia Marauders",
+  "type": "match-report",
+  "game": "Blood Bowl",
+  "project": "Holy Hand Grenadiers",
+  "league": "Bugman's Champions League, Season 9 · Matchday 2",
+  "result": "L 0–2",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Overhead view of the stone pitch mid-match, Grenadiers on pink bases facing the Chaos Chosen",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "file": "02.jpg",
+      "alt": "The pitch mid-drive as a player moves a Chaos Chosen piece into the Grenadiers' lines",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Close-up of a Chaos Chosen player looming over a knocked-down Grenadier",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Late-game scrum with only a few Grenadiers left standing",
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6a84a0dd32638239509bad2e",
+      "sentAt": "2026-08-19T10:07:34.589Z"
+    }
+  }
+}

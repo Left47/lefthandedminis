@@ -10,19 +10,27 @@
   "images": [
     {
       "file": "01-lead-knights.jpg",
-      "alt": "Holy Hand Grenadiers knights in shallow focus, #3 and a teammate mid-play on the pitch"
+      "alt": "Holy Hand Grenadiers knights in shallow focus, #3 and a teammate mid-play on the pitch",
+      "width": 1080,
+      "height": 1350
     },
     {
       "file": "02-troll-scrum.jpg",
-      "alt": "Low-angle view of the scrum with the goblin troll looming on the left"
+      "alt": "Low-angle view of the scrum with the goblin troll looming on the left",
+      "width": 1080,
+      "height": 1350
     },
     {
       "file": "03-da-bomb.jpg",
-      "alt": "Top-down view of the center of the pitch with the Da Bomb token among goblins and knights"
+      "alt": "Top-down view of the center of the pitch with the Da Bomb token among goblins and knights",
+      "width": 1080,
+      "height": 1350
     },
     {
       "file": "04-dugout.jpg",
-      "alt": "The Grenadiers' dugout with knights piled into the casualty box"
+      "alt": "The Grenadiers' dugout with knights piled into the casualty box",
+      "width": 1080,
+      "height": 1350
     }
   ],
   "captions": {

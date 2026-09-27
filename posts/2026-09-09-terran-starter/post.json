@@ -1,0 +1,25 @@
+{
+  "slug": "2026-09-09-terran-starter",
+  "date": "2026-09-09",
+  "title": "StarCraft Terran starter set, built",
+  "type": "build",
+  "game": "StarCraft",
+  "project": "Terran starter set",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Unpainted StarCraft Terran starter set miniatures assembled on the table",
+      "width": 1317,
+      "height": 1600
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6aa1b199764f87ad303646ef",
+      "sentAt": "2026-09-09T13:18:05.000Z"
+    }
+  }
+}
