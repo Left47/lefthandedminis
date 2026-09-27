@@ -1,0 +1,43 @@
+{
+  "slug": "2025-03-12-captain-carter",
+  "date": "2025-03-12",
+  "title": "Captain Carter",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Captain Carter, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Captain Carter, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Captain Carter, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Captain Carter, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67d2a4de594e4fe821fef43e",
+      "sentAt": "2025-03-12T13:55:11.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

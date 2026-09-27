@@ -1,0 +1,67 @@
+{
+  "slug": "2025-06-15-stature",
+  "date": "2025-06-15",
+  "title": "Stature",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Stature, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Stature, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Stature, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Stature, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Stature, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Stature, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Stature, photo 7",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Stature, photo 8",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "684c2400b1a34bb0b501a9e7",
+      "sentAt": "2025-06-15T11:28:19.925Z"
+    }
+  },
+  "source": "instagram-archive"
+}

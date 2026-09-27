@@ -1,0 +1,49 @@
+{
+  "slug": "2025-08-21-wip-roundup",
+  "date": "2025-08-21",
+  "title": "WIP Wednesday roundup",
+  "type": "wip",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "WIP Wednesday roundup, photo 1",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "WIP Wednesday roundup, photo 2",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "WIP Wednesday roundup, photo 3",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "WIP Wednesday roundup, photo 4",
+      "width": 1012,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "WIP Wednesday roundup, photo 5",
+      "width": 1012,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68a7885cd982f555841cd058",
+      "sentAt": "2025-08-21T20:52:00.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

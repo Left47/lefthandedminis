@@ -1,0 +1,37 @@
+{
+  "slug": "2025-10-31-ghost-rider",
+  "date": "2025-10-31",
+  "title": "Ghost Rider",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Ghost Rider, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Ghost Rider, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Ghost Rider, photo 3",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6903ae5290a8291af9011746",
+      "sentAt": "2025-10-31T10:57:18.863Z"
+    }
+  },
+  "source": "instagram-archive"
+}

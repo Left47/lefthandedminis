@@ -1,0 +1,79 @@
+{
+  "slug": "2025-07-13-zombie-nova",
+  "date": "2025-07-13",
+  "title": "Zombie Nova",
+  "type": "finished",
+  "game": "Marvel Zombies",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Zombie Nova, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Zombie Nova, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Zombie Nova, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Zombie Nova, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Zombie Nova, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Zombie Nova, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Zombie Nova, photo 7",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Zombie Nova, photo 8",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "09.jpg",
+      "alt": "Zombie Nova, photo 9",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "10.jpg",
+      "alt": "Zombie Nova, photo 10",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "682f4ce1c8270770b10c5186",
+      "sentAt": "2025-07-13T11:28:25.675Z"
+    }
+  },
+  "source": "instagram-archive"
+}

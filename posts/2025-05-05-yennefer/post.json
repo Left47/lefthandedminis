@@ -1,0 +1,61 @@
+{
+  "slug": "2025-05-05-yennefer",
+  "date": "2025-05-05",
+  "title": "Yennefer of Vengerberg",
+  "type": "finished",
+  "game": "The Witcher",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Yennefer of Vengerberg, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Yennefer of Vengerberg, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Yennefer of Vengerberg, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Yennefer of Vengerberg, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Yennefer of Vengerberg, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Yennefer of Vengerberg, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Yennefer of Vengerberg, photo 7",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6810f5a613d743f6ff0b600b",
+      "sentAt": "2025-05-05T10:14:06.932Z"
+    }
+  },
+  "source": "instagram-archive"
+}

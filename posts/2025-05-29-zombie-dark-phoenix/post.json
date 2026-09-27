@@ -1,0 +1,55 @@
+{
+  "slug": "2025-05-29-zombie-dark-phoenix",
+  "date": "2025-05-29",
+  "title": "Zombie Dark Phoenix",
+  "type": "finished",
+  "game": "Marvel Zombies",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Zombie Dark Phoenix, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Zombie Dark Phoenix, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Zombie Dark Phoenix, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Zombie Dark Phoenix, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Zombie Dark Phoenix, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Zombie Dark Phoenix, photo 6",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "682f3436c37ca28fc50deb32",
+      "sentAt": "2025-05-29T10:22:01.489Z"
+    }
+  },
+  "source": "instagram-archive"
+}

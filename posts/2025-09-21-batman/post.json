@@ -1,0 +1,43 @@
+{
+  "slug": "2025-09-21-batman",
+  "date": "2025-09-21",
+  "title": "Batman",
+  "type": "finished",
+  "game": "DC United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Batman, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Batman, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Batman, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Batman, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68c9b79a2d167b2c630ab6b0",
+      "sentAt": "2025-09-21T11:27:27.973Z"
+    }
+  },
+  "source": "instagram-archive"
+}

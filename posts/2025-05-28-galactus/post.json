@@ -1,0 +1,49 @@
+{
+  "slug": "2025-05-28-galactus",
+  "date": "2025-05-28",
+  "title": "Galactus",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Galactus, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Galactus, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Galactus, photo 3",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Galactus, photo 4",
+      "width": 1097,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Galactus, photo 5",
+      "width": 1079,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "682bdb597c813d60cb05b16a",
+      "sentAt": "2025-05-28T10:07:56.311Z"
+    }
+  },
+  "source": "instagram-archive"
+}

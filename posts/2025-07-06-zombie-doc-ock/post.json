@@ -1,0 +1,61 @@
+{
+  "slug": "2025-07-06-zombie-doc-ock",
+  "date": "2025-07-06",
+  "title": "Doc Ock (Marvel Zombies)",
+  "type": "finished",
+  "game": "Marvel Zombies",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Doc Ock (Marvel Zombies), photo 7",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68388ea9402ececa240e1a9f",
+      "sentAt": "2025-07-06T11:28:02.348Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "2025-06-12-mojo",
+  "date": "2025-06-12",
+  "title": "Mojo",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Mojo, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Mojo, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Mojo, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Mojo, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Mojo, photo 5",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Mojo, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Mojo, photo 7",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68405755a153f5e1300e0dc6",
+      "sentAt": "2025-06-12T10:21:56.914Z"
+    }
+  },
+  "source": "instagram-archive"
+}

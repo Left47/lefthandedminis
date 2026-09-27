@@ -1,0 +1,55 @@
+{
+  "slug": "2025-03-26-marvel-united-storage",
+  "date": "2025-03-26",
+  "title": "How I store Marvel United",
+  "type": "tip",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "How I store Marvel United, photo 1",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "02.jpg",
+      "alt": "How I store Marvel United, photo 2",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "03.jpg",
+      "alt": "How I store Marvel United, photo 3",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "04.jpg",
+      "alt": "How I store Marvel United, photo 4",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "05.jpg",
+      "alt": "How I store Marvel United, photo 5",
+      "width": 1350,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "How I store Marvel United, photo 6",
+      "width": 1080,
+      "height": 1080
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67e455a82f5ec699ed2a69d8",
+      "sentAt": "2025-03-26T13:49:20.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

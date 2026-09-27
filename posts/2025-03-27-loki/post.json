@@ -1,0 +1,31 @@
+{
+  "slug": "2025-03-27-loki",
+  "date": "2025-03-27",
+  "title": "Loki (heroic variant)",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Loki (heroic variant), photo 1",
+      "width": 1350,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Loki (heroic variant), photo 2",
+      "width": 1350,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67e59925a2eb2ed62c722396",
+      "sentAt": "2025-03-27T13:44:13.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

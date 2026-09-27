@@ -1,0 +1,43 @@
+{
+  "slug": "2025-10-05-blade",
+  "date": "2025-10-05",
+  "title": "Blade",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Blade, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Blade, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Blade, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Blade, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68e180d2f0e95ae18609f2e7",
+      "sentAt": "2025-10-05T11:27:21.283Z"
+    }
+  },
+  "source": "instagram-archive"
+}

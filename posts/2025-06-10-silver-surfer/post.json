@@ -1,0 +1,37 @@
+{
+  "slug": "2025-06-10-silver-surfer",
+  "date": "2025-06-10",
+  "title": "A lament from the Silver Surfer",
+  "type": "game-night",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Marvel United game night against Galactus, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Marvel United game night against Galactus, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Marvel United game night against Galactus, photo 3",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "684ebd392dc9ed5c34bc716d",
+      "sentAt": "2025-06-10T15:28:11.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "2025-07-27-shuri",
+  "date": "2025-07-27",
+  "title": "Shuri (Black Panther)",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Shuri (Black Panther), photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Shuri (Black Panther), photo 2",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Shuri (Black Panther), photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Shuri (Black Panther), photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "685c40647eabca8307046a65",
+      "sentAt": "2025-07-27T11:27:28.051Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "2025-05-01-white-widow",
+  "date": "2025-05-01",
+  "title": "White Widow",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "White Widow, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "White Widow, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6807cca1725f5943b20584d7",
+      "sentAt": "2025-05-01T10:21:33.992Z"
+    }
+  },
+  "source": "instagram-archive"
+}

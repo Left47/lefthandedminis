@@ -1,0 +1,31 @@
+{
+  "slug": "2025-08-19-dandelion",
+  "date": "2025-08-19",
+  "title": "Dandelion",
+  "type": "finished",
+  "game": "The Witcher",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Dandelion, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Dandelion, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "688396ff3e899c9b370f11d2",
+      "sentAt": "2025-08-19T11:05:59.685Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "2025-08-29-mole-man",
+  "date": "2025-08-29",
+  "title": "Mole Man",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Mole Man, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Mole Man, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68a7e441b0ec6a4b2e0b14e5",
+      "sentAt": "2025-08-29T10:57:17.361Z"
+    }
+  },
+  "source": "instagram-archive"
+}

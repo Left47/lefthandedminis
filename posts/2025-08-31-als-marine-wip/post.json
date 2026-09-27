@@ -1,0 +1,43 @@
+{
+  "slug": "2025-08-31-als-marine-wip",
+  "date": "2025-08-31",
+  "title": "ALS Awareness Marine, base coats",
+  "type": "wip",
+  "game": "Warhammer 40K",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "ALS Awareness Marine, base coats, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "ALS Awareness Marine, base coats, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "ALS Awareness Marine, base coats, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "ALS Awareness Marine, base coats, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68adfd1caca17a6f0c0372e6",
+      "sentAt": "2025-08-31T11:27:18.465Z"
+    }
+  },
+  "source": "instagram-archive"
+}

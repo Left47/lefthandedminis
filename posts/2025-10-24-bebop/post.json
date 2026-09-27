@@ -1,0 +1,43 @@
+{
+  "slug": "2025-10-24-bebop",
+  "date": "2025-10-24",
+  "title": "Bebop",
+  "type": "finished",
+  "game": "TMNT",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Bebop, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Bebop, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Bebop, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Bebop, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68f925bc29dd986e480a5029",
+      "sentAt": "2025-10-24T10:57:27.992Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "2025-08-15-tmnt-skin-tones-wip",
+  "date": "2025-08-15",
+  "title": "Differentiating the turtles",
+  "type": "wip",
+  "game": "TMNT",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Differentiating the turtles, photo 1",
+      "width": 1350,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Differentiating the turtles, photo 2",
+      "width": 1350,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "689ed498989f5452d9f5d6f6",
+      "sentAt": "2025-08-15T04:31:03.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

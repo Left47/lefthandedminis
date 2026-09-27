@@ -1,0 +1,67 @@
+{
+  "slug": "2025-10-13-budget-photo-setup",
+  "date": "2025-10-13",
+  "title": "Budget mini photography setup",
+  "type": "tip",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Budget mini photography setup, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Budget mini photography setup, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Budget mini photography setup, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Budget mini photography setup, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Budget mini photography setup, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Budget mini photography setup, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Budget mini photography setup, photo 7",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Budget mini photography setup, photo 8",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68ed76f90dfee84f14c2a667",
+      "sentAt": "2025-10-13T20:32:22.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

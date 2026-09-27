@@ -1,0 +1,61 @@
+{
+  "slug": "2025-04-16-geralt-on-roach",
+  "date": "2025-04-16",
+  "title": "Geralt on Roach",
+  "type": "finished",
+  "game": "The Witcher",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Geralt on Roach, photo 1",
+      "width": 1076,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Geralt on Roach, photo 2",
+      "width": 1077,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Geralt on Roach, photo 3",
+      "width": 1077,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Geralt on Roach, photo 4",
+      "width": 1077,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Geralt on Roach, photo 5",
+      "width": 1077,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Geralt on Roach, photo 6",
+      "width": 1081,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Geralt on Roach, photo 7",
+      "width": 1077,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "680006a51b1f0f866a064e91",
+      "sentAt": "2025-04-16T21:57:49.529Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "2025-06-26-maestro",
+  "date": "2025-06-26",
+  "title": "Maestro",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Maestro, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Maestro, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Maestro, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Maestro, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Maestro, photo 5",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Maestro, photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Maestro, photo 7",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08.jpg",
+      "alt": "Maestro, photo 8",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "09.jpg",
+      "alt": "Maestro, photo 9",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "10.jpg",
+      "alt": "Maestro, photo 10",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "684c293920af478cff0757a4",
+      "sentAt": "2025-06-26T10:22:12.876Z"
+    }
+  },
+  "source": "instagram-archive"
+}

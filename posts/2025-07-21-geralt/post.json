@@ -1,0 +1,31 @@
+{
+  "slug": "2025-07-21-geralt",
+  "date": "2025-07-21",
+  "title": "Geralt",
+  "type": "finished",
+  "game": "The Witcher",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Geralt, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Geralt, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "687db4f506a4661739094805",
+      "sentAt": "2025-07-21T10:13:28.628Z"
+    }
+  },
+  "source": "instagram-archive"
+}

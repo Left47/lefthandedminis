@@ -1,0 +1,25 @@
+{
+  "slug": "2025-09-03-tmnt-wip",
+  "date": "2025-09-03",
+  "title": "Turtles, first colors",
+  "type": "wip",
+  "game": "TMNT",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Turtles, first colors",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68b25ba2f9929f4f470fe635",
+      "sentAt": "2025-09-03T11:26:01.535Z"
+    }
+  },
+  "source": "instagram-archive"
+}

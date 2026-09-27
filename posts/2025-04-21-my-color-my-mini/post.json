@@ -1,0 +1,49 @@
+{
+  "slug": "2025-04-21-my-color-my-mini",
+  "date": "2025-04-21",
+  "title": "#MyColorMyMini challenge",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "#MyColorMyMini challenge, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "#MyColorMyMini challenge, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "#MyColorMyMini challenge, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "#MyColorMyMini challenge, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "#MyColorMyMini challenge, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67f9ae29bb9768e59603c575",
+      "sentAt": "2025-04-21T13:57:41.373Z"
+    }
+  },
+  "source": "instagram-archive"
+}

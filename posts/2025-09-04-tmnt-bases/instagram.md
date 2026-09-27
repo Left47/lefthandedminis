@@ -1,0 +1,1 @@
+Making some sewer, lava, and docks bases for the TMNT chibis. Green stuff and Technical Effect paints in progress of drying… hopefully the water goes clear and the lava earth cracks like I expect it to.

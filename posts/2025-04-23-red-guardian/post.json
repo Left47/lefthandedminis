@@ -1,0 +1,49 @@
+{
+  "slug": "2025-04-23-red-guardian",
+  "date": "2025-04-23",
+  "title": "Red Guardian",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Red Guardian, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Red Guardian, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Red Guardian, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Red Guardian, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Red Guardian, photo 5",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67f9b7f8a33bcd79380277e7",
+      "sentAt": "2025-04-23T10:57:32.548Z"
+    }
+  },
+  "source": "instagram-archive"
+}

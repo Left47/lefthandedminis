@@ -1,0 +1,37 @@
+{
+  "slug": "2025-07-10-magneto-aoa",
+  "date": "2025-07-10",
+  "title": "Magneto, Age of Apocalypse",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Magneto, Age of Apocalypse, photo 1",
+      "width": 1079,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Magneto, Age of Apocalypse, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Magneto, Age of Apocalypse, photo 3",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "685d849bb5c1b0bd03000b20",
+      "sentAt": "2025-07-10T10:21:42.977Z"
+    }
+  },
+  "source": "instagram-archive"
+}

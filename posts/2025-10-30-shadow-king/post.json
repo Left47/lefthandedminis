@@ -1,0 +1,37 @@
+{
+  "slug": "2025-10-30-shadow-king",
+  "date": "2025-10-30",
+  "title": "Shadow King",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Shadow King, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Shadow King, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Shadow King, photo 3",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6903aca963a7bc34e40228fc",
+      "sentAt": "2025-10-30T18:21:49.231Z"
+    }
+  },
+  "source": "instagram-archive"
+}

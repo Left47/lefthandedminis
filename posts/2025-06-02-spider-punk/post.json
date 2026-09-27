@@ -1,0 +1,61 @@
+{
+  "slug": "2025-06-02-spider-punk",
+  "date": "2025-06-02",
+  "title": "Spider-Man (Hobie Brown)",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 6",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07.jpg",
+      "alt": "Spider-Man (Hobie Brown), photo 7",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68377591d4ce48199f02403b",
+      "sentAt": "2025-06-02T10:14:03.958Z"
+    }
+  },
+  "source": "instagram-archive"
+}

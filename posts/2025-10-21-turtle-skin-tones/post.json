@@ -1,0 +1,37 @@
+{
+  "slug": "2025-10-21-turtle-skin-tones",
+  "date": "2025-10-21",
+  "title": "Cowabunga color theory",
+  "type": "finished",
+  "game": "TMNT",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Cowabunga color theory, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Cowabunga color theory, photo 2",
+      "width": 1350,
+      "height": 1013
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Cowabunga color theory, photo 3",
+      "width": 500,
+      "height": 579
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68dc0c65706625650b0c9a2a",
+      "sentAt": "2025-10-21T11:04:07.359Z"
+    }
+  },
+  "source": "instagram-archive"
+}

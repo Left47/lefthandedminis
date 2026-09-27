@@ -1,0 +1,43 @@
+{
+  "slug": "2025-04-09-punisher",
+  "date": "2025-04-09",
+  "title": "The Punisher",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "The Punisher, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "The Punisher, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "The Punisher, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "The Punisher, photo 4",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67f680fb3dcfb145e301da12",
+      "sentAt": "2025-04-09T11:56:36.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

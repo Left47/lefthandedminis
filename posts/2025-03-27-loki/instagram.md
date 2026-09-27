@@ -1,0 +1,5 @@
+Unleash the mischief and embrace the chaos! Introducing my heroic variant of Loki from the Marvel United: Multiverse core box, this enigmatic trickster is poised to twist reality in the most unexpected ways and heroically save the day—all within the thrilling world of Marvel United! 
+
+With his cunning mind and magical prowess, Loki is a character that adds layers of strategy and excitement to your gaming sessions. Dive deeper into the vast multiverse where heroes and villains alike converge for epic adventures, and get to know more of these astonishing characters. Marvel United offers a diverse array of heroes, anti-heroes, and villains from across the Marvel universe, ensuring endless possibilities and stories to explore. 
+
+Whether you’re a seasoned player or new to boardgaming, this game provides a captivating experience for all Marvel enthusiasts. Join the adventure and discover why Marvel United has become a beloved favorite among fans. #MarvelUnited #Loki #TabletopGaming #MarvelFans

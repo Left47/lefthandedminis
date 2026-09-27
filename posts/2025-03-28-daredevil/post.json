@@ -1,0 +1,31 @@
+{
+  "slug": "2025-03-28-daredevil",
+  "date": "2025-03-28",
+  "title": "Daredevil",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Daredevil, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Daredevil, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67e6dcdaa2eb2ed62c894900",
+      "sentAt": "2025-03-28T17:28:03.000Z"
+    }
+  },
+  "source": "instagram-archive"
+}

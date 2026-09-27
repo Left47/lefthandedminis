@@ -1,0 +1,31 @@
+{
+  "slug": "2025-08-17-ahsoka",
+  "date": "2025-08-17",
+  "title": "Ahsoka Tano",
+  "type": "finished",
+  "game": "Star Wars Shatterpoint",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Ahsoka Tano, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Ahsoka Tano, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "689ab0605577ed4dea082759",
+      "sentAt": "2025-08-17T11:27:12.120Z"
+    }
+  },
+  "source": "instagram-archive"
+}

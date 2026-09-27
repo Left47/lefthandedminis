@@ -1,0 +1,43 @@
+{
+  "slug": "2025-09-30-slay-the-spire",
+  "date": "2025-09-30",
+  "title": "Slay the Spire minis",
+  "type": "finished",
+  "game": "Slay the Spire",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Slay the Spire minis, photo 1",
+      "width": 1076,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Slay the Spire minis, photo 2",
+      "width": 1076,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Slay the Spire minis, photo 3",
+      "width": 1077,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Slay the Spire minis, photo 4",
+      "width": 1077,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68d0cd1c453f0825de06d766",
+      "sentAt": "2025-09-30T11:03:23.506Z"
+    }
+  },
+  "source": "instagram-archive"
+}

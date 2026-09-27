@@ -1,0 +1,43 @@
+{
+  "slug": "2025-02-13-captain-america-brave-new-world",
+  "date": "2025-02-13",
+  "title": "Captain America (Sam Wilson) & Red Hulk",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Captain America (Sam Wilson) & Red Hulk, photo 1",
+      "width": 1350,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Captain America (Sam Wilson) & Red Hulk, photo 2",
+      "width": 1350,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Captain America (Sam Wilson) & Red Hulk, photo 3",
+      "width": 1350,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Captain America (Sam Wilson) & Red Hulk, photo 4",
+      "width": 1350,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67ae040e993bbfd64e035dfd",
+      "sentAt": "2025-02-13T14:45:35.253Z"
+    }
+  },
+  "source": "instagram-archive"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "2025-08-12-darth-maul",
+  "date": "2025-08-12",
+  "title": "Darth Maul",
+  "type": "finished",
+  "game": "Star Wars Shatterpoint",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Darth Maul, photo 1",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Darth Maul, photo 2",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "689aaec009213d32de00f507",
+      "sentAt": "2025-08-12T11:03:18.569Z"
+    }
+  },
+  "source": "instagram-archive"
+}

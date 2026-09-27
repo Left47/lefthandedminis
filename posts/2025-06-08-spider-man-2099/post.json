@@ -1,0 +1,55 @@
+{
+  "slug": "2025-06-08-spider-man-2099",
+  "date": "2025-06-08",
+  "title": "Spider-Man 2099",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Spider-Man 2099, photo 1",
+      "width": 1092,
+      "height": 1350
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Spider-Man 2099, photo 2",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Spider-Man 2099, photo 3",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Spider-Man 2099, photo 4",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Spider-Man 2099, photo 5",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06.jpg",
+      "alt": "Spider-Man 2099, photo 6",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "684055f839c348da52049b42",
+      "sentAt": "2025-06-08T11:28:04.977Z"
+    }
+  },
+  "source": "instagram-archive"
+}
