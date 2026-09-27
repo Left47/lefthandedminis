@@ -1,0 +1,35 @@
+{
+  "disclosure": "Some of these are affiliate links. If you buy through them I may earn a small commission, at no extra cost to you. It helps keep the hobby (and the coffee) going. Much appreciated!",
+  "groups": [
+    {
+      "name": "At the painting desk",
+      "items": [
+        { "name": "Portable modular painting station", "note": "All-in-one station with brush cleaner and holders", "url": "https://amzn.to/4kXV6kC" },
+        { "name": "Kolinsky sable miniature brushes", "note": "Fuumuui 5-pack, sizes 00000 to 3", "url": "https://amzn.to/4isqPsb" },
+        { "name": "The Masters brush cleaner & preserver", "note": "Keeps the good brushes good", "url": "https://amzn.to/41A1MNk" },
+        { "name": "Jucoci painting handle", "note": "Holds the mini so your hand doesn't have to", "url": "https://amzn.to/3Xv1oyq" },
+        { "name": "Canvas brush roll-up organizer", "note": "For brushes on the go", "url": "https://amzn.to/3XyxObg" }
+      ]
+    },
+    {
+      "name": "Tools & prep",
+      "items": [
+        { "name": "Precision pin vise drill set", "note": "Copper hand drill with 20 micro bits, for pinning and magnets", "url": "https://amzn.to/4bvSt5q" },
+        { "name": "Magnifying headband with LED lights", "note": "5 lenses, for the tiny details", "url": "https://amzn.to/3FxaZOO" },
+        { "name": "Portable airbrush spray booth", "note": "Priming and airbrushing indoors", "url": "https://amzn.to/430OOKd" }
+      ]
+    },
+    {
+      "name": "Photography",
+      "items": [
+        { "name": "Glendan 10\" photo light box", "note": "Even light for mini photos", "url": "https://amzn.to/41IqGLE" }
+      ]
+    },
+    {
+      "name": "Games",
+      "items": [
+        { "name": "Marvel United: X-Men", "note": "Where a lot of these heroes came from", "url": "https://amzn.to/3Dy4XwG" }
+      ]
+    }
+  ]
+}

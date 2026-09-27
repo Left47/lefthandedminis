@@ -91,6 +91,40 @@
   .btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
   .close{position:absolute;top:10px;left:10px;z-index:2;background:#fff;border:2px solid var(--ink);color:var(--ink);width:38px;height:38px;border-radius:50%;font:900 20px/1 Lato,sans-serif;cursor:pointer;box-shadow:2px 2px 0 var(--ink)}
 
+
+  /* top nav */
+  .topnav{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+  .topnav .wrap{display:flex;gap:18px;align-items:center;height:48px;overflow-x:auto;scrollbar-width:none}
+  .topnav .wrap::-webkit-scrollbar{display:none}
+  .topnav a{color:#fff;text-decoration:none;font:900 13px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;padding:4px 0;border-bottom:3px solid transparent}
+  .topnav a:hover,.topnav a:focus-visible{border-color:var(--yellow);outline:none}
+  .topnav .brand{display:flex;align-items:center;gap:8px;margin-right:auto}
+  .topnav .brand img{height:28px;width:28px;background:#fff;border-radius:50%;padding:2px}
+  section{scroll-margin-top:56px}
+  @media(max-width:520px){.topnav .brand-name{display:none}.topnav .wrap{gap:16px}}
+
+  /* about */
+  .about{background:var(--paper);border-top:4px solid var(--ink);border-bottom:4px solid var(--ink)}
+  .about .wrap{display:grid;gap:28px;padding-top:40px;padding-bottom:44px;align-items:center}
+  @media(min-width:760px){.about .wrap{grid-template-columns:260px 1fr}}
+  .about .panel{background:var(--blue-tint);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:18px;max-width:260px;
+    background-image:radial-gradient(rgba(0,74,173,.18) 1.4px,transparent 1.5px);background-size:12px 12px}
+  .about .panel img{display:block;width:100%;height:auto}
+  .about h2,.gear h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;font-size:34px;margin:0 0 12px;letter-spacing:.01em}
+  .about p{margin:0 0 14px;max-width:62ch;font-size:17px}
+  .about .kicker{color:var(--red);font:900 13px Lato,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+
+  /* gear */
+  .gear .wrap{padding-top:40px;padding-bottom:56px}
+  .disclosure{background:var(--yellow);border:2px solid var(--ink);padding:10px 14px;font-size:14px;max-width:80ch;margin:0 0 24px}
+  .gear h3{font:900 14px Lato,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin:24px 0 10px}
+  .gear-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+  .gear-item{display:flex;flex-direction:column;gap:4px;text-decoration:none;background:var(--paper);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:14px 16px;transition:transform .12s,box-shadow .12s}
+  .gear-item:hover,.gear-item:focus-visible{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink);outline:none}
+  .gear-item strong{font:900 16px/1.25 Lato,sans-serif}
+  .gear-item span{color:var(--muted);font-size:14px}
+  .gear-item em{font-style:normal;color:var(--blue);font:900 12px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-top:6px}
+
   footer{border-top:4px solid var(--ink);background:var(--paper)}
   footer .wrap{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:20px;padding-bottom:28px;font-size:14px;color:var(--muted)}
   footer img{height:64px;width:auto;display:block}
@@ -98,7 +132,16 @@
 </style>
 </head>
 <body>
-<header class="hero">
+<nav class="topnav" aria-label="Site">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Left-Handed Minis, back to top"><img src="assets/logo-fist.png" alt=""><span class="brand-name">Left-Handed Minis</span></a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#gear">Gear</a>
+    <a href="mailto:lefthandedminis@gmail.com">Contact</a>
+  </div>
+</nav>
+<header class="hero" id="top">
   <div class="wrap">
     <a class="badge" href="https://lefthandedminis.com" aria-label="Left-Handed Minis home"><img src="assets/logo-badge.png" alt="Left-Handed Minis"></a>
     <h1 class="tagline">Small figures,<span>big adventures</span></h1>
@@ -109,16 +152,41 @@
       <a href="https://tiktok.com/@lefthandedminis" rel="noopener">TikTok</a>
       <a href="https://www.youtube.com/@lefthandedminis" rel="noopener">YouTube</a>
       <a href="https://bsky.app/profile/lefthandedminis.bsky.social" rel="noopener">Bluesky</a>
-      <a href="https://lefthandedminis.com" rel="noopener">lefthandedminis.com</a>
+      <a href="https://www.facebook.com/530614806807869" rel="noopener">Facebook</a>
+      <a href="https://www.reddit.com/user/lefthandedminis" rel="noopener">Reddit</a>
     </nav>
   </div>
 </header>
 
+<section id="gallery">
 <div class="wrap section-head">
   <h2>From the hobby table</h2>
   <div class="filters" id="filters" role="group" aria-label="Filter by game"></div>
 </div>
 <main class="wrap grid" id="grid" aria-live="polite"><p class="empty">Loading posts…</p></main>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="panel"><img src="assets/logo-fist.png" alt="Left-Handed Minis fist-and-paintbrush logo"></div>
+    <div>
+      <div class="kicker">About</div>
+      <h2>One lefty, a lot of tiny heroes</h2>
+      <p>Left-Handed Minis is my painting table: superheroes from Marvel United and DC United, the Normandy crew from Mass Effect, a growing pile of StarCraft, and a Bretonnian Blood Bowl team, the Holy Hand Grenadiers, that gets a little more painted every matchday.</p>
+      <p>I haven't been painting all that long, and that's kind of the point. This is where I share the progression: the WIPs that still need highlights, the photography experiments, and the games where the dice had other plans.</p>
+      <p>The hobby's supposed to be fun. Perfection is optional.</p>
+      <p>Want to talk shop or work together? Email me at <a href="mailto:lefthandedminis@gmail.com">lefthandedminis@gmail.com</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="gear" id="gear">
+  <div class="wrap">
+    <h2>Gear I use</h2>
+    <p class="disclosure" id="disclosure"></p>
+    <div id="gear-groups"></div>
+  </div>
+</section>
 
 <footer>
   <div class="wrap">
@@ -214,6 +282,19 @@ function open(p){
 }
 document.getElementById('close').onclick = ()=> document.getElementById('viewer').close();
 document.getElementById('viewer').addEventListener('click', e=>{ if(e.target.id==='viewer') e.target.close(); });
+async function loadGear(){
+  try{
+    const g = await (await fetch('gear.json',{cache:'no-cache'})).json();
+    document.getElementById('disclosure').textContent = g.disclosure;
+    document.getElementById('gear-groups').innerHTML = g.groups.map(gr=>`
+      <h3>${esc(gr.name)}</h3>
+      <div class="gear-grid">${gr.items.map(it=>`
+        <a class="gear-item" href="${esc(it.url)}" target="_blank" rel="sponsored noopener">
+          <strong>${esc(it.name)}</strong>${it.note?`<span>${esc(it.note)}</span>`:''}<em>View on Amazon →</em>
+        </a>`).join('')}</div>`).join('');
+  }catch(e){ document.getElementById('gear').hidden = true; }
+}
+loadGear();
 load();
 </script>
 </body>
