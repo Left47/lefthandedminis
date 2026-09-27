@@ -1,0 +1,43 @@
+{
+  "slug": "2026-09-27-brotherhood-x-force-build",
+  "date": "2026-09-27",
+  "title": "Building the Brotherhood and X-Force",
+  "type": "build",
+  "game": "Marvel: Crisis Protocol",
+  "series": "Members of the Brotherhood · X-Force",
+  "images": [
+    {
+      "file": "01-quicksilver.jpg",
+      "alt": "Unpainted Quicksilver mini held in hand, sprinting off one toe with a trail of debris rising from the base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-blob.jpg",
+      "alt": "Unpainted Blob mini grinning, fist clenched, standing on a cracked pavement base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-x23.jpg",
+      "alt": "Unpainted X-23 mini leaping forward claws-first from her base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-assembly-guide.jpg",
+      "alt": "Assembled Blob held up in front of the Crisis Protocol Blob assembly guide on an iPad",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md"
+  },
+  "links": {
+    "Members of the Brotherhood (affiliate)": "https://link.amazon/B05JxYjaQ",
+    "X-Force Affiliation Pack (affiliate)": "https://link.amazon/B02RH6Z6V"
+  },
+  "buffer": {}
+}
