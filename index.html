@@ -158,7 +158,7 @@ function open(p){
     document.getElementById('chars').textContent = (p.caps[k]||'').length + ' characters';
     document.getElementById('copy').onclick = async e => { try{ await navigator.clipboard.writeText(p.caps[k]); e.target.textContent='Copied'; setTimeout(()=>e.target.textContent='Copy caption',1400);}catch(_){} };
   };
-  tabs.innerHTML = keys.map(k=>`<button class="chip" data-k="${k}">${k[0].toUpperCase()+k.slice(1)}</button>`).join('');
+  tabs.innerHTML = keys.map(k=>`<button class="chip" data-k="${k}">${({instagram:'Instagram',threads:'Threads',tiktok:'TikTok',bluesky:'Bluesky'})[k]||k}</button>`).join('');
   tabs.querySelectorAll('.chip').forEach(b=> b.onclick = ()=> show(b.dataset.k));
   if(keys.length) show(keys[0]);
   const d = document.getElementById('viewer'); d.showModal(); slides.scrollLeft = 0;
