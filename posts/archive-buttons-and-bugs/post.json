@@ -1,0 +1,36 @@
+{
+  "slug": "archive-buttons-and-bugs",
+  "date": null,
+  "title": "Buttons & Bugs, tiny heroes",
+  "type": "team",
+  "game": "Gloomhaven",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Buttons & Bugs, tiny heroes, group shot 1",
+      "width": 1600,
+      "height": 721
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Buttons & Bugs, tiny heroes, group shot 2",
+      "width": 1600,
+      "height": 983
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Buttons & Bugs, tiny heroes, group shot 3",
+      "width": 1600,
+      "height": 1399
+    }
+  ],
+  "captions": {},
+  "status": "unposted",
+  "source": "lefthandedminis.com/photos",
+  "old_gallery_ids": [
+    "og-038",
+    "og-044",
+    "og-043"
+  ],
+  "series": "Buttons & Bugs"
+}

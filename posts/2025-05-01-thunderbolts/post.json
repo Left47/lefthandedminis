@@ -1,0 +1,29 @@
+{
+  "slug": "2025-05-01-thunderbolts",
+  "date": "2025-05-01",
+  "title": "Thunderbolts",
+  "type": "team",
+  "game": "Marvel United",
+  "series": "Multiverse (Season 3)",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Thunderbolts, group shot",
+      "width": 1600,
+      "height": 760
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "68148091a9948f631e000b10",
+      "sentAt": "2025-05-01T13:11:41.000Z"
+    }
+  },
+  "source": "lefthandedminis.com/photos",
+  "old_gallery_ids": [
+    "mu-022"
+  ]
+}

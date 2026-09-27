@@ -1,0 +1,36 @@
+{
+  "slug": "archive-avengers-trios",
+  "date": null,
+  "title": "Avengers (Season 1) group shots",
+  "type": "team",
+  "game": "Marvel United",
+  "series": "Avengers (Season 1)",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Avengers (Season 1) group shots, group shot 1",
+      "width": 1600,
+      "height": 853
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Avengers (Season 1) group shots, group shot 2",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Avengers (Season 1) group shots, group shot 3",
+      "width": 1600,
+      "height": 1594
+    }
+  ],
+  "captions": {},
+  "status": "unposted",
+  "source": "lefthandedminis.com/photos",
+  "old_gallery_ids": [
+    "mu-112",
+    "mu-119",
+    "mu-120"
+  ]
+}

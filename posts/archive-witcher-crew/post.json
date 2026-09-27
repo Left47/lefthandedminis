@@ -1,0 +1,22 @@
+{
+  "slug": "archive-witcher-crew",
+  "date": null,
+  "title": "The Witcher crew",
+  "type": "team",
+  "game": "The Witcher",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "The Witcher crew, group shot",
+      "width": 1600,
+      "height": 1039
+    }
+  ],
+  "captions": {},
+  "status": "unposted",
+  "source": "lefthandedminis.com/photos",
+  "old_gallery_ids": [
+    "og-037"
+  ],
+  "series": "Path of Destiny"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "archive-days-of-future-past",
+  "date": null,
+  "title": "Days of Future Past",
+  "type": "team",
+  "game": "Marvel United",
+  "series": "Days of Future Past",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Days of Future Past, group shot 1",
+      "width": 1600,
+      "height": 811
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Days of Future Past, group shot 2",
+      "width": 1600,
+      "height": 724
+    }
+  ],
+  "captions": {},
+  "status": "unposted",
+  "note": "Related: the Logan & Nimrod post (Dec 23, 2025) uses different photos.",
+  "source": "lefthandedminis.com/photos",
+  "old_gallery_ids": [
+    "mu-102",
+    "mu-103"
+  ]
+}

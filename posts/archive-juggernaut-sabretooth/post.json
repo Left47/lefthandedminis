@@ -1,0 +1,29 @@
+{
+  "slug": "archive-juggernaut-sabretooth",
+  "date": null,
+  "title": "Juggernaut & Sabretooth",
+  "type": "team",
+  "game": "Marvel United",
+  "series": "X-Men (Season 2)",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Juggernaut & Sabretooth, group shot 1",
+      "width": 1600,
+      "height": 997
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Juggernaut & Sabretooth, group shot 2",
+      "width": 1600,
+      "height": 787
+    }
+  ],
+  "captions": {},
+  "status": "unposted",
+  "source": "lefthandedminis.com/photos",
+  "old_gallery_ids": [
+    "mu-080",
+    "mu-081"
+  ]
+}

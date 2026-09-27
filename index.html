@@ -59,6 +59,8 @@
   .card .img{aspect-ratio:4/5;position:relative;background:#111;border-bottom:3px solid var(--ink)}
   .card img{width:100%;height:100%;object-fit:cover;display:block}
   .count{position:absolute;top:10px;right:10px;background:var(--ink);color:#fff;font:700 12px Lato,sans-serif;padding:3px 9px;border-radius:999px}
+  .unposted{position:absolute;left:10px;top:10px;background:var(--red);color:#fff;border:2px solid var(--ink);font:900 11px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px}
+  .note{margin:0;font-size:13px;color:var(--muted);border-left:4px solid var(--yellow);padding-left:10px}
   .kind{position:absolute;left:10px;bottom:10px;background:var(--yellow);color:var(--ink);border:2px solid var(--ink);font:900 11px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px}
   .meta{padding:12px 14px 14px}
   .meta h3{font:900 18px/1.2 Lato,sans-serif;margin:0 0 6px}
@@ -149,7 +151,7 @@
   <div class="wrap">
     <a class="badge" href="https://lefthandedminis.com" aria-label="Left-Handed Minis home"><img src="assets/logo-badge.png" alt="Left-Handed Minis"></a>
     <h1 class="tagline">Small figures,<span>big adventures</span></h1>
-    <p class="intro">Painted miniatures, game nights, and Holy Hand Grenadiers match reports from a lefty who's learning as he goes. Perfection optional.</p>
+    <p class="intro">Painted miniatures, tabletop game nights, and the occasional painting tip from a lefty who's still learning as he goes. Perfection optional.</p>
     <nav class="socials" aria-label="Follow Left-Handed Minis">
       <a class="primary" href="https://instagram.com/lefthandedminis" rel="noopener">Instagram</a>
       <a href="https://www.threads.net/@lefthandedminis" rel="noopener">Threads</a>
@@ -213,6 +215,7 @@
       <div class="tabs" id="tabs"></div>
       <div class="caption" id="caption"></div>
       <div class="row"><span id="chars"></span><button class="btn" id="copy">Copy caption</button></div>
+      <p class="note" id="vnote" hidden></p>
     </div>
   </div>
 </dialog>
@@ -221,8 +224,8 @@
 const posts = [];
 let filter = 'All';
 const LABELS = {instagram:'Instagram', threads:'Threads', tiktok:'TikTok', bluesky:'Bluesky', youtube:'YouTube', facebook:'Facebook'};
-const KINDS = {'match-report':'Match report', build:'Build', wip:'WIP', finished:'Finished', 'game-night':'Game night', tip:'Hobby tip', roundup:'Roundup'};
-const fmtDate = d => new Date(d + 'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
+const KINDS = {'match-report':'Match report', build:'Build', wip:'WIP', finished:'Finished', 'game-night':'Game night', tip:'Hobby tip', roundup:'Roundup', team:'Team shot'};
+const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}) : 'From the archive';
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const resClass = r => (r||'').trim().charAt(0).toUpperCase();
 
@@ -238,7 +241,7 @@ async function load(){
       }
       posts.push(p);
     }));
-    posts.sort((a,b)=> b.date.localeCompare(a.date));
+    posts.sort((a,b)=> (b.date||'0').localeCompare(a.date||'0'));
     renderFilters(); render();
   }catch(e){
     document.getElementById('grid').innerHTML = '<p class="empty">Couldn\'t load posts.</p>';
@@ -258,7 +261,7 @@ function render(){
     <button class="card" data-i="${posts.indexOf(p)}" aria-label="Open ${esc(p.title)}">
       <div class="img"><img loading="lazy" src="${p.base + p.images[0].file}" alt="${esc(p.images[0].alt||'')}">
         ${p.images.length>1?`<span class="count">${p.images.length} photos</span>`:''}
-        ${KINDS[p.type]?`<span class="kind">${KINDS[p.type]}</span>`:''}</div>
+        ${KINDS[p.type]?`<span class="kind">${KINDS[p.type]}</span>`:''}${p.status==='unposted'?'<span class="unposted">Not posted yet</span>':''}</div>
       <div class="meta"><h3>${esc(p.title)}</h3>
         <div class="sub">${p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:''}<span>${esc(p.game||'')}</span><span aria-hidden="true">·</span><span>${fmtDate(p.date)}</span></div>
       </div>
@@ -273,7 +276,7 @@ function open(p){
   dots.querySelectorAll('button').forEach((b,i)=> b.onclick = ()=> slides.scrollTo({left:i*slides.clientWidth,behavior:'smooth'}));
   slides.onscroll = ()=>{ const i=Math.round(slides.scrollLeft/slides.clientWidth); dots.querySelectorAll('button').forEach((b,j)=>b.setAttribute('aria-current', j===i)); };
   document.getElementById('vtitle').textContent = p.title;
-  document.getElementById('vsub').innerHTML = [p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:'', esc(p.league||p.game||''), fmtDate(p.date)].filter(Boolean).join(' <span aria-hidden="true">·</span> ');
+  document.getElementById('vsub').innerHTML = [p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:'', esc(p.league||p.series||p.game||''), fmtDate(p.date)].filter(Boolean).join(' <span aria-hidden="true">·</span> ');
   const keys = Object.keys(p.caps), tabs = document.getElementById('tabs');
   const show = k => {
     tabs.querySelectorAll('.chip').forEach(b=> b.setAttribute('aria-pressed', b.dataset.k===k));
@@ -284,6 +287,9 @@ function open(p){
   tabs.innerHTML = keys.length>1 ? keys.map(k=>`<button class="chip" data-k="${k}">${LABELS[k]||k}</button>`).join('') : '';
   tabs.querySelectorAll('.chip').forEach(b=> b.onclick = ()=> show(b.dataset.k));
   if(keys.length) show(keys[0]);
+  else { document.getElementById('caption').innerHTML = '<em>Caption coming soon. This one hasn’t been posted yet.</em>'; document.getElementById('chars').textContent=''; }
+  document.getElementById('copy').hidden = !keys.length;
+  const note=document.getElementById('vnote'); note.textContent = p.note||''; note.hidden = !p.note;
   document.getElementById('viewer').showModal(); slides.scrollLeft = 0;
 }
 document.getElementById('close').onclick = ()=> document.getElementById('viewer').close();
