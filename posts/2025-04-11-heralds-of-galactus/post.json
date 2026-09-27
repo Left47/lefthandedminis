@@ -1,0 +1,44 @@
+{
+  "slug": "2025-04-11-heralds-of-galactus",
+  "date": "2025-04-11",
+  "title": "Heralds of Galactus",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Heralds of Galactus, photo 1",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Heralds of Galactus, photo 2",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Heralds of Galactus, photo 3",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Heralds of Galactus, photo 4",
+      "width": 1596,
+      "height": 1600
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67f32235ded4f872aa04df8a",
+      "sentAt": "2025-04-11T11:33:37.132Z"
+    }
+  },
+  "source": "instagram-archive",
+  "note": "Photos restored from the old lefthandedminis.com gallery; they may differ from the Instagram originals."
+}

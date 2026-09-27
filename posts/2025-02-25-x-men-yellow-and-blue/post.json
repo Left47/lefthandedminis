@@ -1,0 +1,44 @@
+{
+  "slug": "2025-02-25-x-men-yellow-and-blue",
+  "date": "2025-02-25",
+  "title": "X-Men in yellow and blue",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "X-Men in yellow and blue, photo 1",
+      "width": 1600,
+      "height": 583
+    },
+    {
+      "file": "02.jpg",
+      "alt": "X-Men in yellow and blue, photo 2",
+      "width": 1549,
+      "height": 1549
+    },
+    {
+      "file": "03.jpg",
+      "alt": "X-Men in yellow and blue, photo 3",
+      "width": 1238,
+      "height": 1238
+    },
+    {
+      "file": "04.jpg",
+      "alt": "X-Men in yellow and blue, photo 4",
+      "width": 1151,
+      "height": 1151
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67b4f8c2201623e57f01ecd3",
+      "sentAt": "2025-02-25T18:03:42.512Z"
+    }
+  },
+  "source": "instagram-archive",
+  "note": "Photos restored from the old lefthandedminis.com gallery; they may differ from the Instagram originals."
+}

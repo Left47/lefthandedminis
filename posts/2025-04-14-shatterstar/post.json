@@ -1,0 +1,32 @@
+{
+  "slug": "2025-04-14-shatterstar",
+  "date": "2025-04-14",
+  "title": "Shatterstar",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Shatterstar, photo 1",
+      "width": 1600,
+      "height": 1482
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Shatterstar, photo 2",
+      "width": 1527,
+      "height": 1600
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67f3250a8614c61ae40699c7",
+      "sentAt": "2025-04-14T13:57:30.184Z"
+    }
+  },
+  "source": "instagram-archive",
+  "note": "Photos restored from the old lefthandedminis.com gallery; they may differ from the Instagram originals."
+}

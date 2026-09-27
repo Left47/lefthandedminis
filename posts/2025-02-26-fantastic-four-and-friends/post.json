@@ -1,0 +1,50 @@
+{
+  "slug": "2025-02-26-fantastic-four-and-friends",
+  "date": "2025-02-26",
+  "title": "Fantastic Four & friends",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Fantastic Four & friends, photo 1",
+      "width": 1600,
+      "height": 580
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Fantastic Four & friends, photo 2",
+      "width": 1458,
+      "height": 1458
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Fantastic Four & friends, photo 3",
+      "width": 1496,
+      "height": 1496
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Fantastic Four & friends, photo 4",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "file": "05.jpg",
+      "alt": "Fantastic Four & friends, photo 5",
+      "width": 1600,
+      "height": 580
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67b4fb215d49aac10b0842b0",
+      "sentAt": "2025-02-26T22:49:56.251Z"
+    }
+  },
+  "source": "instagram-archive",
+  "note": "Photos restored from the old lefthandedminis.com gallery; they may differ from the Instagram originals."
+}

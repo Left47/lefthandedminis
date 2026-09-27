@@ -1,0 +1,44 @@
+{
+  "slug": "2025-02-18-gladiator-hulk-hulkbuster",
+  "date": "2025-02-18",
+  "title": "Gladiator Hulk & Hulkbuster",
+  "type": "finished",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01.jpg",
+      "alt": "Gladiator Hulk & Hulkbuster, photo 1",
+      "width": 1600,
+      "height": 1043
+    },
+    {
+      "file": "02.jpg",
+      "alt": "Gladiator Hulk & Hulkbuster, photo 2",
+      "width": 1600,
+      "height": 1599
+    },
+    {
+      "file": "03.jpg",
+      "alt": "Gladiator Hulk & Hulkbuster, photo 3",
+      "width": 1599,
+      "height": 1600
+    },
+    {
+      "file": "04.jpg",
+      "alt": "Gladiator Hulk & Hulkbuster, photo 4",
+      "width": 1599,
+      "height": 1600
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "67ae428a8ac63d8b4405bbe8",
+      "sentAt": "2025-02-18T18:03:15.536Z"
+    }
+  },
+  "source": "instagram-archive",
+  "note": "Photos restored from the old lefthandedminis.com gallery; they may differ from the Instagram originals."
+}
