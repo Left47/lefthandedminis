@@ -89,6 +89,22 @@
           "id": "3Dy4XwG",
           "match": "x-men",
           "game": "Marvel United"
+        },
+        {
+          "name": "Marvel: Crisis Protocol Members of the Brotherhood",
+          "note": "Scarlet Witch, Quicksilver, Pyro and Blob",
+          "url": "https://link.amazon/B05JxYjaQ",
+          "id": "B05JxYjaQ",
+          "match": "brotherhood",
+          "game": "Marvel: Crisis Protocol"
+        },
+        {
+          "name": "Marvel: Crisis Protocol X-Force Affiliation Pack",
+          "note": "Cable, Domino, X-23 and Honey Badger",
+          "url": "https://link.amazon/B02RH6Z6V",
+          "id": "B02RH6Z6V",
+          "match": "x-force",
+          "game": "Marvel: Crisis Protocol"
         }
       ]
     }
