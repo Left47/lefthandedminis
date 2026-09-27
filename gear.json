@@ -4,31 +4,92 @@
     {
       "name": "At the painting desk",
       "items": [
-        { "name": "Portable modular painting station", "note": "All-in-one station with brush cleaner and holders", "url": "https://amzn.to/4kXV6kC" },
-        { "name": "Kolinsky sable miniature brushes", "note": "Fuumuui 5-pack, sizes 00000 to 3", "url": "https://amzn.to/4isqPsb" },
-        { "name": "The Masters brush cleaner & preserver", "note": "Keeps the good brushes good", "url": "https://amzn.to/41A1MNk" },
-        { "name": "Jucoci painting handle", "note": "Holds the mini so your hand doesn't have to", "url": "https://amzn.to/3Xv1oyq" },
-        { "name": "Canvas brush roll-up organizer", "note": "For brushes on the go", "url": "https://amzn.to/3XyxObg" }
+        {
+          "name": "Portable modular painting station",
+          "note": "All-in-one station with brush cleaner and holders",
+          "url": "https://amzn.to/4kXV6kC",
+          "id": "4kXV6kC",
+          "match": "painting station"
+        },
+        {
+          "name": "Kolinsky sable miniature brushes",
+          "note": "Fuumuui 5-pack, sizes 00000 to 3",
+          "url": "https://amzn.to/4isqPsb",
+          "id": "4isqPsb",
+          "match": "kolinsky|sable brush"
+        },
+        {
+          "name": "The Masters brush cleaner & preserver",
+          "note": "Keeps the good brushes good",
+          "url": "https://amzn.to/41A1MNk",
+          "id": "41A1MNk",
+          "match": "brush cleaner|the masters"
+        },
+        {
+          "name": "Jucoci painting handle",
+          "note": "Holds the mini so your hand doesn't have to",
+          "url": "https://amzn.to/3Xv1oyq",
+          "id": "3Xv1oyq",
+          "match": "painting handle|mini holder"
+        },
+        {
+          "name": "Canvas brush roll-up organizer",
+          "note": "For brushes on the go",
+          "url": "https://amzn.to/3XyxObg",
+          "id": "3XyxObg",
+          "match": "brush roll"
+        }
       ]
     },
     {
       "name": "Tools & prep",
       "items": [
-        { "name": "Precision pin vise drill set", "note": "Copper hand drill with 20 micro bits, for pinning and magnets", "url": "https://amzn.to/4bvSt5q" },
-        { "name": "Magnifying headband with LED lights", "note": "5 lenses, for the tiny details", "url": "https://amzn.to/3FxaZOO" },
-        { "name": "Portable airbrush spray booth", "note": "Priming and airbrushing indoors", "url": "https://amzn.to/430OOKd" }
+        {
+          "name": "Precision pin vise drill set",
+          "note": "Copper hand drill with 20 micro bits, for pinning and magnets",
+          "url": "https://amzn.to/4bvSt5q",
+          "id": "4bvSt5q",
+          "match": "pin vise|pinning|magnetiz"
+        },
+        {
+          "name": "Magnifying headband with LED lights",
+          "note": "5 lenses, for the tiny details",
+          "url": "https://amzn.to/3FxaZOO",
+          "id": "3FxaZOO",
+          "match": "magnif"
+        },
+        {
+          "name": "Portable airbrush spray booth",
+          "note": "Priming and airbrushing indoors",
+          "url": "https://amzn.to/430OOKd",
+          "id": "430OOKd",
+          "match": "airbrush|spray booth"
+        }
       ]
     },
     {
       "name": "Photography",
       "items": [
-        { "name": "Glendan 10\" photo light box", "note": "Even light for mini photos", "url": "https://amzn.to/41IqGLE" }
+        {
+          "name": "Glendan 10\" photo light box",
+          "note": "Even light for mini photos",
+          "url": "https://amzn.to/41IqGLE",
+          "id": "41IqGLE",
+          "match": "light ?box"
+        }
       ]
     },
     {
       "name": "Games",
       "items": [
-        { "name": "Marvel United: X-Men", "note": "Where a lot of these heroes came from", "url": "https://amzn.to/3Dy4XwG" }
+        {
+          "name": "Marvel United: X-Men",
+          "note": "Where a lot of these heroes came from",
+          "url": "https://amzn.to/3Dy4XwG",
+          "id": "3Dy4XwG",
+          "match": "x-men",
+          "game": "Marvel United"
+        }
       ]
     }
   ]

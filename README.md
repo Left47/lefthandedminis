@@ -1,17 +1,22 @@
 # Left-Handed Minis
 
-Final photos and captions for [@lefthandedminis](https://instagram.com/lefthandedminis) posts, plus the web gallery served by GitHub Pages.
+Source for the Left-Handed Minis site: every post's photos and captions, plus a small build script that turns them into a static, crawlable site on GitHub Pages.
 
-## Layout
+## Adding or editing a post
 
-```
-index.html              gallery (static, no build step)
-posts/index.json        list of post folders, newest added to the end
-posts/<date>-<slug>/
-  01-*.jpg …            4:5 photos at 1080×1350, carousel order
-  instagram.md          Instagram caption as posted
-  threads.md            Threads caption as posted
-  post.json             title, date, game, result, alt text, Buffer post IDs
-```
+1. Add `posts/<date>-<slug>/` with photos (`01.jpg`…), `instagram.md` / `threads.md` / `tiktok.md`, and `post.json`.
+2. Append the slug to `posts/index.json`.
+3. Run `python3 build.py` and commit everything it generates.
 
-Images here are public on purpose: Buffer pulls them from the raw GitHub URLs when it publishes.
+## What the build generates
+
+- `index.html`: home page with the full gallery, About, and a gear preview
+- `posts/<slug>/index.html`: one page per post, with its own title, description, social preview, and structured data
+- `posts/<slug>/thumb.jpg`: 600×750 grid thumbnail
+- `games/<slug>/index.html`: one page per game
+- `gear/index.html`: every affiliate item, with links to the posts it shows up in
+- `sitemap.xml`, `robots.txt`
+
+Gear-to-post links come from the `match` pattern on each item in `gear.json`, checked against post titles and captions. Moving to a custom domain means changing `SITE_URL` in `build.py` and rebuilding.
+
+Photos here are public on purpose: Buffer pulls them from raw GitHub URLs when it publishes.

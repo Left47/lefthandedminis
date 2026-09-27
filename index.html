@@ -3,179 +3,1135 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Left-Handed Minis</title>
-<meta name="description" content="Small figures, big adventures. Painted miniatures, game nights, and Blood Bowl match reports from Left-Handed Minis.">
-<meta property="og:title" content="Left-Handed Minis">
-<meta property="og:description" content="Small figures, big adventures.">
-<meta property="og:image" content="assets/logo-badge.png">
+<title>Left-Handed Minis | Miniature painting &amp; tabletop games</title>
+<meta name="description" content="Painted miniatures, tabletop game nights, and painting tips from Left-Handed Minis: Marvel United, Blood Bowl, DC United, TMNT, Mass Effect, and more.">
+<link rel="canonical" href="https://left47.github.io/lefthandedminis/">
+<meta property="og:site_name" content="Left-Handed Minis">
+<meta property="og:title" content="Left-Handed Minis | Miniature painting &amp; tabletop games">
+<meta property="og:description" content="Painted miniatures, tabletop game nights, and painting tips from Left-Handed Minis: Marvel United, Blood Bowl, DC United, TMNT, Mass Effect, and more.">
+<meta property="og:url" content="https://left47.github.io/lefthandedminis/">
+<meta property="og:image" content="https://left47.github.io/lefthandedminis/assets/logo-badge.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#004AAD">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --blue:#004AAD; --blue-deep:#003B8A; --blue-tint:#E6EDF7;
-    --red:#BA1B2B; --yellow:#FFDD00;
-    --ink:#212121; --muted:#5F6368; --paper:#FFFFFF; --bg:#F4F4F4; --line:#212121;
-    --win:#1E8E4E; --loss:#BA1B2B; --draw:#8A6D00;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Lato,system-ui,sans-serif}
-  a{color:inherit}
-  .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
-
-  /* hero: comic panel with halftone */
-  .hero{background:var(--blue);color:#fff;position:relative;overflow:hidden;border-bottom:4px solid var(--ink)}
-  .hero::before{content:"";position:absolute;inset:0;
-    background-image:radial-gradient(rgba(255,255,255,.16) 1.6px,transparent 1.7px);
-    background-size:14px 14px;
-    -webkit-mask-image:linear-gradient(115deg,transparent 35%,#000 85%);mask-image:linear-gradient(115deg,transparent 35%,#000 85%)}
-  .hero .wrap{position:relative;padding-top:28px;padding-bottom:32px;display:grid;gap:22px}
-  .badge{background:#fff;border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:8px 12px;width:max-content;max-width:100%}
-  .badge img{display:block;height:auto;width:min(260px,70vw)}
-  .tagline{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(40px,9.5vw,84px);line-height:.95;letter-spacing:.005em;margin:0}
-  .tagline span{color:var(--yellow);display:block}
-  .intro{max-width:56ch;margin:0;font-size:17px;color:rgba(255,255,255,.92)}
-  .socials{display:flex;flex-wrap:wrap;gap:8px}
-  .socials a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:700;font-size:14px;
-    background:#fff;color:var(--ink);border:2px solid var(--ink);border-radius:999px;padding:6px 14px;box-shadow:3px 3px 0 var(--ink);transition:transform .12s,box-shadow .12s}
-  .socials a:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}
-  .socials a.primary{background:var(--yellow)}
-  .socials a:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
-
-  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:32px;padding-bottom:14px}
-  .section-head h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;font-size:30px;margin:0;letter-spacing:.01em}
-  .filters{display:flex;gap:8px;flex-wrap:wrap}
-  .chip{border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:999px;padding:5px 13px;font:700 13px Lato,sans-serif;cursor:pointer}
-  .chip[aria-pressed="true"]{background:var(--blue);color:#fff}
-  .chip:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
-
-  main.grid{display:grid;gap:22px;align-items:start;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));padding-bottom:56px}
-  .card{all:unset;cursor:pointer;display:block;background:var(--paper);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);transition:transform .12s,box-shadow .12s}
-  .card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
-  .card:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
-  .card .img{aspect-ratio:4/5;position:relative;background:#111;border-bottom:3px solid var(--ink)}
-  .card img{width:100%;height:100%;object-fit:cover;display:block}
-  .count{position:absolute;top:10px;right:10px;background:var(--ink);color:#fff;font:700 12px Lato,sans-serif;padding:3px 9px;border-radius:999px}
-  .unposted{position:absolute;left:10px;top:10px;background:var(--red);color:#fff;border:2px solid var(--ink);font:900 11px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px}
-  .note{margin:0;font-size:13px;color:var(--muted);border-left:4px solid var(--yellow);padding-left:10px}
-  .kind{position:absolute;left:10px;bottom:10px;background:var(--yellow);color:var(--ink);border:2px solid var(--ink);font:900 11px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px}
-  .meta{padding:12px 14px 14px}
-  .meta h3{font:900 18px/1.2 Lato,sans-serif;margin:0 0 6px}
-  .sub{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px;flex-wrap:wrap}
-  .res{font-weight:900;padding:1px 8px;font-size:12px;color:#fff;border:2px solid var(--ink)}
-  .res.W{background:var(--win)} .res.L{background:var(--loss)} .res.D{background:var(--draw)}
-  .empty{color:var(--muted)}
-
-  /* viewer */
-  dialog{border:0;padding:0;background:var(--paper);color:var(--ink);width:min(1000px,100vw);max-width:100vw;max-height:100dvh;height:100dvh;margin:auto}
-  @media(min-width:760px){dialog{height:auto;max-height:92vh;border:3px solid var(--ink);box-shadow:10px 10px 0 var(--ink)}}
-  dialog::backdrop{background:rgba(0,33,77,.82)}
-  .viewer{display:grid;grid-template-columns:1fr;height:100%;overflow:auto}
-  @media(min-width:760px){.viewer{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);max-height:calc(92vh - 6px)}}
-  .media{background:#111;display:flex;flex-direction:column}
-  .slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;aspect-ratio:4/5}
-  .slides::-webkit-scrollbar{display:none}
-  .slides img{flex:0 0 100%;width:100%;height:100%;object-fit:contain;scroll-snap-align:center;background:#111}
-  .dots{display:flex;gap:7px;justify-content:center;padding:10px 0}
-  .dots button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:#666;cursor:pointer}
-  .dots button[aria-current="true"]{background:var(--yellow)}
-  .side{padding:22px 18px 28px;display:flex;flex-direction:column;gap:14px;min-width:0}
-  @media(min-width:760px){.side{overflow:auto}}
-  .side h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:30px;line-height:1.02;margin:4px 0 0}
-  .tabs{display:flex;gap:6px;flex-wrap:wrap}
-  .caption{white-space:pre-wrap;background:var(--bg);border:2px solid var(--ink);padding:14px;font-size:15px}
-  .caption .tag{color:var(--blue);font-weight:700}
-  .row{display:flex;gap:10px;align-items:center;justify-content:space-between;color:var(--muted);font-size:13px}
-  .btn{border:2px solid var(--ink);background:var(--yellow);color:var(--ink);padding:7px 13px;font:900 13px Lato,sans-serif;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
-  .btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
-  .close{position:absolute;top:10px;left:10px;z-index:2;background:#fff;border:2px solid var(--ink);color:var(--ink);width:38px;height:38px;border-radius:50%;font:900 20px/1 Lato,sans-serif;cursor:pointer;box-shadow:2px 2px 0 var(--ink)}
-
-
-  /* top nav */
-  .topnav{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
-  .topnav .wrap{display:flex;gap:18px;align-items:center;height:48px;overflow-x:auto;scrollbar-width:none}
-  .topnav .wrap::-webkit-scrollbar{display:none}
-  .topnav a{color:#fff;text-decoration:none;font:900 13px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;padding:4px 0;border-bottom:3px solid transparent}
-  .topnav a:hover,.topnav a:focus-visible{border-color:var(--yellow);outline:none}
-  .topnav .brand{display:flex;align-items:center;gap:8px;margin-right:auto}
-  .topnav .brand img{height:28px;width:28px;background:#fff;border-radius:50%;padding:2px}
-  section{scroll-margin-top:56px}
-  @media(max-width:520px){.topnav .brand-name{display:none}.topnav .wrap{gap:16px}}
-
-  /* about */
-  .about{background:var(--paper);border-top:4px solid var(--ink);border-bottom:4px solid var(--ink)}
-  .about .wrap{display:grid;gap:28px;padding-top:40px;padding-bottom:44px;align-items:center}
-  @media(min-width:760px){.about .wrap{grid-template-columns:300px 1fr}}
-  @media(max-width:759px){.about .panel{max-width:240px}}
-  .about .panel{background:var(--blue-tint);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:18px;max-width:300px;
-    background-image:radial-gradient(rgba(0,74,173,.18) 1.4px,transparent 1.5px);background-size:12px 12px}
-  .about .panel{margin:0;padding:10px}
-  .about .panel img{display:block;width:100%;height:auto;border:2px solid var(--ink)}
-  .about figcaption{font:900 13px Lato,sans-serif;text-align:center;padding-top:8px}
-  .about p a{color:var(--blue);font-weight:900}
-  .about h2,.gear h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;font-size:34px;margin:0 0 12px;letter-spacing:.01em}
-  .about p{margin:0 0 14px;max-width:62ch;font-size:17px}
-  .about .kicker{color:var(--red);font:900 13px Lato,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
-
-  /* gear */
-  .gear .wrap{padding-top:40px;padding-bottom:56px}
-  .disclosure{background:var(--yellow);border:2px solid var(--ink);padding:10px 14px;font-size:14px;max-width:80ch;margin:0 0 24px}
-  .gear h3{font:900 14px Lato,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin:24px 0 10px}
-  .gear-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
-  .gear-item{display:flex;flex-direction:column;gap:4px;text-decoration:none;background:var(--paper);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:14px 16px;transition:transform .12s,box-shadow .12s}
-  .gear-item:hover,.gear-item:focus-visible{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink);outline:none}
-  .gear-item strong{font:900 16px/1.25 Lato,sans-serif}
-  .gear-item span{color:var(--muted);font-size:14px}
-  .gear-item em{font-style:normal;color:var(--blue);font:900 12px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-top:6px}
-
-  footer{border-top:4px solid var(--ink);background:var(--paper)}
-  footer .wrap{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:20px;padding-bottom:28px;font-size:14px;color:var(--muted)}
-  footer img{height:64px;width:auto;display:block}
-  footer a{color:var(--blue);font-weight:700}
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Left-Handed Minis", "url": "https://left47.github.io/lefthandedminis/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Left-Handed Minis", "url": "https://left47.github.io/lefthandedminis/", "logo": "https://left47.github.io/lefthandedminis/assets/logo-badge.png", "sameAs": ["https://instagram.com/lefthandedminis", "https://www.threads.net/@lefthandedminis", "https://tiktok.com/@lefthandedminis", "https://www.youtube.com/@lefthandedminis", "https://bsky.app/profile/lefthandedminis.bsky.social", "https://www.facebook.com/530614806807869", "https://www.reddit.com/user/lefthandedminis"]}</script>
 </head>
 <body>
 <nav class="topnav" aria-label="Site">
   <div class="wrap">
-    <a class="brand" href="#top" aria-label="Left-Handed Minis, back to top"><img src="assets/logo-fist.png" alt=""><span class="brand-name">Left-Handed Minis</span></a>
+    <a class="brand" href="" aria-label="Left-Handed Minis home"><img src="assets/logo-fist.png" alt=""><span class="brand-name">Left-Handed Minis</span></a>
     <a href="#gallery">Gallery</a>
     <a href="#about">About</a>
-    <a href="#gear">Gear</a>
+    <a href="gear/">Gear</a>
     <a href="mailto:lefthandedminis@gmail.com">Contact</a>
   </div>
 </nav>
 <header class="hero" id="top">
   <div class="wrap">
-    <a class="badge" href="https://lefthandedminis.com" aria-label="Left-Handed Minis home"><img src="assets/logo-badge.png" alt="Left-Handed Minis"></a>
+    <a class="badge" href="" aria-label="Left-Handed Minis home"><img src="assets/logo-badge.png" width="260" height="132" alt="Left-Handed Minis"></a>
     <h1 class="tagline">Small figures,<span>big adventures</span></h1>
     <p class="intro">Painted miniatures, tabletop game nights, and the occasional painting tip from a lefty who's still learning as he goes.</p>
-    <nav class="socials" aria-label="Follow Left-Handed Minis">
-      <a class="primary" href="https://instagram.com/lefthandedminis" rel="noopener">Instagram</a>
-      <a href="https://www.threads.net/@lefthandedminis" rel="noopener">Threads</a>
-      <a href="https://tiktok.com/@lefthandedminis" rel="noopener">TikTok</a>
-      <a href="https://www.youtube.com/@lefthandedminis" rel="noopener">YouTube</a>
-      <a href="https://bsky.app/profile/lefthandedminis.bsky.social" rel="noopener">Bluesky</a>
-      <a href="https://www.facebook.com/530614806807869" rel="noopener">Facebook</a>
-      <a href="https://www.reddit.com/user/lefthandedminis" rel="noopener">Reddit</a>
-    </nav>
+    <nav class="socials" aria-label="Follow Left-Handed Minis"><a class="primary" href="https://instagram.com/lefthandedminis" rel="noopener">Instagram</a><a href="https://www.threads.net/@lefthandedminis" rel="noopener">Threads</a><a href="https://tiktok.com/@lefthandedminis" rel="noopener">TikTok</a><a href="https://www.youtube.com/@lefthandedminis" rel="noopener">YouTube</a><a href="https://bsky.app/profile/lefthandedminis.bsky.social" rel="noopener">Bluesky</a><a href="https://www.facebook.com/530614806807869" rel="noopener">Facebook</a><a href="https://www.reddit.com/user/lefthandedminis" rel="noopener">Reddit</a></nav>
   </div>
 </header>
 
 <section id="gallery">
 <div class="wrap section-head">
   <h2>From the hobby table</h2>
-  <div class="filters" id="filters" role="group" aria-label="Filter by game"></div>
+  <nav class="filters" aria-label="Browse by game"><a class="chip on" href="#gallery">All</a><a class="chip" href="games/marvel-united/">Marvel United</a><a class="chip" href="games/blood-bowl/">Blood Bowl</a><a class="chip" href="games/hobby/">Hobby</a><a class="chip" href="games/dc-united/">DC United</a><a class="chip" href="games/tmnt/">TMNT</a><a class="chip" href="games/mass-effect/">Mass Effect</a><a class="chip" href="games/the-witcher/">The Witcher</a><a class="chip" href="games/marvel-zombies/">Marvel Zombies</a><a class="chip" href="games/star-wars-shatterpoint/">Star Wars Shatterpoint</a><a class="chip" href="games/warhammer-40k/">Warhammer 40K</a><a class="chip" href="games/starcraft/">StarCraft</a><a class="chip" href="games/slay-the-spire/">Slay the Spire</a><a class="chip" href="games/gloomhaven/">Gloomhaven</a></nav>
 </div>
-<main class="wrap grid" id="grid" aria-live="polite"><p class="empty">Loading posts…</p></main>
+<main class="wrap grid" id="grid">
+<a class="card" href="posts/2026-09-27-md5-goblins/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-09-27-md5-goblins/thumb.jpg" width="600" height="750" alt="Holy Hand Grenadiers knights in shallow focus, #3 and a teammate mid-play on the pitch">
+    <span class="count">4 photos</span>
+    <span class="kind">Match report</span></div>
+  <div class="meta"><h3>Grenadiers 2–1 Da Sundrop Mind Goblins</h3>
+    <div class="sub"><span class="res W">W 2–1</span><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Sep 27, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-09-09-terran-starter/" data-game="StarCraft">
+  <div class="img"><img loading="lazy" src="posts/2026-09-09-terran-starter/thumb.jpg" width="600" height="750" alt="Unpainted StarCraft Terran starter set miniatures assembled on the table">
+    
+    <span class="kind">Build</span></div>
+  <div class="meta"><h3>StarCraft Terran starter set, built</h3>
+    <div class="sub"><span>StarCraft</span><span aria-hidden="true">·</span><span>Sep 9, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-08-19-md2-chaos-chosen/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-08-19-md2-chaos-chosen/thumb.jpg" width="600" height="750" alt="Overhead view of the stone pitch mid-match, Grenadiers on pink bases facing the Chaos Chosen">
+    <span class="count">4 photos</span>
+    <span class="kind">Match report</span></div>
+  <div class="meta"><h3>Grenadiers 0–2 Monarchia Marauders</h3>
+    <div class="sub"><span class="res L">L 0–2</span><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Aug 19, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-08-09-md1-halflings/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-08-09-md1-halflings/thumb.jpg" width="600" height="750" alt="Grenadiers 2–0 Oak City Lucharitos, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Match report</span></div>
+  <div class="meta"><h3>Grenadiers 2–0 Oak City Lucharitos</h3>
+    <div class="sub"><span class="res W">W 2–0</span><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Aug 9, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-08-05-zeratul-wip/" data-game="StarCraft">
+  <div class="img"><img loading="lazy" src="posts/2026-08-05-zeratul-wip/thumb.jpg" width="600" height="750" alt="Zeratul, WIP, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Zeratul, WIP</h3>
+    <div class="sub"><span>StarCraft</span><span aria-hidden="true">·</span><span>Aug 5, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-07-30-moon-girl-devil-dinosaur/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-07-30-moon-girl-devil-dinosaur/thumb.jpg" width="600" height="750" alt="Moon Girl &amp; Devil Dinosaur, WIP, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Moon Girl &amp; Devil Dinosaur, WIP</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jul 30, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-07-21-grail-knight-blitzer-catcher/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-07-21-grail-knight-blitzer-catcher/thumb.jpg" width="600" height="750" alt="Grail Knight Blitzer &amp; Catcher, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Grail Knight Blitzer &amp; Catcher</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Jul 21, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-07-18-holy-hand-grenadiers-begin/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-07-18-holy-hand-grenadiers-begin/thumb.jpg" width="600" height="750" alt="Starting the Holy Hand Grenadiers">
+    
+    <span class="kind">Build</span></div>
+  <div class="meta"><h3>Starting the Holy Hand Grenadiers</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Jul 18, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-06-18-galactus-game-night/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-06-18-galactus-game-night/thumb.jpg" width="600" height="750" alt="Giant unpainted Galactus towering over the Marvel United board">
+    <span class="count">6 photos</span>
+    <span class="kind">Game night</span></div>
+  <div class="meta"><h3>Sending Galactus packing</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 18, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-24-human-team/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-04-24-human-team/thumb.jpg" width="600" height="750" alt="The full human team, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The full human team</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Apr 24, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-19-blitz-bowl-first-game/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-04-19-blitz-bowl-first-game/thumb.jpg" width="600" height="750" alt="Blitz Bowl hits the table, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Game night</span></div>
+  <div class="meta"><h3>Blitz Bowl hits the table</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Apr 19, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-14-2026-so-far/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2026-04-14-2026-so-far/thumb.jpg" width="600" height="750" alt="Everything painted so far in 2026, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Roundup</span></div>
+  <div class="meta"><h3>Everything painted so far in 2026</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Apr 14, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-10-dazzler/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-04-10-dazzler/thumb.jpg" width="600" height="750" alt="Dazzler, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Dazzler</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 10, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-07-skaven-team/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-04-07-skaven-team/thumb.jpg" width="600" height="750" alt="The Skaven swarm">
+    
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The Skaven swarm</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Apr 7, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-05-ultron-easter/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-04-05-ultron-easter/thumb.jpg" width="600" height="750" alt="Ultron, limited-palette challenge">
+    
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Ultron, limited-palette challenge</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 5, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-03-velvet-backdrop/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2026-04-03-velvet-backdrop/thumb.jpg" width="600" height="750" alt="Foam vs. velvet backdrops, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>Foam vs. velvet backdrops</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Apr 3, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-04-01-dazzler-wip/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-04-01-dazzler-wip/thumb.jpg" width="600" height="750" alt="Dazzler, base coats, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Dazzler, base coats</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 1, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-03-29-skaven-gutter-runners/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-03-29-skaven-gutter-runners/thumb.jpg" width="600" height="750" alt="Skaven Gutter Runners, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Skaven Gutter Runners</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Mar 29, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-03-27-longshot/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-03-27-longshot/thumb.jpg" width="600" height="750" alt="Longshot, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Longshot</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 27, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-03-17-skaven-passing-game/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-03-17-skaven-passing-game/thumb.jpg" width="600" height="750" alt="The Skaven passing game, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The Skaven passing game</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Mar 17, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-03-15-skaven-speed/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-03-15-skaven-speed/thumb.jpg" width="600" height="750" alt="Skaven: speed over teamwork, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Skaven: speed over teamwork</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Mar 15, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-03-03-patriotic-flyer/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2026-03-03-patriotic-flyer/thumb.jpg" width="600" height="750" alt="Captain America (Sam Wilson), Election Day">
+    
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Captain America (Sam Wilson), Election Day</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 3, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-03-03-human-catcher/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-03-03-human-catcher/thumb.jpg" width="600" height="750" alt="Human Catcher, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Human Catcher</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Mar 3, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-27-human-thrower/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-02-27-human-thrower/thumb.jpg" width="600" height="750" alt="Human Thrower, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Human Thrower</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Feb 27, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-24-tomb-kings-linemen/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-02-24-tomb-kings-linemen/thumb.jpg" width="600" height="750" alt="Tomb Kings Linemen, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Tomb Kings Linemen</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Feb 24, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-22-tomb-kings-blitzer/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-02-22-tomb-kings-blitzer/thumb.jpg" width="600" height="750" alt="Tomb Kings Blitzer, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Tomb Kings Blitzer</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Feb 22, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-20-tomb-guardian/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-02-20-tomb-guardian/thumb.jpg" width="600" height="750" alt="Tomb Guardian, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Tomb Guardian</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Feb 20, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-17-tomb-kings-thrower/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-02-17-tomb-kings-thrower/thumb.jpg" width="600" height="750" alt="Tomb Kings Thrower, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Tomb Kings Thrower</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Feb 17, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-13-tomb-kings-rise/" data-game="Blood Bowl">
+  <div class="img"><img loading="lazy" src="posts/2026-02-13-tomb-kings-rise/thumb.jpg" width="600" height="750" alt="Tomb Kings in black and gold, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Tomb Kings in black and gold</h3>
+    <div class="sub"><span>Blood Bowl</span><span aria-hidden="true">·</span><span>Feb 13, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-10-liara/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-02-10-liara/thumb.jpg" width="600" height="750" alt="Liara T’Soni, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Liara T’Soni</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Feb 10, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-06-femshep/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-02-06-femshep/thumb.jpg" width="600" height="750" alt="Commander Shepard (FemShep), photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Commander Shepard (FemShep)</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Feb 6, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-02-01-tali/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-02-01-tali/thumb.jpg" width="600" height="750" alt="Tali’Zorah vas Normandy, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Tali’Zorah vas Normandy</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Feb 1, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-01-30-shepard/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-01-30-shepard/thumb.jpg" width="600" height="750" alt="Commander Shepard, photo 1">
+    <span class="count">9 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Commander Shepard</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Jan 30, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-01-25-mass-effect-squad/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-01-25-mass-effect-squad/thumb.jpg" width="600" height="750" alt="The Normandy squad">
+    
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The Normandy squad</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Jan 25, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-01-20-magnetizing-200-minis/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2026-01-20-magnetizing-200-minis/thumb.jpg" width="600" height="750" alt="Magnetizing 200 minis in 20 minutes, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>Magnetizing 200 minis in 20 minutes</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Jan 20, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-01-16-wrex/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-01-16-wrex/thumb.jpg" width="600" height="750" alt="Wrex, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Wrex</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Jan 16, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2026-01-13-garrus/" data-game="Mass Effect">
+  <div class="img"><img loading="lazy" src="posts/2026-01-13-garrus/thumb.jpg" width="600" height="750" alt="Garrus Vakarian, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Garrus Vakarian</h3>
+    <div class="sub"><span>Mass Effect</span><span aria-hidden="true">·</span><span>Jan 13, 2026</span></div>
+  </div>
+</a><a class="card" href="posts/2025-12-28-rhino/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-12-28-rhino/thumb.jpg" width="600" height="750" alt="Rhino, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Rhino</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Dec 28, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-12-23-logan-nimrod/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-12-23-logan-nimrod/thumb.jpg" width="600" height="750" alt="Logan &amp; Nimrod, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Logan &amp; Nimrod</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Dec 23, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-12-19-spot/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-12-19-spot/thumb.jpg" width="600" height="750" alt="Spot, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Spot</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Dec 19, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-12-07-spider-woman/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-12-07-spider-woman/thumb.jpg" width="600" height="750" alt="Spider-Woman, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Spider-Woman</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Dec 7, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-30-symbiote-spider-man/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-30-symbiote-spider-man/thumb.jpg" width="600" height="750" alt="Black suit Spider-Man, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Black suit Spider-Man</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Nov 30, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-28-iron-patriot/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-28-iron-patriot/thumb.jpg" width="600" height="750" alt="Iron Patriot, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Iron Patriot</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Nov 28, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-25-harley-quinn/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-25-harley-quinn/thumb.jpg" width="600" height="750" alt="Harley Quinn, photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Harley Quinn</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Nov 25, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-23-joker/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-23-joker/thumb.jpg" width="600" height="750" alt="The Joker, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The Joker</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Nov 23, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-21-ms-marvel/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-21-ms-marvel/thumb.jpg" width="600" height="750" alt="Ms. Marvel, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Ms. Marvel</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Nov 21, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-18-michelangelo/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-11-18-michelangelo/thumb.jpg" width="600" height="750" alt="Michelangelo, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Michelangelo</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Nov 18, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-14-hawkeye/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-14-hawkeye/thumb.jpg" width="600" height="750" alt="Hawkeye, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Hawkeye</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Nov 14, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-11-werewolf-by-night/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-11-werewolf-by-night/thumb.jpg" width="600" height="750" alt="Werewolf by Night, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Werewolf by Night</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Nov 11, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-07-huntress/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-07-huntress/thumb.jpg" width="600" height="750" alt="Huntress, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Huntress</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Nov 7, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-04-donatello/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-11-04-donatello/thumb.jpg" width="600" height="750" alt="Donatello, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Donatello</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Nov 4, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-11-02-hush/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-11-02-hush/thumb.jpg" width="600" height="750" alt="Hush, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Hush</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Nov 2, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-31-ghost-rider/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-31-ghost-rider/thumb.jpg" width="600" height="750" alt="Ghost Rider, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Ghost Rider</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 31, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-30-shadow-king/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-30-shadow-king/thumb.jpg" width="600" height="750" alt="Shadow King, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Shadow King</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 30, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-28-falcon/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-28-falcon/thumb.jpg" width="600" height="750" alt="Falcon (Sam Wilson), photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Falcon (Sam Wilson)</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 28, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-26-sauron/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-26-sauron/thumb.jpg" width="600" height="750" alt="Sauron, monster mash, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Sauron, monster mash</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 26, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-24-bebop/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-10-24-bebop/thumb.jpg" width="600" height="750" alt="Bebop, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Bebop</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Oct 24, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-21-turtle-skin-tones/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-10-21-turtle-skin-tones/thumb.jpg" width="600" height="750" alt="Cowabunga color theory, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Cowabunga color theory</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Oct 21, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-17-robin/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-17-robin/thumb.jpg" width="600" height="750" alt="Robin (Tim Drake), photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Robin (Tim Drake)</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Oct 17, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-16-carnage/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-16-carnage/thumb.jpg" width="600" height="750" alt="Carnage, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Carnage</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 16, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-13-budget-photo-setup/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-10-13-budget-photo-setup/thumb.jpg" width="600" height="750" alt="Budget mini photography setup, photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>Budget mini photography setup</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Oct 13, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-12-early-marvel-united-reshoot/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-12-early-marvel-united-reshoot/thumb.jpg" width="600" height="750" alt="Early Marvel United minis, re-shot, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Early Marvel United minis, re-shot</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 12, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-10-raphael/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-10-10-raphael/thumb.jpg" width="600" height="750" alt="Raphael, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Raphael</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Oct 10, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-07-catwoman/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-07-catwoman/thumb.jpg" width="600" height="750" alt="Catwoman, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Catwoman</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Oct 7, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-10-05-blade/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-10-05-blade/thumb.jpg" width="600" height="750" alt="Blade, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Blade</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Oct 5, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-30-slay-the-spire/" data-game="Slay the Spire">
+  <div class="img"><img loading="lazy" src="posts/2025-09-30-slay-the-spire/thumb.jpg" width="600" height="750" alt="Slay the Spire minis, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Slay the Spire minis</h3>
+    <div class="sub"><span>Slay the Spire</span><span aria-hidden="true">·</span><span>Sep 30, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-26-leonardo/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-09-26-leonardo/thumb.jpg" width="600" height="750" alt="Leonardo, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Leonardo</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Sep 26, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-21-batman/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-09-21-batman/thumb.jpg" width="600" height="750" alt="Batman, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Batman</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Sep 21, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-20-batman-wip/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-09-20-batman-wip/thumb.jpg" width="600" height="750" alt="Batman, Saturday morning WIP">
+    
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Batman, Saturday morning WIP</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Sep 20, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-19-poison-ivy-controlled-superman/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-09-19-poison-ivy-controlled-superman/thumb.jpg" width="600" height="750" alt="Poison Ivy &amp; Controlled Superman, photo 1">
+    <span class="count">9 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Poison Ivy &amp; Controlled Superman</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Sep 19, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-06-hush-box-arrives/" data-game="DC United">
+  <div class="img"><img loading="lazy" src="posts/2025-09-06-hush-box-arrives/thumb.jpg" width="600" height="750" alt="The Hush box arrives">
+    
+    <span class="kind">Build</span></div>
+  <div class="meta"><h3>The Hush box arrives</h3>
+    <div class="sub"><span>DC United</span><span aria-hidden="true">·</span><span>Sep 6, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-05-als-awareness-marine/" data-game="Warhammer 40K">
+  <div class="img"><img loading="lazy" src="posts/2025-09-05-als-awareness-marine/thumb.jpg" width="600" height="750" alt="ALS Awareness Space Marine, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>ALS Awareness Space Marine</h3>
+    <div class="sub"><span>Warhammer 40K</span><span aria-hidden="true">·</span><span>Sep 5, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-04-tmnt-bases/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-09-04-tmnt-bases/thumb.jpg" width="600" height="750" alt="Sewer, lava, and dock bases">
+    
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Sewer, lava, and dock bases</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Sep 4, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-09-03-tmnt-wip/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-09-03-tmnt-wip/thumb.jpg" width="600" height="750" alt="Turtles, first colors">
+    
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Turtles, first colors</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Sep 3, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-31-als-marine-wip/" data-game="Warhammer 40K">
+  <div class="img"><img loading="lazy" src="posts/2025-08-31-als-marine-wip/thumb.jpg" width="600" height="750" alt="ALS Awareness Marine, base coats, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>ALS Awareness Marine, base coats</h3>
+    <div class="sub"><span>Warhammer 40K</span><span aria-hidden="true">·</span><span>Aug 31, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-29-mole-man/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-08-29-mole-man/thumb.jpg" width="600" height="750" alt="Mole Man, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Mole Man</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Aug 29, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-24-vesemir/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/2025-08-24-vesemir/thumb.jpg" width="600" height="750" alt="Vesemir, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Vesemir</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>Aug 24, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-21-wip-roundup/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-08-21-wip-roundup/thumb.jpg" width="600" height="750" alt="WIP Wednesday roundup, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>WIP Wednesday roundup</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Aug 21, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-19-dandelion/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/2025-08-19-dandelion/thumb.jpg" width="600" height="750" alt="Dandelion, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Dandelion</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>Aug 19, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-17-ahsoka/" data-game="Star Wars Shatterpoint">
+  <div class="img"><img loading="lazy" src="posts/2025-08-17-ahsoka/thumb.jpg" width="600" height="750" alt="Ahsoka Tano, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Ahsoka Tano</h3>
+    <div class="sub"><span>Star Wars Shatterpoint</span><span aria-hidden="true">·</span><span>Aug 17, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-15-tmnt-skin-tones-wip/" data-game="TMNT">
+  <div class="img"><img loading="lazy" src="posts/2025-08-15-tmnt-skin-tones-wip/thumb.jpg" width="600" height="750" alt="Differentiating the turtles, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Differentiating the turtles</h3>
+    <div class="sub"><span>TMNT</span><span aria-hidden="true">·</span><span>Aug 15, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-12-darth-maul/" data-game="Star Wars Shatterpoint">
+  <div class="img"><img loading="lazy" src="posts/2025-08-12-darth-maul/thumb.jpg" width="600" height="750" alt="Darth Maul, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Darth Maul</h3>
+    <div class="sub"><span>Star Wars Shatterpoint</span><span aria-hidden="true">·</span><span>Aug 12, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-08-apocalypse/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-08-08-apocalypse/thumb.jpg" width="600" height="750" alt="Apocalypse, photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Apocalypse</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Aug 8, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-07-maul-highlights/" data-game="Star Wars Shatterpoint">
+  <div class="img"><img loading="lazy" src="posts/2025-08-07-maul-highlights/thumb.jpg" width="600" height="750" alt="Maul, more highlights">
+    
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Maul, more highlights</h3>
+    <div class="sub"><span>Star Wars Shatterpoint</span><span aria-hidden="true">·</span><span>Aug 7, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-05-mole-man-wip/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-08-05-mole-man-wip/thumb.jpg" width="600" height="750" alt="Mole Man, in progress">
+    
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Mole Man, in progress</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Aug 5, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-08-01-canon-t5i/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-08-01-canon-t5i/thumb.jpg" width="600" height="750" alt="Shooting minis on a 2013 Canon, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>Shooting minis on a 2013 Canon</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Aug 1, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-27-shuri/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-07-27-shuri/thumb.jpg" width="600" height="750" alt="Shuri (Black Panther), photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Shuri (Black Panther)</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jul 27, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-21-geralt/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/2025-07-21-geralt/thumb.jpg" width="600" height="750" alt="Geralt, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Geralt</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>Jul 21, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-17-morph/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-07-17-morph/thumb.jpg" width="600" height="750" alt="Morph, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Morph</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jul 17, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-16-shatterpoint-wip/" data-game="Star Wars Shatterpoint">
+  <div class="img"><img loading="lazy" src="posts/2025-07-16-shatterpoint-wip/thumb.jpg" width="600" height="750" alt="First Shatterpoint base coats, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>First Shatterpoint base coats</h3>
+    <div class="sub"><span>Star Wars Shatterpoint</span><span aria-hidden="true">·</span><span>Jul 16, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-13-zombie-nova/" data-game="Marvel Zombies">
+  <div class="img"><img loading="lazy" src="posts/2025-07-13-zombie-nova/thumb.jpg" width="600" height="750" alt="Zombie Nova, photo 1">
+    <span class="count">10 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Zombie Nova</h3>
+    <div class="sub"><span>Marvel Zombies</span><span aria-hidden="true">·</span><span>Jul 13, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-10-magneto-aoa/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-07-10-magneto-aoa/thumb.jpg" width="600" height="750" alt="Magneto, Age of Apocalypse, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Magneto, Age of Apocalypse</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jul 10, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-06-zombie-doc-ock/" data-game="Marvel Zombies">
+  <div class="img"><img loading="lazy" src="posts/2025-07-06-zombie-doc-ock/thumb.jpg" width="600" height="750" alt="Doc Ock (Marvel Zombies), photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Doc Ock (Marvel Zombies)</h3>
+    <div class="sub"><span>Marvel Zombies</span><span aria-hidden="true">·</span><span>Jul 6, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-07-03-june-2025-recap/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-07-03-june-2025-recap/thumb.jpg" width="600" height="750" alt="June 2025 painting recap">
+    
+    <span class="kind">Roundup</span></div>
+  <div class="meta"><h3>June 2025 painting recap</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Jul 3, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-29-doctor-doom-zombies/" data-game="Marvel Zombies">
+  <div class="img"><img loading="lazy" src="posts/2025-06-29-doctor-doom-zombies/thumb.jpg" width="600" height="750" alt="Doctor Doom (Marvel Zombies), photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Doctor Doom (Marvel Zombies)</h3>
+    <div class="sub"><span>Marvel Zombies</span><span aria-hidden="true">·</span><span>Jun 29, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-26-maestro/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-06-26-maestro/thumb.jpg" width="600" height="750" alt="Maestro, photo 1">
+    <span class="count">10 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Maestro</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 26, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-23-palette-planning/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-06-23-palette-planning/thumb.jpg" width="600" height="750" alt="Planning the palette first">
+    
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>Planning the palette first</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Jun 23, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-22-first-40k-chapter/" data-game="Warhammer 40K">
+  <div class="img"><img loading="lazy" src="posts/2025-06-22-first-40k-chapter/thumb.jpg" width="600" height="750" alt="First 40K chapter, photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>First 40K chapter</h3>
+    <div class="sub"><span>Warhammer 40K</span><span aria-hidden="true">·</span><span>Jun 22, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-16-priming-process/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-06-16-priming-process/thumb.jpg" width="600" height="750" alt="Priming X-Men villains">
+    
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>Priming X-Men villains</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Jun 16, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-15-stature/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-06-15-stature/thumb.jpg" width="600" height="750" alt="Stature, photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Stature</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 15, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-12-mojo/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-06-12-mojo/thumb.jpg" width="600" height="750" alt="Mojo, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Mojo</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 12, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-10-silver-surfer/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-06-10-silver-surfer/thumb.jpg" width="600" height="750" alt="Marvel United game night against Galactus, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Game night</span></div>
+  <div class="meta"><h3>A lament from the Silver Surfer</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 10, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-08-spider-man-2099/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-06-08-spider-man-2099/thumb.jpg" width="600" height="750" alt="Spider-Man 2099, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Spider-Man 2099</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 8, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-02-spider-punk/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-06-02-spider-punk/thumb.jpg" width="600" height="750" alt="Spider-Man (Hobie Brown), photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Spider-Man (Hobie Brown)</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Jun 2, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-06-01-may-2025-recap/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-06-01-may-2025-recap/thumb.jpg" width="600" height="750" alt="May 2025 painting recap">
+    
+    <span class="kind">Roundup</span></div>
+  <div class="meta"><h3>May 2025 painting recap</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Jun 1, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-29-zombie-dark-phoenix/" data-game="Marvel Zombies">
+  <div class="img"><img loading="lazy" src="posts/2025-05-29-zombie-dark-phoenix/thumb.jpg" width="600" height="750" alt="Zombie Dark Phoenix, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Zombie Dark Phoenix</h3>
+    <div class="sub"><span>Marvel Zombies</span><span aria-hidden="true">·</span><span>May 29, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-28-galactus/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-05-28-galactus/thumb.jpg" width="600" height="750" alt="Galactus, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Galactus</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>May 28, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-25-sentry/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-05-25-sentry/thumb.jpg" width="600" height="750" alt="Sentry / The Void, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Sentry / The Void</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>May 25, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-11-mothers-day/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-05-11-mothers-day/thumb.jpg" width="600" height="750" alt="Happy Mother’s Day, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Happy Mother’s Day</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>May 11, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-07-vulture/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-05-07-vulture/thumb.jpg" width="600" height="750" alt="Vulture, photo 1">
+    <span class="count">9 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Vulture</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>May 7, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-05-yennefer/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/2025-05-05-yennefer/thumb.jpg" width="600" height="750" alt="Yennefer of Vengerberg, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Yennefer of Vengerberg</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>May 5, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-04-april-2025-recap/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-05-04-april-2025-recap/thumb.jpg" width="600" height="750" alt="April 2025 painting recap, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Roundup</span></div>
+  <div class="meta"><h3>April 2025 painting recap</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>May 4, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-01-white-widow/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-05-01-white-widow/thumb.jpg" width="600" height="750" alt="White Widow, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>White Widow</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>May 1, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-05-01-thunderbolts/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-05-01-thunderbolts/thumb.jpg" width="600" height="750" alt="Thunderbolts, group shot">
+    
+    <span class="kind">Team shot</span></div>
+  <div class="meta"><h3>Thunderbolts</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>May 1, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-30-us-agent/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-30-us-agent/thumb.jpg" width="600" height="750" alt="U.S. Agent, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>U.S. Agent</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 30, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-28-villentretenmerth/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/2025-04-28-villentretenmerth/thumb.jpg" width="600" height="750" alt="Villentretenmerth, photo 1">
+    <span class="count">8 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Villentretenmerth</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>Apr 28, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-25-mysterio/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-25-mysterio/thumb.jpg" width="600" height="750" alt="Mysterio, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Mysterio</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 25, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-23-red-guardian/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-23-red-guardian/thumb.jpg" width="600" height="750" alt="Red Guardian, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Red Guardian</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 23, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-21-my-color-my-mini/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-21-my-color-my-mini/thumb.jpg" width="600" height="750" alt="#MyColorMyMini challenge, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>#MyColorMyMini challenge</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 21, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-18-winter-soldier/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-18-winter-soldier/thumb.jpg" width="600" height="750" alt="Winter Soldier, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Winter Soldier</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 18, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-16-geralt-on-roach/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/2025-04-16-geralt-on-roach/thumb.jpg" width="600" height="750" alt="Geralt on Roach, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Geralt on Roach</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>Apr 16, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-14-shatterstar/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-14-shatterstar/thumb.jpg" width="600" height="750" alt="Shatterstar, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Shatterstar</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 14, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-11-heralds-of-galactus/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-11-heralds-of-galactus/thumb.jpg" width="600" height="750" alt="Heralds of Galactus, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Heralds of Galactus</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 11, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-04-09-punisher/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-04-09-punisher/thumb.jpg" width="600" height="750" alt="The Punisher, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The Punisher</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Apr 9, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-28-daredevil/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-03-28-daredevil/thumb.jpg" width="600" height="750" alt="Daredevil, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Daredevil</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 28, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-27-loki/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-03-27-loki/thumb.jpg" width="600" height="750" alt="Loki (heroic variant), photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Loki (heroic variant)</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 27, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-26-marvel-united-storage/" data-game="Hobby">
+  <div class="img"><img loading="lazy" src="posts/2025-03-26-marvel-united-storage/thumb.jpg" width="600" height="750" alt="How I store Marvel United, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Hobby tip</span></div>
+  <div class="meta"><h3>How I store Marvel United</h3>
+    <div class="sub"><span>Hobby</span><span aria-hidden="true">·</span><span>Mar 26, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-20-iron-spider/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-03-20-iron-spider/thumb.jpg" width="600" height="750" alt="Iron Spider, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Iron Spider</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 20, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-14-emma-frost/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-03-14-emma-frost/thumb.jpg" width="600" height="750" alt="Emma Frost, photo 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Emma Frost</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 14, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-12-captain-carter/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-03-12-captain-carter/thumb.jpg" width="600" height="750" alt="Captain Carter, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Captain Carter</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 12, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-03-09-cosmic-ghost-rider/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-03-09-cosmic-ghost-rider/thumb.jpg" width="600" height="750" alt="Cosmic Ghost Rider, photo 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Cosmic Ghost Rider</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Mar 9, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-27-deadpool-expansion/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-27-deadpool-expansion/thumb.jpg" width="600" height="750" alt="Deadpool expansion, photo 1">
+    <span class="count">6 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Deadpool expansion</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 27, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-26-fantastic-four-and-friends/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-26-fantastic-four-and-friends/thumb.jpg" width="600" height="750" alt="Fantastic Four &amp; friends, photo 1">
+    <span class="count">5 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Fantastic Four &amp; friends</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 26, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-25-x-men-yellow-and-blue/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-25-x-men-yellow-and-blue/thumb.jpg" width="600" height="750" alt="X-Men in yellow and blue, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>X-Men in yellow and blue</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 25, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-22-galactus-heralds-wip/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-22-galactus-heralds-wip/thumb.jpg" width="600" height="750" alt="Galactus &amp; Heralds, WIP, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">WIP</span></div>
+  <div class="meta"><h3>Galactus &amp; Heralds, WIP</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 22, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-20-mighty-thor/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-20-mighty-thor/thumb.jpg" width="600" height="750" alt="The Mighty Thor (Jane Foster)">
+    
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>The Mighty Thor (Jane Foster)</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 20, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-19-cable/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-19-cable/thumb.jpg" width="600" height="750" alt="Cable">
+    
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Cable</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 19, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-18-gladiator-hulk-hulkbuster/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-18-gladiator-hulk-hulkbuster/thumb.jpg" width="600" height="750" alt="Gladiator Hulk &amp; Hulkbuster, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Gladiator Hulk &amp; Hulkbuster</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 18, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-17-buttons-and-bugs/" data-game="Gloomhaven">
+  <div class="img"><img loading="lazy" src="posts/2025-02-17-buttons-and-bugs/thumb.jpg" width="600" height="750" alt="Gloomhaven: Buttons &amp; Bugs, photo 1">
+    <span class="count">7 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Gloomhaven: Buttons &amp; Bugs</h3>
+    <div class="sub"><span>Gloomhaven</span><span aria-hidden="true">·</span><span>Feb 17, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/2025-02-13-captain-america-brave-new-world/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/2025-02-13-captain-america-brave-new-world/thumb.jpg" width="600" height="750" alt="Captain America (Sam Wilson) &amp; Red Hulk, photo 1">
+    <span class="count">4 photos</span>
+    <span class="kind">Finished</span></div>
+  <div class="meta"><h3>Captain America (Sam Wilson) &amp; Red Hulk</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>Feb 13, 2025</span></div>
+  </div>
+</a><a class="card" href="posts/archive-x-men-pileup/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-x-men-pileup/thumb.jpg" width="600" height="750" alt="X-Men pile-up, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>X-Men pile-up</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-x-men-on-the-board/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-x-men-on-the-board/thumb.jpg" width="600" height="750" alt="X-Men on the board, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>X-Men on the board</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-x-men-lineup/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-x-men-lineup/thumb.jpg" width="600" height="750" alt="X-Men lineup, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>X-Men lineup</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-witcher-crew/" data-game="The Witcher">
+  <div class="img"><img loading="lazy" src="posts/archive-witcher-crew/thumb.jpg" width="600" height="750" alt="The Witcher crew, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>The Witcher crew</h3>
+    <div class="sub"><span>The Witcher</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-sinister-six/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-sinister-six/thumb.jpg" width="600" height="750" alt="Sinister Six, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Sinister Six</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-rogue-mystique-nightcrawler/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-rogue-mystique-nightcrawler/thumb.jpg" width="600" height="750" alt="Rogue, Mystique &amp; Nightcrawler, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Rogue, Mystique &amp; Nightcrawler</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-multiverse-variants/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-multiverse-variants/thumb.jpg" width="600" height="750" alt="Multiverse variants lineup, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Multiverse variants lineup</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-marvel-zombies/" data-game="Marvel Zombies">
+  <div class="img"><img loading="lazy" src="posts/archive-marvel-zombies/thumb.jpg" width="600" height="750" alt="Marvel Zombies lineup, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Marvel Zombies lineup</h3>
+    <div class="sub"><span>Marvel Zombies</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-lockheed/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-lockheed/thumb.jpg" width="600" height="750" alt="Lockheed &amp; friend, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Lockheed &amp; friend</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-juggernaut-sabretooth/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-juggernaut-sabretooth/thumb.jpg" width="600" height="750" alt="Juggernaut &amp; Sabretooth, group shot 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Juggernaut &amp; Sabretooth</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-days-of-future-past/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-days-of-future-past/thumb.jpg" width="600" height="750" alt="Days of Future Past, group shot 1">
+    <span class="count">2 photos</span>
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Days of Future Past</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-cap-iron-man/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-cap-iron-man/thumb.jpg" width="600" height="750" alt="Captain America &amp; Iron Man, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Captain America &amp; Iron Man</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-brave-new-world/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-brave-new-world/thumb.jpg" width="600" height="750" alt="Brave New World trio, group shot">
+    
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Brave New World trio</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a><a class="card" href="posts/archive-avengers-trios/" data-game="Marvel United">
+  <div class="img"><img loading="lazy" src="posts/archive-avengers-trios/thumb.jpg" width="600" height="750" alt="Avengers (Season 1) group shots, group shot 1">
+    <span class="count">3 photos</span>
+    <span class="kind">Team shot</span><span class="unposted">Not posted yet</span></div>
+  <div class="meta"><h3>Avengers (Season 1) group shots</h3>
+    <div class="sub"><span>Marvel United</span><span aria-hidden="true">·</span><span>From the archive</span></div>
+  </div>
+</a>
+</main>
 </section>
 
 <section class="about" id="about">
   <div class="wrap">
     <figure class="panel">
-      <img src="assets/about-first-minis.jpg" alt="Jim smiling at the table, holding up a painted mini above a Marvel United board full of painted heroes">
+      <img src="assets/about-first-minis.jpg" loading="lazy" alt="Jim smiling at the table, holding up a painted mini above a Marvel United board full of painted heroes">
       <figcaption>Me with my first minis</figcaption>
     </figure>
     <div>
@@ -191,123 +1147,32 @@
 <section class="gear" id="gear">
   <div class="wrap">
     <h2>Gear I use</h2>
-    <p class="disclosure" id="disclosure"></p>
-    <div id="gear-groups"></div>
+    <p class="disclosure">Some of these are affiliate links. If you buy through them I may earn a small commission, at no extra cost to you. It helps keep the hobby (and the coffee) going. Much appreciated!</p>
+    <div class="gear-grid"><div class="gear-card">
+  <strong>Marvel United: X-Men</strong><span>Where a lot of these heroes came from</span>
+  <a class="buy" href="https://amzn.to/3Dy4XwG" target="_blank" rel="sponsored noopener">View on Amazon →</a>
+  <div class="seen-in">Seen in <a href="posts/2026-03-27-longshot/">Longshot</a>, <a href="posts/2025-12-23-logan-nimrod/">Logan &amp; Nimrod</a>, <a href="posts/2025-10-30-shadow-king/">Shadow King</a> and 7 more</div>
+</div><div class="gear-card">
+  <strong>Portable airbrush spray booth</strong><span>Priming and airbrushing indoors</span>
+  <a class="buy" href="https://amzn.to/430OOKd" target="_blank" rel="sponsored noopener">View on Amazon →</a>
+  <div class="seen-in">Seen in <a href="posts/2025-11-23-joker/">The Joker</a>, <a href="posts/2025-10-31-ghost-rider/">Ghost Rider</a>, <a href="posts/2025-10-30-shadow-king/">Shadow King</a> and 2 more</div>
+</div><div class="gear-card">
+  <strong>Glendan 10&quot; photo light box</strong><span>Even light for mini photos</span>
+  <a class="buy" href="https://amzn.to/41IqGLE" target="_blank" rel="sponsored noopener">View on Amazon →</a>
+  <div class="seen-in">Seen in <a href="posts/2026-04-03-velvet-backdrop/">Foam vs. velvet backdrops</a>, <a href="posts/2025-08-01-canon-t5i/">Shooting minis on a 2013 Canon</a>, <a href="posts/2025-05-28-galactus/">Galactus</a></div>
+</div><div class="gear-card">
+  <strong>Precision pin vise drill set</strong><span>Copper hand drill with 20 micro bits, for pinning and magnets</span>
+  <a class="buy" href="https://amzn.to/4bvSt5q" target="_blank" rel="sponsored noopener">View on Amazon →</a>
+  <div class="seen-in">Seen in <a href="posts/2026-01-20-magnetizing-200-minis/">Magnetizing 200 minis in 20 minutes</a>, <a href="posts/2025-03-26-marvel-united-storage/">How I store Marvel United</a></div>
+</div></div>
+    <p style="margin-top:18px"><a class="btn" href="gear/" style="text-decoration:none;display:inline-block">See all the gear →</a></p>
   </div>
 </section>
-
 <footer>
   <div class="wrap">
     <img src="assets/logo-fist.png" alt="">
     <span>Photos &amp; words by Left-Handed Minis · <a href="mailto:lefthandedminis@gmail.com">lefthandedminis@gmail.com</a></span>
   </div>
 </footer>
-
-<dialog id="viewer" aria-label="Post viewer">
-  <button class="close" id="close" aria-label="Close">×</button>
-  <div class="viewer">
-    <div class="media"><div class="slides" id="slides"></div><div class="dots" id="dots"></div></div>
-    <div class="side">
-      <div>
-        <div class="sub" id="vsub"></div>
-        <h2 id="vtitle"></h2>
-      </div>
-      <div class="tabs" id="tabs"></div>
-      <div class="caption" id="caption"></div>
-      <div class="row"><span id="chars"></span><button class="btn" id="copy">Copy caption</button></div>
-      <p class="note" id="vnote" hidden></p>
-    </div>
-  </div>
-</dialog>
-
-<script>
-const posts = [];
-let filter = 'All';
-const LABELS = {instagram:'Instagram', threads:'Threads', tiktok:'TikTok', bluesky:'Bluesky', youtube:'YouTube', facebook:'Facebook'};
-const KINDS = {'match-report':'Match report', build:'Build', wip:'WIP', finished:'Finished', 'game-night':'Game night', tip:'Hobby tip', roundup:'Roundup', team:'Team shot'};
-const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}) : 'From the archive';
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const resClass = r => (r||'').trim().charAt(0).toUpperCase();
-
-async function load(){
-  try{
-    const slugs = await (await fetch('posts/index.json',{cache:'no-cache'})).json();
-    await Promise.all(slugs.map(async slug => {
-      const base = 'posts/' + slug + '/';
-      const p = await (await fetch(base + 'post.json',{cache:'no-cache'})).json();
-      p.base = base; p.caps = {};
-      for (const [k,f] of Object.entries(p.captions||{})){
-        try{ p.caps[k] = (await (await fetch(base + f,{cache:'no-cache'})).text()).trim(); }catch(e){}
-      }
-      posts.push(p);
-    }));
-    posts.sort((a,b)=> (b.date||'0').localeCompare(a.date||'0'));
-    renderFilters(); render();
-  }catch(e){
-    document.getElementById('grid').innerHTML = '<p class="empty">Couldn\'t load posts.</p>';
-  }
-}
-function renderFilters(){
-  const games = ['All', ...new Set(posts.map(p=>p.game).filter(Boolean))];
-  const el = document.getElementById('filters');
-  el.innerHTML = games.length > 2 ? games.map(g=>`<button class="chip" aria-pressed="${g===filter}">${esc(g)}</button>`).join('') : '';
-  el.querySelectorAll('.chip').forEach(b=> b.onclick = ()=>{ filter=b.textContent; renderFilters(); render(); });
-}
-function render(){
-  const list = posts.filter(p=> filter==='All' || p.game===filter);
-  const grid = document.getElementById('grid');
-  if(!list.length){ grid.innerHTML = '<p class="empty">No posts yet.</p>'; return; }
-  grid.innerHTML = list.map(p=>`
-    <button class="card" data-i="${posts.indexOf(p)}" aria-label="Open ${esc(p.title)}">
-      <div class="img"><img loading="lazy" src="${p.base + p.images[0].file}" alt="${esc(p.images[0].alt||'')}">
-        ${p.images.length>1?`<span class="count">${p.images.length} photos</span>`:''}
-        ${KINDS[p.type]?`<span class="kind">${KINDS[p.type]}</span>`:''}${p.status==='unposted'?'<span class="unposted">Not posted yet</span>':''}</div>
-      <div class="meta"><h3>${esc(p.title)}</h3>
-        <div class="sub">${p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:''}<span>${esc(p.game||'')}</span><span aria-hidden="true">·</span><span>${fmtDate(p.date)}</span></div>
-      </div>
-    </button>`).join('');
-  grid.querySelectorAll('.card').forEach(c=> c.onclick = ()=> open(posts[+c.dataset.i]));
-}
-const highlight = t => esc(t).replace(/(^|\s)([#@][\w.]+)/g,'$1<span class="tag">$2</span>');
-function open(p){
-  const slides = document.getElementById('slides'), dots = document.getElementById('dots');
-  slides.innerHTML = p.images.map(im=>`<img src="${p.base+im.file}" alt="${esc(im.alt||'')}">`).join('');
-  dots.innerHTML = p.images.length>1 ? p.images.map((_,i)=>`<button aria-label="Photo ${i+1}" aria-current="${i===0}"></button>`).join('') : '';
-  dots.querySelectorAll('button').forEach((b,i)=> b.onclick = ()=> slides.scrollTo({left:i*slides.clientWidth,behavior:'smooth'}));
-  slides.onscroll = ()=>{ const i=Math.round(slides.scrollLeft/slides.clientWidth); dots.querySelectorAll('button').forEach((b,j)=>b.setAttribute('aria-current', j===i)); };
-  document.getElementById('vtitle').textContent = p.title;
-  document.getElementById('vsub').innerHTML = [p.result?`<span class="res ${resClass(p.result)}">${esc(p.result)}</span>`:'', esc(p.league||p.series||p.game||''), fmtDate(p.date)].filter(Boolean).join(' <span aria-hidden="true">·</span> ');
-  const keys = Object.keys(p.caps), tabs = document.getElementById('tabs');
-  const show = k => {
-    tabs.querySelectorAll('.chip').forEach(b=> b.setAttribute('aria-pressed', b.dataset.k===k));
-    document.getElementById('caption').innerHTML = highlight(p.caps[k]||'');
-    document.getElementById('chars').textContent = (p.caps[k]||'').length + ' characters';
-    document.getElementById('copy').onclick = async e => { try{ await navigator.clipboard.writeText(p.caps[k]); e.target.textContent='Copied!'; setTimeout(()=>e.target.textContent='Copy caption',1400);}catch(_){} };
-  };
-  tabs.innerHTML = keys.length>1 ? keys.map(k=>`<button class="chip" data-k="${k}">${LABELS[k]||k}</button>`).join('') : '';
-  tabs.querySelectorAll('.chip').forEach(b=> b.onclick = ()=> show(b.dataset.k));
-  if(keys.length) show(keys[0]);
-  else { document.getElementById('caption').innerHTML = '<em>Caption coming soon. This one hasn’t been posted yet.</em>'; document.getElementById('chars').textContent=''; }
-  document.getElementById('copy').hidden = !keys.length;
-  const note=document.getElementById('vnote'); note.textContent = p.note||''; note.hidden = !p.note;
-  document.getElementById('viewer').showModal(); slides.scrollLeft = 0;
-}
-document.getElementById('close').onclick = ()=> document.getElementById('viewer').close();
-document.getElementById('viewer').addEventListener('click', e=>{ if(e.target.id==='viewer') e.target.close(); });
-async function loadGear(){
-  try{
-    const g = await (await fetch('gear.json',{cache:'no-cache'})).json();
-    document.getElementById('disclosure').textContent = g.disclosure;
-    document.getElementById('gear-groups').innerHTML = g.groups.map(gr=>`
-      <h3>${esc(gr.name)}</h3>
-      <div class="gear-grid">${gr.items.map(it=>`
-        <a class="gear-item" href="${esc(it.url)}" target="_blank" rel="sponsored noopener">
-          <strong>${esc(it.name)}</strong>${it.note?`<span>${esc(it.note)}</span>`:''}<em>View on Amazon →</em>
-        </a>`).join('')}</div>`).join('');
-  }catch(e){ document.getElementById('gear').hidden = true; }
-}
-loadGear();
-load();
-</script>
 </body>
 </html>
