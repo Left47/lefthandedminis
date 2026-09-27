@@ -27,7 +27,8 @@
   ],
   "captions": {
     "instagram": "instagram.md",
-    "threads": "threads.md"
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
   },
   "buffer": {
     "instagram": {
@@ -37,6 +38,11 @@
     "threads": {
       "id": "6ab989d543493a0ede9ed938",
       "dueAt": "2026-09-28T10:17:00-04:00"
+    },
+    "tiktok": {
+      "id": "6ab98a0f612c9e6ac9348b83",
+      "dueAt": "2026-09-29T06:34:00-04:00",
+      "title": "Bretonnians vs. goblins: we won, at a cost 🏈"
     }
   }
 }
