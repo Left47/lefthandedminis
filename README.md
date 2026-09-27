@@ -2,6 +2,8 @@
 
 Source for the Left-Handed Minis site: every post's photos and captions, plus a small build script that turns them into a static, crawlable site on GitHub Pages.
 
+**Live site:** https://left47.github.io/lefthandedminis/
+
 ## Adding or editing a post
 
 1. Add `posts/<date>-<slug>/` with photos (`01.jpg`…), `instagram.md` / `threads.md` / `tiktok.md`, and `post.json`.
