@@ -11,74 +11,246 @@
       "md": 1,
       "opponent": "Oak City Lucharitos",
       "race": "Halfling",
-      "for": 2, "against": 0,
+      "for": 2,
+      "against": 0,
       "venue": "Regulatory Bowl",
       "weather": "Pouring Rain (allegedly)",
       "summary": "A clean sheet in the \"rain\": two touchdowns, four completions, and a Master Chef who stole every re-roll in the building.",
       "photos": [
-        {"file": "01.jpg", "alt": "A Grenadiers knight on a pink base advancing up the pitch toward the halfling line"},
-        {"file": "02.jpg", "alt": "A knocked-down halfling on its back next to a Grenadiers knight"},
-        {"file": "03.jpg", "alt": "Pile-up near the sideline with knights and halflings tangled together"}
+        {
+          "file": "01.jpg",
+          "alt": "Knights and halflings clustered in midfield on the bright pitch mat"
+        },
+        {
+          "file": "02.jpg",
+          "alt": "A Grenadiers knight on a pink base advancing up the pitch toward the halfling line"
+        },
+        {
+          "file": "03.jpg",
+          "alt": "A knocked-down halfling on its back next to a Grenadiers knight"
+        },
+        {
+          "file": "04.jpg",
+          "alt": "A Grail Knight mid-charge with a yellow ring marking the ball carrier"
+        },
+        {
+          "file": "05.jpg",
+          "alt": "Pile-up near the sideline with knights and halflings tangled together"
+        },
+        {
+          "file": "06.jpg",
+          "alt": "Two knights side by side in front of the carrier marker"
+        },
+        {
+          "file": "07.jpg",
+          "alt": "The same two knights from a lower angle, the halfling team behind them"
+        }
       ],
-      "facts": [["Winnings", "+55,000 gp"], ["Dedicated Fans", "+1"], ["Inducements faced", "Master Chef, Bloodweiser Keg"]],
+      "facts": [
+        [
+          "Winnings",
+          "+55,000 gp"
+        ],
+        [
+          "Dedicated Fans",
+          "+1"
+        ],
+        [
+          "Inducements faced",
+          "Master Chef, Bloodweiser Keg"
+        ]
+      ],
       "broadcast": [
-        ["JIM", "Welcome back to Cabalvision, sports fans! They billed this one as a rain-soaked slugfest at the Regulatory Bowl, and then, wouldn't you know it, the clouds parted on BOTH kickoffs!"],
-        ["BOB", "Weather magic, Jim! Rain in the forecast, sunshine on the whistle. Perfect conditions twice in a row. Somebody in that Bretonnian dugout's been praying to the right Grail, I'll tell ya."],
-        ["JIM", "A total nonfactor, Bob! Dry ball, dry pitch, and the Holy Hand Grenadiers took full advantage: a clean, clinical two-nil over the Oak City Lucharitos!"],
-        ["BOB", "CLEAN?! Don't you DARE use that word in my booth. Where's the DEATH? I clocked in for carnage!"],
-        ["JIM", "Oh, there was ONE, Bob. Alison De Belloy drove a Grail-gauntlet clean through Clothair Mugwort. Badly hurt, carried off, another halfling folded up like a wet napkin!"],
-        ["BOB", "HA! And here's the kicker, Jim. The Grenadiers had an APOTHECARY on the bench, wallet open, ready to patch up their own... and never used him! Didn't need to! Not a scratch worth mending all match!"],
-        ["JIM", "A quiet day for the medical staff, and a GREAT day for the accountant! You have to talk about the catering war, Bob. The Lucharitos brought their notorious Master Chef, and he swiped re-roll after re-roll right out of the Bretonnian dugout!"],
-        ["BOB", "And then they BURNED every one on GARBAGE, Jim! Stole the dice fair and square (perfect conditions, mind you, no excuses), then chucked the ball straight into the turf three times running! That's not a strategy, that's a comedy act!"],
-        ["JIM", "Butterfingers, plain and simple. Meanwhile the Grenadiers kept it tidy. Amynta the Ice Preserver punched in the opener, and young Nezot Tirasse sealed it late, gliding through for two-nil."],
-        ["BOB", "One bright spot for the little guys: that Treeman PICKED UP a teammate and HURLED him downfield. Beautiful. Didn't work. Still beautiful. More teams should throw their own players."],
-        ["JIM", "And Star Player of the Match: MVP to Gracien De Cobie, the Bretonnian Thrower! Cool as you like in the sunshine, threading passes all afternoon!"],
-        ["BOB", "A passer winning MVP. In MY day you earned that star by removing a spine. Soft league, Jim. Soft league."],
-        ["JIM", "Ha! That's all from a suspiciously sunny Regulatory Bowl. For Bob Bifford, I'm Jim Johnson. Remember folks, if you can't beat 'em, EAT 'em. Goodnight!"]
+        [
+          "JIM",
+          "Welcome back to Cabalvision, sports fans! They billed this one as a rain-soaked slugfest at the Regulatory Bowl, and then, wouldn't you know it, the clouds parted on BOTH kickoffs!"
+        ],
+        [
+          "BOB",
+          "Weather magic, Jim! Rain in the forecast, sunshine on the whistle. Perfect conditions twice in a row. Somebody in that Bretonnian dugout's been praying to the right Grail, I'll tell ya."
+        ],
+        [
+          "JIM",
+          "A total nonfactor, Bob! Dry ball, dry pitch, and the Holy Hand Grenadiers took full advantage: a clean, clinical two-nil over the Oak City Lucharitos!"
+        ],
+        [
+          "BOB",
+          "CLEAN?! Don't you DARE use that word in my booth. Where's the DEATH? I clocked in for carnage!"
+        ],
+        [
+          "JIM",
+          "Oh, there was ONE, Bob. Alison De Belloy drove a Grail-gauntlet clean through Clothair Mugwort. Badly hurt, carried off, another halfling folded up like a wet napkin!"
+        ],
+        [
+          "BOB",
+          "HA! And here's the kicker, Jim. The Grenadiers had an APOTHECARY on the bench, wallet open, ready to patch up their own... and never used him! Didn't need to! Not a scratch worth mending all match!"
+        ],
+        [
+          "JIM",
+          "A quiet day for the medical staff, and a GREAT day for the accountant! You have to talk about the catering war, Bob. The Lucharitos brought their notorious Master Chef, and he swiped re-roll after re-roll right out of the Bretonnian dugout!"
+        ],
+        [
+          "BOB",
+          "And then they BURNED every one on GARBAGE, Jim! Stole the dice fair and square (perfect conditions, mind you, no excuses), then chucked the ball straight into the turf three times running! That's not a strategy, that's a comedy act!"
+        ],
+        [
+          "JIM",
+          "Butterfingers, plain and simple. Meanwhile the Grenadiers kept it tidy. Amynta the Ice Preserver punched in the opener, and young Nezot Tirasse sealed it late, gliding through for two-nil."
+        ],
+        [
+          "BOB",
+          "One bright spot for the little guys: that Treeman PICKED UP a teammate and HURLED him downfield. Beautiful. Didn't work. Still beautiful. More teams should throw their own players."
+        ],
+        [
+          "JIM",
+          "And Star Player of the Match: MVP to Gracien De Cobie, the Bretonnian Thrower! Cool as you like in the sunshine, threading passes all afternoon!"
+        ],
+        [
+          "BOB",
+          "A passer winning MVP. In MY day you earned that star by removing a spine. Soft league, Jim. Soft league."
+        ],
+        [
+          "JIM",
+          "Ha! That's all from a suspiciously sunny Regulatory Bowl. For Bob Bifford, I'm Jim Johnson. Remember folks, if you can't beat 'em, EAT 'em. Goodnight!"
+        ]
       ],
       "spp": [
-        ["#5 Gracien De Cobie (Thrower)", "MVP, 2 completions", 6],
-        ["#4 Nezot Tirasse (Catcher)", "Touchdown (2–0)", 3],
-        ["#2 Amynta (Grail Knight)", "Touchdown (1–0)", 3],
-        ["#6 Rogerin D'Armignac (Thrower)", "2 completions", 2],
-        ["#3 Alison De Belloy (Catcher)", "Casualty (Badly Hurt their Catcher)", 2]
+        [
+          "#5 Gracien De Cobie (Thrower)",
+          "MVP, 2 completions",
+          6
+        ],
+        [
+          "#4 Nezot Tirasse (Catcher)",
+          "Touchdown (2–0)",
+          3
+        ],
+        [
+          "#2 Amynta (Grail Knight)",
+          "Touchdown (1–0)",
+          3
+        ],
+        [
+          "#6 Rogerin D'Armignac (Thrower)",
+          "2 completions",
+          2
+        ],
+        [
+          "#3 Alison De Belloy (Catcher)",
+          "Casualty (Badly Hurt their Catcher)",
+          2
+        ]
       ],
-      "injuries": ["None worth mending. The apothecary had the day off."],
-      "standouts": ["The Treeman, for launching a teammate downfield. It didn't work. It was still beautiful."]
+      "injuries": [
+        "None worth mending. The apothecary had the day off."
+      ],
+      "standouts": [
+        "The Treeman, for launching a teammate downfield. It didn't work. It was still beautiful."
+      ],
+      "cover": "02.jpg"
     },
     {
       "md": 2,
       "opponent": "Monarchia Marauders",
       "race": "Chaos Chosen",
-      "for": 0, "against": 2,
+      "for": 0,
+      "against": 2,
       "venue": "Hangar 18",
       "weather": "Pouring Rain",
       "summary": "A wet ball, a Sure Hands knight who couldn't pick it up, and Kor The Cunning running a stretcher clinic.",
       "photos": [
-        {"file": "01.jpg", "alt": "Overhead view of the stone pitch mid-match, Grenadiers on pink bases facing the Chaos Chosen"},
-        {"file": "02.jpg", "alt": "The pitch mid-drive as a Chaos Chosen piece moves into the Grenadiers' lines"},
-        {"file": "03.jpg", "alt": "Close-up of a Chaos Chosen player looming over a knocked-down Grenadier"}
+        {
+          "file": "01.jpg",
+          "alt": "Overhead view of the stone pitch mid-match, Grenadiers on pink bases facing the Chaos Chosen"
+        },
+        {
+          "file": "02.jpg",
+          "alt": "The pitch mid-drive as a Chaos Chosen piece moves into the Grenadiers' lines"
+        },
+        {
+          "file": "03.jpg",
+          "alt": "Close-up of a Chaos Chosen player looming over a knocked-down Grenadier"
+        },
+        {
+          "file": "04.jpg",
+          "alt": "Late-game scrum with only a few Grenadiers left standing"
+        }
       ],
-      "facts": [["Winnings", "+45,000 gp"], ["Inducements faced", "3× Temp Agency Cheerleader, ★ Guffle Pusmaw, plus 3 Journeyman Beastmen"]],
+      "facts": [
+        [
+          "Winnings",
+          "+45,000 gp"
+        ],
+        [
+          "Inducements faced",
+          "3× Temp Agency Cheerleader, ★ Guffle Pusmaw, plus 3 Journeyman Beastmen"
+        ]
+      ],
       "broadcast": [
-        ["JIM", "Good evening, Blood Bowl fans, and bring a poncho, because the heavens have opened over the pitch tonight! The Bretonnian **Holy Hand Grenadiers** ride out against the **Monarchia Marauders** of the Chaos Chosen, and Bob, that ball is *slick*."],
-        ["BOB", "Slick? Jim, that ball's a greased piglet. And speaking of folks who couldn't hold onto it, somebody hand the MVP trophy to Rogerin D'Armignac, the only knight who could *throw* the wet thing but apparently not *pick it up!*"],
-        ["JIM", "It's true. Three gorgeous completions through the downpour, a well-earned MVP... and yet twice we watched him whiff the pickup with his Sure Hands re-roll, and once *after* burning a team re-roll on top of it!"],
-        ["BOB", "HA! Sure Hands? SURE *BUTTER* Hands! I've seen goblins field a wet ball cleaner than that. Give the man a towel and a prayer to Nuffle."],
-        ["JIM", "But the real story lived on the other side of the ball. Kor The Cunning..."],
-        ["BOB", "*KOR!* Oh, he dressed for the weather, everybody else's weather being \"horizontal.\" Knight down. Squire down. Another knight down. The man ran a *clinic*, Jim. I lost count somewhere around the fourth stretcher."],
-        ["JIM", "A savage afternoon for the Grenadier medics. Erebus Blazeflare punched in the opener, Citizen Snips doubled it late, and by the final drive Coach Jim T had just **four** players left standing on the pitch."],
-        ["BOB", "Four! You could row the survivors home in a dinghy! And even the referee had seen enough of the Marauders: Shag Rug *and* one of their rent-a-Beastmen sent to the showers for fouling. When Chaos gets ejected for being *too* dirty, friend, it got ugly."],
-        ["JIM", "To the Grenadiers' credit, they never cracked. Held it to 0–2, well clear of the mercy rule."],
-        ["BOB", "And THEN, final play of the match, ball's dead, clock's spent, Guffle Pusmaw cracks that Monstrous Mouth and takes a Quick Bite. Not for the ball. Not for position. Just to *say hello* to Coach Jim on the way out the door!"],
-        ["JIM", "Pure theatre. A rough one for the Holy Hand Grenadiers, but Rogerin rides off with the MVP, a shiny new Leader skill, and a full roster to lick its wounds. They live to ride another day."],
-        ["BOB", "Ride, limp, potato, po-tah-to. See you Matchday 3, fans. Bring the mop!"]
+        [
+          "JIM",
+          "Good evening, Blood Bowl fans, and bring a poncho, because the heavens have opened over the pitch tonight! The Bretonnian **Holy Hand Grenadiers** ride out against the **Monarchia Marauders** of the Chaos Chosen, and Bob, that ball is *slick*."
+        ],
+        [
+          "BOB",
+          "Slick? Jim, that ball's a greased piglet. And speaking of folks who couldn't hold onto it, somebody hand the MVP trophy to Rogerin D'Armignac, the only knight who could *throw* the wet thing but apparently not *pick it up!*"
+        ],
+        [
+          "JIM",
+          "It's true. Three gorgeous completions through the downpour, a well-earned MVP... and yet twice we watched him whiff the pickup with his Sure Hands re-roll, and once *after* burning a team re-roll on top of it!"
+        ],
+        [
+          "BOB",
+          "HA! Sure Hands? SURE *BUTTER* Hands! I've seen goblins field a wet ball cleaner than that. Give the man a towel and a prayer to Nuffle."
+        ],
+        [
+          "JIM",
+          "But the real story lived on the other side of the ball. Kor The Cunning..."
+        ],
+        [
+          "BOB",
+          "*KOR!* Oh, he dressed for the weather, everybody else's weather being \"horizontal.\" Knight down. Squire down. Another knight down. The man ran a *clinic*, Jim. I lost count somewhere around the fourth stretcher."
+        ],
+        [
+          "JIM",
+          "A savage afternoon for the Grenadier medics. Erebus Blazeflare punched in the opener, Citizen Snips doubled it late, and by the final drive Coach Jim T had just **four** players left standing on the pitch."
+        ],
+        [
+          "BOB",
+          "Four! You could row the survivors home in a dinghy! And even the referee had seen enough of the Marauders: Shag Rug *and* one of their rent-a-Beastmen sent to the showers for fouling. When Chaos gets ejected for being *too* dirty, friend, it got ugly."
+        ],
+        [
+          "JIM",
+          "To the Grenadiers' credit, they never cracked. Held it to 0–2, well clear of the mercy rule."
+        ],
+        [
+          "BOB",
+          "And THEN, final play of the match, ball's dead, clock's spent, Guffle Pusmaw cracks that Monstrous Mouth and takes a Quick Bite. Not for the ball. Not for position. Just to *say hello* to Coach Jim on the way out the door!"
+        ],
+        [
+          "JIM",
+          "Pure theatre. A rough one for the Holy Hand Grenadiers, but Rogerin rides off with the MVP, a shiny new Leader skill, and a full roster to lick its wounds. They live to ride another day."
+        ],
+        [
+          "BOB",
+          "Ride, limp, potato, po-tah-to. See you Matchday 3, fans. Bring the mop!"
+        ]
       ],
       "spp": [
-        ["#6 Rogerin D'Armignac (Thrower)", "3 completions, MVP", 7],
-        ["Rest of the squad", "No completions, no casualties. Just a long walk to the dugout.", 0]
+        [
+          "#6 Rogerin D'Armignac (Thrower)",
+          "3 completions, MVP",
+          7
+        ],
+        [
+          "Rest of the squad",
+          "No completions, no casualties. Just a long walk to the dugout.",
+          0
+        ]
       ],
-      "skills": ["Rogerin D'Armignac learns **Leader**, his first earned skill."],
+      "skills": [
+        "Rogerin D'Armignac learns **Leader**, his first earned skill."
+      ],
       "injuries": [
         "**Diemut Reitz** (#11): Niggling Injury, sat out Matchday 3",
         "Badly Hurt, all back for the next match: Alejandra, Amynta, Alison, Nezot, Kunigunde, Miltrud"
@@ -94,33 +266,96 @@
       "md": 3,
       "opponent": "Shimmerveil Hurricanes",
       "race": "High Elf",
-      "for": 1, "against": 3,
+      "for": 1,
+      "against": 3,
       "venue": "The Stadium",
       "weather": "Nice, for once",
       "summary": "We won the trenches and lost the scoreboard. Two dead elves, one dead squire, and Dragon Princes running rings around us.",
       "photos": [],
-      "facts": [["Winnings", "+55,000 gp"], ["Inducements faced", "Temp Agency Cheerleader, 3× Prayers to Nuffle"]],
+      "facts": [
+        [
+          "Winnings",
+          "+55,000 gp"
+        ],
+        [
+          "Inducements faced",
+          "Temp Agency Cheerleader, 3× Prayers to Nuffle"
+        ]
+      ],
       "broadcast": [
-        ["JIM", "Good evening, Blood Bowl fans! Clear skies over the Stadium tonight (no ponchos required) as the Bretonnian **Holy Hand Grenadiers** host the **Shimmerveil Hurricanes**, and Bob, the High Elves came to *run.*"],
-        ["BOB", "Run?! Jim, they came to run a *marathon* and the Grenadiers were handing out orange slices at the water station! Syezelriha struts in for the opener before the medics have even unpacked. Nil–one. Then Ghertin the Beast decides one touchdown's for cowards and posts TWO!"],
-        ["JIM", "A punishing turn of foot from those Dragon Princes. MA 8, and our Catchers at MA 7 just couldn't run them down in the open field. But I want to be fair to the Grenadiers here, because on the *other* side of the ball..."],
-        ["BOB", "Oh, here comes the eulogy..."],
-        ["JIM", "...the knights were *magnificent!* Alejandra flattens Vaeril Keyqen for good. Young Siegbert the Squire (a Squire, Bob!) puts Kendel Mortumal in the ground beside him! Two dead elves!"],
-        ["BOB", "Two dead elves and a scoreboard that reads *one to three,* Jim! You can win every bar fight in the tavern and still miss the last coach home! That's Bretonnian football, baby!"],
-        ["JIM", "And it cost them dear. Edelgard Rabe, cut down on the eleventh turn and *not getting up.* A hole in the squad that won't heal by next week."],
-        ["BOB", "Pour one out for the lad. Though the *bright* side (and I use the word loosely): Amynta collected the MVP for services to violence and cashed it straight in for **Mighty Blow!** Next elf she taps is getting *taxed.*"],
-        ["JIM", "Gracien did get one back, a lovely thrower-keeper on turn nine to put us on the board. For a moment, hope!"],
-        ["BOB", "For a *moment!* Then Ghertin remembered he had legs and it was three. Three to one. See you next Matchday, fans. The Grenadiers'll be there, minus one Squire and plus one very large grudge!"],
-        ["JIM", "Win clean, score fast, and next time, catch the fast ones. Goodnight!"]
+        [
+          "JIM",
+          "Good evening, Blood Bowl fans! Clear skies over the Stadium tonight (no ponchos required) as the Bretonnian **Holy Hand Grenadiers** host the **Shimmerveil Hurricanes**, and Bob, the High Elves came to *run.*"
+        ],
+        [
+          "BOB",
+          "Run?! Jim, they came to run a *marathon* and the Grenadiers were handing out orange slices at the water station! Syezelriha struts in for the opener before the medics have even unpacked. Nil–one. Then Ghertin the Beast decides one touchdown's for cowards and posts TWO!"
+        ],
+        [
+          "JIM",
+          "A punishing turn of foot from those Dragon Princes. MA 8, and our Catchers at MA 7 just couldn't run them down in the open field. But I want to be fair to the Grenadiers here, because on the *other* side of the ball..."
+        ],
+        [
+          "BOB",
+          "Oh, here comes the eulogy..."
+        ],
+        [
+          "JIM",
+          "...the knights were *magnificent!* Alejandra flattens Vaeril Keyqen for good. Young Siegbert the Squire (a Squire, Bob!) puts Kendel Mortumal in the ground beside him! Two dead elves!"
+        ],
+        [
+          "BOB",
+          "Two dead elves and a scoreboard that reads *one to three,* Jim! You can win every bar fight in the tavern and still miss the last coach home! That's Bretonnian football, baby!"
+        ],
+        [
+          "JIM",
+          "And it cost them dear. Edelgard Rabe, cut down on the eleventh turn and *not getting up.* A hole in the squad that won't heal by next week."
+        ],
+        [
+          "BOB",
+          "Pour one out for the lad. Though the *bright* side (and I use the word loosely): Amynta collected the MVP for services to violence and cashed it straight in for **Mighty Blow!** Next elf she taps is getting *taxed.*"
+        ],
+        [
+          "JIM",
+          "Gracien did get one back, a lovely thrower-keeper on turn nine to put us on the board. For a moment, hope!"
+        ],
+        [
+          "BOB",
+          "For a *moment!* Then Ghertin remembered he had legs and it was three. Three to one. See you next Matchday, fans. The Grenadiers'll be there, minus one Squire and plus one very large grudge!"
+        ],
+        [
+          "JIM",
+          "Win clean, score fast, and next time, catch the fast ones. Goodnight!"
+        ]
       ],
       "spp": [
-        ["#2 Amynta, Ice Preserver (Grail Knight)", "MVP", 4],
-        ["#5 Gracien De Cobie (Thrower)", "Touchdown (turn 9, our only score)", 3],
-        ["#1 Alejandra, Change Warden (Grail Knight)", "Casualty: killed Vaeril Keyqen", 2],
-        ["#13 Siegbert Schott (Squire)", "Casualty: killed Kendel Mortumal", 2]
+        [
+          "#2 Amynta, Ice Preserver (Grail Knight)",
+          "MVP",
+          4
+        ],
+        [
+          "#5 Gracien De Cobie (Thrower)",
+          "Touchdown (turn 9, our only score)",
+          3
+        ],
+        [
+          "#1 Alejandra, Change Warden (Grail Knight)",
+          "Casualty: killed Vaeril Keyqen",
+          2
+        ],
+        [
+          "#13 Siegbert Schott (Squire)",
+          "Casualty: killed Kendel Mortumal",
+          2
+        ]
       ],
-      "skills": ["Amynta learns **Mighty Blow**, her first earned skill."],
-      "injuries": ["**Edelgard Rabe** (#12, Squire): ☠️ killed on turn 11. Rest easy."],
+      "skills": [
+        "Amynta learns **Mighty Blow**, her first earned skill."
+      ],
+      "injuries": [
+        "**Edelgard Rabe** (#12, Squire): ☠️ killed on turn 11. Rest easy."
+      ],
       "standouts": [
         "**Ghertin The Beast** (Dragon Prince): two touchdowns, turns 12 and 16",
         "**Syezelriha The Conqueror** opened the scoring",
@@ -132,35 +367,96 @@
       "md": 4,
       "opponent": "Tomb Kings Entourage",
       "race": "Tomb Kings",
-      "for": 0, "against": 2,
+      "for": 0,
+      "against": 2,
       "venue": "Regulatory Stadium",
       "weather": "Very Sunny",
       "summary": "Four Tomb Guardians, zero Guardians removed, and a Thrower who strolled in twice. Alison steals the MVP off a losing side.",
       "photos": [],
       "facts": [],
       "broadcast": [
-        ["JIM", "Good evening, Blood Bowl fans, and welcome to a blazing-hot Regulatory Stadium! The Bretonnian Holy Hand Grenadiers came in hunting for the win that ends a two-game skid, and instead ran face-first into a wall of bandages and bad intentions."],
-        ["BOB", "That wall's got a name, Jim: Khakters The Exalted. Turn ONE, ball's still in the air, and this Tomb Guardian's already folding squire Elma Kuchler in half. Stretchered before she'd broken a sweat. Ugly start."],
-        ["JIM", "Four ST5 Tomb Guardians, Bob. Regeneration, armour value ten, near-unkillable. To their credit, the Grenadiers didn't get baited into trading blocks with them. Trouble is, they couldn't spring a receiver loose to make that speed pay."],
-        ["BOB", "And the Undead don't tire, Jim. Turn six, Khakters catches Miltrud Wachter on the move. Carried off with a busted throwing arm she is NOT going to forget. That girl left the pitch hating the Undead, personally."],
-        ["JIM", "Meanwhile the ball? The Tomb Kings' Thrower Takatenus just... strolls. Turn eight he waltzes in untouched. One–nil. The one bright Bretonnian moment: Rogerin D'Armignac threads a tidy completion, but there's no drive behind it."],
-        ["BOB", "Second half's more of the same. Kunigunde Steinberger badly hurt on turn thirteen, and Takatenus caps it in the final turn for two–nil. The Grenadiers didn't remove a single Guardian all game. Regeneration'll do that to you."],
-        ["JIM", "Consolation prize goes to Knight Catcher Alison De Belloy, who ran, tackled, and covered enough ground to steal the MVP award off a losing side. Small light in a dark afternoon for the Grenadiers."],
-        ["BOB", "Final: Tomb Kings two, Grenadiers nil. Bodies everywhere, all of them Bretonnian. Back to the drawing board."]
+        [
+          "JIM",
+          "Good evening, Blood Bowl fans, and welcome to a blazing-hot Regulatory Stadium! The Bretonnian Holy Hand Grenadiers came in hunting for the win that ends a two-game skid, and instead ran face-first into a wall of bandages and bad intentions."
+        ],
+        [
+          "BOB",
+          "That wall's got a name, Jim: Khakters The Exalted. Turn ONE, ball's still in the air, and this Tomb Guardian's already folding squire Elma Kuchler in half. Stretchered before she'd broken a sweat. Ugly start."
+        ],
+        [
+          "JIM",
+          "Four ST5 Tomb Guardians, Bob. Regeneration, armour value ten, near-unkillable. To their credit, the Grenadiers didn't get baited into trading blocks with them. Trouble is, they couldn't spring a receiver loose to make that speed pay."
+        ],
+        [
+          "BOB",
+          "And the Undead don't tire, Jim. Turn six, Khakters catches Miltrud Wachter on the move. Carried off with a busted throwing arm she is NOT going to forget. That girl left the pitch hating the Undead, personally."
+        ],
+        [
+          "JIM",
+          "Meanwhile the ball? The Tomb Kings' Thrower Takatenus just... strolls. Turn eight he waltzes in untouched. One–nil. The one bright Bretonnian moment: Rogerin D'Armignac threads a tidy completion, but there's no drive behind it."
+        ],
+        [
+          "BOB",
+          "Second half's more of the same. Kunigunde Steinberger badly hurt on turn thirteen, and Takatenus caps it in the final turn for two–nil. The Grenadiers didn't remove a single Guardian all game. Regeneration'll do that to you."
+        ],
+        [
+          "JIM",
+          "Consolation prize goes to Knight Catcher Alison De Belloy, who ran, tackled, and covered enough ground to steal the MVP award off a losing side. Small light in a dark afternoon for the Grenadiers."
+        ],
+        [
+          "BOB",
+          "Final: Tomb Kings two, Grenadiers nil. Bodies everywhere, all of them Bretonnian. Back to the drawing board."
+        ]
       ],
       "timeline_label": "Turn",
       "timeline": [
-        ["T1", "Khakters (Tomb Guardian) casualty: **Elma Kuchler** Badly Hurt", "0–0"],
-        ["T6", "Khakters casualty: **Miltrud Wachter** Lasting Injury (−1 PA)", "0–0"],
-        ["T8", "**Takatenus** (Thrower) touchdown", "0–1"],
-        ["T8", "**Rogerin D'Armignac** completion", "0–1"],
-        ["T12", "Takatenus casualty", "0–1"],
-        ["T13", "Khakters casualty: **Kunigunde Steinberger** Badly Hurt", "0–1"],
-        ["T16", "**Takatenus** touchdown", "0–2"]
+        [
+          "T1",
+          "Khakters (Tomb Guardian) casualty: **Elma Kuchler** Badly Hurt",
+          "0–0"
+        ],
+        [
+          "T6",
+          "Khakters casualty: **Miltrud Wachter** Lasting Injury (−1 PA)",
+          "0–0"
+        ],
+        [
+          "T8",
+          "**Takatenus** (Thrower) touchdown",
+          "0–1"
+        ],
+        [
+          "T8",
+          "**Rogerin D'Armignac** completion",
+          "0–1"
+        ],
+        [
+          "T12",
+          "Takatenus casualty",
+          "0–1"
+        ],
+        [
+          "T13",
+          "Khakters casualty: **Kunigunde Steinberger** Badly Hurt",
+          "0–1"
+        ],
+        [
+          "T16",
+          "**Takatenus** touchdown",
+          "0–2"
+        ]
       ],
       "spp": [
-        ["#3 Alison De Belloy (Catcher)", "MVP", 4],
-        ["#6 Rogerin D'Armignac (Thrower)", "Completion", 1]
+        [
+          "#3 Alison De Belloy (Catcher)",
+          "MVP",
+          4
+        ],
+        [
+          "#6 Rogerin D'Armignac (Thrower)",
+          "Completion",
+          1
+        ]
       ],
       "injuries": [
         "**Miltrud Wachter** (#10): permanent −1 PA, and a brand new Hatred (Undead)",
@@ -176,53 +472,179 @@
       "md": 5,
       "opponent": "Da Sundrop Mind Goblins",
       "race": "Goblin",
-      "for": 2, "against": 1,
+      "for": 2,
+      "against": 1,
       "venue": "Regulatory Stadium",
       "weather": "Nice",
       "summary": "The skid is over. Rogerin to Nezot, twice, while a Troll, a Bomma and an 'Ooligan emptied our bench.",
       "photos": [
-        {"file": "01-lead-knights.jpg", "alt": "Holy Hand Grenadiers knights in shallow focus mid-play on the pitch"},
-        {"file": "02-troll-scrum.jpg", "alt": "Low-angle view of the scrum with the goblin Troll looming on the left"},
-        {"file": "03-da-bomb.jpg", "alt": "Top-down view of the center of the pitch with the Da Bomb token among goblins and knights"},
-        {"file": "04-dugout.jpg", "alt": "The Grenadiers' dugout with knights piled into the casualty box"}
+        {
+          "file": "01-lead-knights.jpg",
+          "alt": "Holy Hand Grenadiers knights in shallow focus mid-play on the pitch"
+        },
+        {
+          "file": "02-troll-scrum.jpg",
+          "alt": "Low-angle view of the scrum with the goblin Troll looming on the left"
+        },
+        {
+          "file": "03-da-bomb.jpg",
+          "alt": "Top-down view of the center of the pitch with the Da Bomb token among goblins and knights"
+        },
+        {
+          "file": "04-dugout.jpg",
+          "alt": "The Grenadiers' dugout with knights piled into the casualty box"
+        }
       ],
-      "facts": [["Winnings", "+70,000 gp"], ["Inducements faced", "3× Bribe"]],
+      "facts": [
+        [
+          "Winnings",
+          "+70,000 gp"
+        ],
+        [
+          "Inducements faced",
+          "3× Bribe"
+        ]
+      ],
       "broadcast": [
-        ["JIM", "Good evening, Blood Bowl fans, and welcome to a picture-perfect afternoon at Regulatory Stadium! The Holy Hand Grenadiers limp in on a three-game skid, and across the way (oh dear) it's Da Sundrop Mind Goblins, with a Troll, a Bomma, a Doom Diver, and three envelopes stuffed with bribe money."],
-        ["BOB", "Goblins, Jim! You don't play Goblins, you *survive* them. Bombs, pogo sticks, a flying goblin and a Troll that eats its teammates. Pure chaos in green."],
-        ["JIM", "And the chaos bites its own first. Pogoer Greccirr bounces into the turf early and he's done for the day."],
-        ["BOB", "Then the knights go to work! Rogerin D'Armignac, cool as you like, finds Nezot Tirasse downfield, and the Knight Catcher walks it in. One–nil, Grenadiers! That's the passing game they've been drilling, Jim, finally paying out!"],
-        ["JIM", "But the Goblins answer the only way they know: violence. Vulzala the Trained Troll clubs squire Elma Kuchler, and moments later Ortrun Heinz goes down and... Bob, the medics are waving it off. Ortrun Heinz is dead."],
-        ["BOB", "A moment's silence for a Squire who held the line. ...Moment's over, because the 'Ooligan Grark is putting the boot into Amynta while she's down! Grail Knight stretchered off!"],
-        ["JIM", "Then the signature goblin play: Vulzala picks up Turkrer the Doom Diver and HURLS him downfield. He lands it, he scores it. One–one, and the Goblin bench goes berserk."],
-        ["BOB", "And the ref finally catches Grark on his second go. Sent off! Three bribes in the kit bag and the little thug still gets the early bath. Beautiful."],
-        ["JIM", "Second half, and Zirr the Bomma starts lobbing the fireworks. Siegbert Schott blown off his feet, then Alison De Belloy caught in a blast she's going to feel for the rest of her career."],
-        ["BOB", "Grenadiers are running out of Grenadiers, Jim! But look who's still standing: Rogerin, one more time, to Nezot Tirasse... and he's IN! Two–one! Nezot with the brace!"],
-        ["JIM", "And the knights hold on. The MVP goes to Alejandra, the Grail Knight who anchored that line all afternoon. The skid is over, but the Grenadiers paid for this one in blood."],
-        ["BOB", "Final: Grenadiers two, Goblins one. Win clean, score fast... well, one out of two, Jim."]
+        [
+          "JIM",
+          "Good evening, Blood Bowl fans, and welcome to a picture-perfect afternoon at Regulatory Stadium! The Holy Hand Grenadiers limp in on a three-game skid, and across the way (oh dear) it's Da Sundrop Mind Goblins, with a Troll, a Bomma, a Doom Diver, and three envelopes stuffed with bribe money."
+        ],
+        [
+          "BOB",
+          "Goblins, Jim! You don't play Goblins, you *survive* them. Bombs, pogo sticks, a flying goblin and a Troll that eats its teammates. Pure chaos in green."
+        ],
+        [
+          "JIM",
+          "And the chaos bites its own first. Pogoer Greccirr bounces into the turf early and he's done for the day."
+        ],
+        [
+          "BOB",
+          "Then the knights go to work! Rogerin D'Armignac, cool as you like, finds Nezot Tirasse downfield, and the Knight Catcher walks it in. One–nil, Grenadiers! That's the passing game they've been drilling, Jim, finally paying out!"
+        ],
+        [
+          "JIM",
+          "But the Goblins answer the only way they know: violence. Vulzala the Trained Troll clubs squire Elma Kuchler, and moments later Ortrun Heinz goes down and... Bob, the medics are waving it off. Ortrun Heinz is dead."
+        ],
+        [
+          "BOB",
+          "A moment's silence for a Squire who held the line. ...Moment's over, because the 'Ooligan Grark is putting the boot into Amynta while she's down! Grail Knight stretchered off!"
+        ],
+        [
+          "JIM",
+          "Then the signature goblin play: Vulzala picks up Turkrer the Doom Diver and HURLS him downfield. He lands it, he scores it. One–one, and the Goblin bench goes berserk."
+        ],
+        [
+          "BOB",
+          "And the ref finally catches Grark on his second go. Sent off! Three bribes in the kit bag and the little thug still gets the early bath. Beautiful."
+        ],
+        [
+          "JIM",
+          "Second half, and Zirr the Bomma starts lobbing the fireworks. Siegbert Schott blown off his feet, then Alison De Belloy caught in a blast she's going to feel for the rest of her career."
+        ],
+        [
+          "BOB",
+          "Grenadiers are running out of Grenadiers, Jim! But look who's still standing: Rogerin, one more time, to Nezot Tirasse... and he's IN! Two–one! Nezot with the brace!"
+        ],
+        [
+          "JIM",
+          "And the knights hold on. The MVP goes to Alejandra, the Grail Knight who anchored that line all afternoon. The skid is over, but the Grenadiers paid for this one in blood."
+        ],
+        [
+          "BOB",
+          "Final: Grenadiers two, Goblins one. Win clean, score fast... well, one out of two, Jim."
+        ]
       ],
       "timeline_label": "Min",
       "timeline": [
-        ["29'", "Greccirr (Pogoer) injured", "0–0"],
-        ["37'", "**Rogerin D'Armignac** completion", "0–0"],
-        ["38'", "**Nezot Tirasse** touchdown", "1–0"],
-        ["51'", "Vulzala (Trained Troll) casualty: **Elma Kuchler** Niggling Injury", "1–0"],
-        ["55'", "**Ortrun Heinz** ☠️ dead", "1–0"],
-        ["80'", "Grark ('Ooligan) foul: **Amynta** Badly Hurt", "1–0"],
-        ["101'", "Grark fouls again, sent off", "1–0"],
-        ["120'", "Vulzala throws Turkrer (Doom Diver), touchdown", "1–1"],
-        ["130'", "Zirr (Bomma) casualty: **Siegbert Schott** Badly Hurt", "1–1"],
-        ["141'", "Trogderr (Lineman) completion", "1–1"],
-        ["168'", "Zirr casualty: **Alison De Belloy** Niggling Injury", "1–1"],
-        ["180'", "**Rogerin D'Armignac** completion", "1–1"],
-        ["184'", "**Nezot Tirasse** touchdown", "2–1"],
-        ["184'", "Trogderr Badly Hurt", "2–1"]
+        [
+          "29'",
+          "Greccirr (Pogoer) injured",
+          "0–0"
+        ],
+        [
+          "37'",
+          "**Rogerin D'Armignac** completion",
+          "0–0"
+        ],
+        [
+          "38'",
+          "**Nezot Tirasse** touchdown",
+          "1–0"
+        ],
+        [
+          "51'",
+          "Vulzala (Trained Troll) casualty: **Elma Kuchler** Niggling Injury",
+          "1–0"
+        ],
+        [
+          "55'",
+          "**Ortrun Heinz** ☠️ dead",
+          "1–0"
+        ],
+        [
+          "80'",
+          "Grark ('Ooligan) foul: **Amynta** Badly Hurt",
+          "1–0"
+        ],
+        [
+          "101'",
+          "Grark fouls again, sent off",
+          "1–0"
+        ],
+        [
+          "120'",
+          "Vulzala throws Turkrer (Doom Diver), touchdown",
+          "1–1"
+        ],
+        [
+          "130'",
+          "Zirr (Bomma) casualty: **Siegbert Schott** Badly Hurt",
+          "1–1"
+        ],
+        [
+          "141'",
+          "Trogderr (Lineman) completion",
+          "1–1"
+        ],
+        [
+          "168'",
+          "Zirr casualty: **Alison De Belloy** Niggling Injury",
+          "1–1"
+        ],
+        [
+          "180'",
+          "**Rogerin D'Armignac** completion",
+          "1–1"
+        ],
+        [
+          "184'",
+          "**Nezot Tirasse** touchdown",
+          "2–1"
+        ],
+        [
+          "184'",
+          "Trogderr Badly Hurt",
+          "2–1"
+        ]
       ],
       "timeline_note": "Times are TourPlay match-clock minutes.",
       "spp": [
-        ["#4 Nezot Tirasse (Catcher)", "2 touchdowns", 6],
-        ["#1 Alejandra (Grail Knight)", "MVP", 4],
-        ["#6 Rogerin D'Armignac (Thrower)", "2 completions", 2]
+        [
+          "#4 Nezot Tirasse (Catcher)",
+          "2 touchdowns",
+          6
+        ],
+        [
+          "#1 Alejandra (Grail Knight)",
+          "MVP",
+          4
+        ],
+        [
+          "#6 Rogerin D'Armignac (Thrower)",
+          "2 completions",
+          2
+        ]
       ],
       "injuries": [
         "**Ortrun Heinz** (#8): ☠️ dead. He held the line.",

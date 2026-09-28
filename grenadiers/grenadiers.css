@@ -84,3 +84,20 @@
 .hhg .grid{grid-auto-rows:1fr}
 .card.match .img{aspect-ratio:4/3;overflow:hidden}
 .card.match .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+/* photo collage leading each match page */
+.collage-wrap{padding-top:24px}
+.collage{display:grid;gap:10px;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(120px,17vw,210px);grid-auto-flow:dense}
+.collage .tile{display:block;position:relative;overflow:hidden;background:#111;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.collage .tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.collage a.tile:hover img{transform:scale(1.04)}
+.collage a.tile:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.collage .big{grid-column:span 2;grid-row:span 2}
+.collage.n1{grid-template-columns:1fr;grid-auto-rows:clamp(220px,45vw,460px)}
+.collage.n1 .big{grid-column:auto;grid-row:auto}
+.collage.n4 .tile:not(.big):last-child{grid-column:span 2}
+.collage.n7 .tile:not(.big):nth-last-child(-n+2){grid-column:span 2}
+@media(max-width:600px){.collage{grid-template-columns:repeat(2,1fr);grid-auto-rows:clamp(110px,38vw,190px)}
+  .collage.n4 .tile:not(.big):last-child{grid-column:span 2}
+  .collage.n7 .tile:not(.big):nth-last-child(-n+2){grid-column:auto}}
+.lead{padding-top:24px}

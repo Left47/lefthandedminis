@@ -100,8 +100,9 @@ def build_match(data, m, prev, nxt):
     title = f"MD{m['md']}: Grenadiers {score} {m['opponent']} | Blood Bowl match report"
     photos = m.get('photos') or []
     if photos:
-        lead_src, lead_path = photos[0]['file'], os.path.join(ROOT, folder, photos[0]['file'])
-        og = url + photos[0]['file']
+        cover = m.get('cover', photos[0]['file'])
+        lead_src, lead_path = cover, os.path.join(ROOT, folder, cover)
+        og = url + cover
     else:
         lead_src, lead_path = f'{rel}grenadiers/assets/team.jpg', os.path.join(SEC, 'assets/team.jpg')
         og = SITE_URL + 'grenadiers/assets/team.jpg'
@@ -112,12 +113,16 @@ def build_match(data, m, prev, nxt):
         f'<p class="line {spk.lower()}"><span class="spk">{E(spk)}</span><span class="said">{md(txt)}</span></p>'
         for spk, txt in m['broadcast'])
 
-    lead = fig(lead_src, photos[0]['alt'] if photos else 'The Holy Hand Grenadiers knights on their bases', *lead_size, lazy=False)
-    no_photos = '' if photos else '<p class="no-photos">No match photos from this one. Here\'s the squad instead.</p>'
-    rest = ''
-    if len(photos) > 1:
-        rest = '<section class="wrap hhg-photos"><h2>From the table</h2><div class="shots">' + ''.join(
-            fig(p['file'], p['alt'], *size(os.path.join(ROOT, folder, p['file']))) for p in photos[1:]) + '</div></section>'
+    if photos:
+        tiles = ''.join(
+            f'<a class="tile{" big" if p["file"] == lead_src else ""}" href="{E(p["file"])}"><img src="{E(p["file"])}" alt="{E(p["alt"])}"'
+            + (' fetchpriority="high"' if p['file'] == lead_src else ' loading="lazy"') + '></a>'
+            for p in sorted(photos, key=lambda p: p['file'] != lead_src))
+        collage = f'<section class="wrap collage-wrap"><div class="collage n{min(len(photos), 7)}">{tiles}</div></section>'
+    else:
+        collage = ('<section class="wrap collage-wrap"><div class="collage n1">'
+                   f'<span class="tile big"><img src="{lead_src}" alt="The Holy Hand Grenadiers knights on their bases" fetchpriority="high"></span></div>'
+                   '<p class="no-photos">No match photos from this one. Here\'s the squad instead.</p></section>')
 
     spp = ''.join(f'<tr><td>{md(n)}</td><td>{md(ev)}</td><td class="num">{f"+{v}" if v else "0"}</td></tr>' for n, ev, v in m['spp'])
     blocks = [f'<div class="box"><h2>Scoring &amp; SPP</h2><table><thead><tr><th>Player</th><th>Events</th><th class="num">SPP</th></tr></thead><tbody>{spp}</tbody></table>'
@@ -151,16 +156,13 @@ def build_match(data, m, prev, nxt):
   </div>
 </header>
 <main>
-<section class="wrap lead">
-  <div class="lead-photo">{lead}{no_photos}</div>
-  <div class="lead-text"><p class="summary">{E(m['summary'])}</p></div>
-</section>
+{collage}
+<section class="wrap lead"><p class="summary">{E(m['summary'])}</p></section>
 <section class="wrap booth">
   <h2><span class="onair">On air</span> Cabalvision match report</h2>
   <p class="callers">With Jim Johnson and Bob Bifford</p>
   {booth}
 </section>
-{rest}
 <section class="wrap boxes">{''.join(blocks)}</section>
 </main>
 {pn}
@@ -180,7 +182,8 @@ def build_index(data):
     for m in reversed(ms):
         r = result(m)
         if m.get('photos'):
-            src = f"s{s}/md{m['md']}/{m['photos'][0]['file']}"; alt = m['photos'][0]['alt']
+            cov = m.get('cover', m['photos'][0]['file'])
+            src = f"s{s}/md{m['md']}/{cov}"; alt = next(p['alt'] for p in m['photos'] if p['file'] == cov)
         else:
             src = 'assets/team.jpg'; alt = 'The Holy Hand Grenadiers knights on their bases'
         cards.append(f'''<a class="card match" href="s{s}/md{m['md']}/">
