@@ -263,24 +263,29 @@ def build_match(data, m, prev, nxt):
                    '<p class="no-photos">No match photos from this one. Here\'s the squad instead.</p></section>')
 
     spp = ''.join(f'<tr><td>{md(n)}</td><td>{md(ev)}</td><td class="num">{f"+{v}" if v else "0"}</td></tr>' for n, ev, v in m['spp'])
-    blocks = [f'<div class="box"><h2>Scoring &amp; SPP</h2><table><thead><tr><th>Player</th><th>Events</th><th class="num">SPP</th></tr></thead><tbody>{spp}</tbody></table>'
-              + (''.join(f'<p class="skill">⭐ {md(x)}</p>' for x in m.get('skills', []))) + '</div>']
+    box = {}
+    box['spp'] = (f'<div class="box"><h2>Scoring &amp; SPP</h2><table><thead><tr><th>Player</th><th>Events</th><th class="num">SPP</th></tr></thead><tbody>{spp}</tbody></table>'
+                  + ''.join(f'<p class="skill">⭐ {md(x)}</p>' for x in m.get('skills', [])) + '</div>')
     if m.get('timeline'):
         rows = ''.join(f'<tr><td class="t">{E(t)}</td><td>{md(ev)}</td><td class="num">{E(sc)}</td></tr>' for t, ev, sc in m['timeline'])
         note = f'<p class="small">{E(m["timeline_note"])}</p>' if m.get('timeline_note') else ''
-        blocks.append(f'<div class="box wide"><h2>Timeline</h2><table><thead><tr><th>{E(m.get("timeline_label", "Turn"))}</th><th>Event</th><th class="num">HG–Opp</th></tr></thead><tbody>{rows}</tbody></table>{note}</div>')
+        box['timeline'] = f'<div class="box"><h2>Timeline</h2><table><thead><tr><th>{E(m.get("timeline_label", "Turn"))}</th><th>Event</th><th class="num">HG–Opp</th></tr></thead><tbody>{rows}</tbody></table>{note}</div>'
     inj = ''.join(f'<li>{md(x)}</li>' for x in m.get('injuries', []))
     cas = f'<p class="small">Casualties: {E(m["casualties"])}</p>' if m.get('casualties') else ''
-    blocks.append(f'<div class="box"><h2>The infirmary</h2><ul>{inj}</ul>{cas}</div>')
+    box['infirmary'] = f'<div class="box"><h2>The infirmary</h2><ul>{inj}</ul>{cas}</div>'
     if m.get('standouts'):
-        blocks.append('<div class="box"><h2>Credit where it\'s due</h2><ul>' + ''.join(f'<li>{md(x)}</li>' for x in m['standouts']) + '</ul></div>')
-    blocks.append('<div class="box"><h2>On TourPlay</h2><ul>'
-                  f'<li><a href="{E(m["tourplay_match"])}" rel="noopener">Full match record ↗</a></li>'
-                  f'<li><a href="{E(m["opponent_url"])}" rel="noopener">{E(m["opponent"])} team page ↗</a></li>'
-                  f'<li><a href="{E(data["tourplay"])}" rel="noopener">{E(data["team"])} team page ↗</a></li>'
-                  f'<li><a href="{E(data["league_url"])}" rel="noopener">{E(data["league"])} S{s} ↗</a></li></ul></div>')
+        box['credit'] = '<div class="box"><h2>Credit where it\'s due</h2><ul>' + ''.join(f'<li>{md(x)}</li>' for x in m['standouts']) + '</ul></div>'
     if m.get('facts'):
-        blocks.append('<div class="box"><h2>Match facts</h2><dl>' + ''.join(f'<dt>{E(k)}</dt><dd>{E(v)}</dd>' for k, v in m['facts']) + '</dl></div>')
+        box['facts'] = '<div class="box"><h2>Match facts</h2><dl>' + ''.join(f'<dt>{E(k)}</dt><dd>{E(v)}</dd>' for k, v in m['facts']) + '</dl></div>'
+    box['tourplay'] = ('<div class="box"><h2>On TourPlay</h2><ul>'
+                       f'<li><a href="{E(m["tourplay_match"])}" rel="noopener">Full match record ↗</a></li>'
+                       f'<li><a href="{E(m["opponent_url"])}" rel="noopener">{E(m["opponent"])} team page ↗</a></li>'
+                       f'<li><a href="{E(data["tourplay"])}" rel="noopener">{E(data["team"])} team page ↗</a></li>'
+                       f'<li><a href="{E(data["league_url"])}" rel="noopener">{E(data["league"])} S{s} ↗</a></li></ul></div>')
+    # fixed rows so every row fills the width: quick reads, then the timeline, then facts and links
+    layout = [['spp', 'infirmary', 'credit'], ['timeline'], ['facts', 'tourplay']]
+    blocks = [f'<div class="box-row n{len(r)}">' + ''.join(box[k] for k in r) + '</div>'
+              for r in ([k for k in row if k in box] for row in layout) if r]
 
     pn = '<nav class="wrap pn" aria-label="Other matches">' + \
          (f'<a href="../md{prev["md"]}/">← MD{prev["md"]} vs {E(prev["opponent"])}</a>' if prev else '<span></span>') + \
