@@ -22,3 +22,13 @@ Source for the Left-Handed Minis site: every post's photos and captions, plus a 
 Gear-to-post links come from the `match` pattern on each item in `gear.json`, checked against post titles and captions. Moving to a custom domain means changing `SITE_URL` in `build.py` and rebuilding.
 
 Photos here are public on purpose: Buffer pulls them from raw GitHub URLs when it publishes.
+
+## Holy Hand Grenadiers match reports
+
+A separate Blood Bowl section at `/grenadiers/`, kept out of the Instagram gallery so match reports can be shared on the league Discord.
+
+1. Add the match to `grenadiers/season<N>.json` (Cabalvision transcript, SPP, timeline, injuries, standouts). Public-facing only: no coach's notes, prep or scouting.
+2. Put photos in `grenadiers/s<N>/md<M>/` and list them in the JSON. With no photos, the page falls back to the team shot.
+3. Run `python3 build_grenadiers.py` and commit what it generates.
+
+Share links look like `https://left47.github.io/lefthandedminis/grenadiers/s9/md5/`.
