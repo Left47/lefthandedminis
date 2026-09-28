@@ -130,7 +130,7 @@ def card(p, rel):
     {f'<span class="count">{len(p["images"])} photos</span>' if len(p['images']) > 1 else ''}
     {f'<span class="kind">{kind}</span>' if kind else ''}</div>
   <div class="meta"><h3>{E(p['title'])}</h3>
-    <div class="sub">{f'<span class="res {res.strip()[0].upper()}">{E(res)}</span>' if res else ''}<span>{E(p.get('game', ''))}</span><span aria-hidden="true">·</span><span>{fmt_date(p.get('date'))}</span></div>
+    <div class="sub">{f'<span class="res {res.strip()[0].upper()}">{E(res)}</span>' if res else ''}<span>{E(p.get('game', ''))}</span><span class="when"><span aria-hidden="true">·</span><span>{fmt_date(p.get('date'))}</span></span></div>
   </div>
 </a>'''
 
