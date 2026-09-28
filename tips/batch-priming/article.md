@@ -32,6 +32,8 @@ Primer color sets the starting point for every color on top.
 5. **Repeat from every angle.** Go again from the front, back, sides and above, and don't forget to spray up underneath capes and coats. More thin passes are better than one thick spray that fills in the detail.
 6. **Let it dry fully** before you start painting.
 
+Big batches mean a lot of button pressing, and my hands cramp up sometimes. A clip-on trigger handle turns the rattlecan into a little spray gun, which makes long sessions a lot more comfortable (it's in the gear box on this page).
+
 ![Rows of primed minis on foam boards](img:batch-primed-foam.jpg "Another batch day: rows of minis on foam boards.")
 
 
