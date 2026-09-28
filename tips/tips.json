@@ -21,7 +21,8 @@
             "next-10-paints",
             "metallic-drybrushing",
             "beginner-osl",
-            "basing-as-composition"
+            "basing-as-composition",
+            "easing-into-the-airbrush"
           ]
         },
         {
@@ -37,6 +38,7 @@
           "name": "Prep, storage & workflow",
           "tips": [
             "batch-priming",
+            "zenithal-priming",
             "magnetize-200-minis",
             "marvel-united-storage",
             "brush-organization",
@@ -119,8 +121,7 @@
       "posts": [
         "2025-06-23-palette-planning",
         "2025-06-26-maestro",
-        "2025-10-21-turtle-skin-tones",
-        "2025-04-21-my-color-my-mini"
+        "2025-10-21-turtle-skin-tones"
       ],
       "related": [
         "next-10-paints",
@@ -137,7 +138,7 @@
       "cover": "img:paint-rack.jpg",
       "posts": [
         "2025-10-21-turtle-skin-tones",
-        "2025-11-21-ms-marvel"
+        "2025-11-11-werewolf-by-night"
       ],
       "related": [
         "plan-the-palette",
@@ -178,9 +179,9 @@
         "2026-02-10-liara"
       ],
       "related": [
+        "easing-into-the-airbrush",
         "next-10-paints",
-        "tabletop-first-contrast",
-        "old-dslr-for-minis"
+        "tabletop-first-contrast"
       ],
       "gear": [
         "430OOKd"
@@ -293,9 +294,9 @@
         "2025-07-16-shatterpoint-wip"
       ],
       "related": [
-        "your-first-mini",
-        "magnetize-200-minis",
-        "tabletop-first-contrast"
+        "zenithal-priming",
+        "easing-into-the-airbrush",
+        "magnetize-200-minis"
       ],
       "gear": [
         "B0dXevWmi",
@@ -386,6 +387,44 @@
       "gear": [
         "4kXV6kC",
         "B09gacJ49"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "zenithal-priming": {
+      "title": "Quick zenithal priming with two rattlecans",
+      "dek": "Black first, then a couple of white swipes from above. Free contrast before you open a paint pot.",
+      "cover": "img:batch-primed-foam-2.jpg",
+      "posts": [
+        "2025-06-16-priming-process"
+      ],
+      "related": [
+        "batch-priming",
+        "easing-into-the-airbrush",
+        "tabletop-first-contrast"
+      ],
+      "gear": [
+        "B0dXevWmi"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "easing-into-the-airbrush": {
+      "title": "Easing into the airbrush (there's no rush)",
+      "dek": "I waited a long time before picking one up. What I use it for now, and the habits that helped.",
+      "cover": "img:airbrush-practice.jpg",
+      "posts": [
+        "2025-06-01-may-2025-recap",
+        "2025-10-30-shadow-king",
+        "2025-11-23-joker"
+      ],
+      "related": [
+        "zenithal-priming",
+        "beginner-osl",
+        "batch-priming"
+      ],
+      "gear": [
+        "430OOKd"
       ],
       "status": "live",
       "updated": "2026-09-28"

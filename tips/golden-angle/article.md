@@ -26,7 +26,7 @@ Once you've found the golden angle, it becomes the lead image. Then build out th
 3. **Detail shots:** the face, a weapon, a base detail, the part you're proudest of.
 4. **Back or side:** only if there's something worth seeing.
 
-For my posts, I usually lead with the most dynamic, in-focus shot and put the "process" or wider shots later in the carousel. When I shot the new Marvel: Crisis Protocol builds, Quicksilver balanced on one toe with debris behind him was the obvious lead: that pose only reads from one direction.
+For my posts, I usually lead with the most dynamic, in-focus shot and put the "process" or wider shots later in the carousel. When I shot the new Marvel: Crisis Protocol builds, Quicksilver balanced on one toe with debris behind him was the obvious lead: that pose reads best from one direction.
 
 ![Quicksilver mid-run, balanced on one toe](post:2026-09-27-brotherhood-x-force-build/01-quicksilver.jpg "Quicksilver's pose only really works from this side.")
 

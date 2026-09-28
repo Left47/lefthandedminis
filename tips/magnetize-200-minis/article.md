@@ -1,10 +1,10 @@
-I had a couple hundred Marvel United minis and a storage problem. They rattled around in boxes, knocked into each other and chipped. Gluing a magnet under every base fixed that, and the method below got the whole job done in about 20 minutes.
+I had a couple hundred Marvel United minis to fit into storage, and I wanted them to stop colliding in the boxes. Gluing a magnet under every base fixed that, and the method below got the whole job done in about 20 minutes.
 
 ![A storage box full of red and blue Marvel United minis stuck in place by magnets](post:2026-01-20-magnetizing-200-minis/01.jpg "About 200 minis, magnetized and packed.")
 
 ## Why this matters
 
-Magnetized minis stay put. In a box lined with magnetic sheet, they don't slide, they don't collide and they don't chip, whether they're on the shelf or in a bag headed to game night. It also makes painting easier: a magnetized mini sticks to a painting handle with a steel top.
+Magnetized minis stay put. In a box lined with magnetic sheet, they don't slide or collide, whether they're on the shelf or on the way to game night.
 
 The catch is that doing it one mini at a time is tedious. The fix is the station, not the glue.
 
@@ -40,13 +40,9 @@ If the boxes had magnets in them too, you'd have to get polarity right on every 
 
 ## Safety notes
 
-- **Hot glue burns.** Keep a cup of cold water nearby, and don't press the mini down with a fingertip right at the edge where glue squeezes out.
+- **Hot glue burns.** Keep your fingertips away from the edge where glue squeezes out.
 - **Keep a hobby-only tray.** Once it's been used for glue and minis, don't put it back in the kitchen rotation.
 - **Neodymium magnets are strong.** Keep them away from small kids and pets, since swallowed magnets are dangerous.
-
-## When to use a stronger glue
-
-Hot glue is fast and plenty strong for storage. For minis that get handled a lot, very heavy minis, or metal minis, superglue or epoxy is worth the extra time. And for magnetizing weapon swaps or arms, you'll want a pin vise to drill small holes for tiny magnets.
 
 ## Watch the full tutorial
 

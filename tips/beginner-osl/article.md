@@ -1,4 +1,4 @@
-OSL (object source lighting) is painting light that comes from something in the scene: a lightsaber, a flaming skull, a glowing hand, a vat of toxic sludge. It's one of the most fun effects to try, and one of the easiest to overdo. I've done it well, and I've done it "a bit meh" (my words on Commander Shepard), so this is the version I wish I'd read first.
+OSL (object source lighting) is painting light that comes from something in the scene: a lightsaber, a flaming skull, a glowing hand, a vat of toxic sludge. It's one of the most fun effects to try, and one of the easiest to overdo. I've had glows I was happy with, and I've had ones that were "a bit meh" (my words on Commander Shepard), so this is the version I wish I'd read first.
 
 ![Ghost Rider with a flaming skull and orange glow on the jacket](post:2025-10-31-ghost-rider/01.jpg "Ghost Rider: wet-blended fire with a touch of airbrushed OSL.")
 
@@ -27,7 +27,6 @@ Get those three right with rough brushwork and it reads. Get them wrong with per
 - **Darth Maul:** my first lightsaber. I tried makeup sponges for the lighting and some glazing on the beams, and I was pretty happy with the glow.
 - **Ghost Rider:** the fire was wet blended (my usual approach), with a touch of airbrushed OSL to push the glow further.
 - **Vulture:** fluorescent green layered over a white base to get an eerie glow.
-- **Catwoman:** an airbrushed orange glow from below.
 - **The Joker:** I let the airbrush handle most of the glow creeping up his suit. Still learning to balance neon pop without going full rave, but it worked this time.
 - **Liara:** kept the glow tight so it reads as contained energy, and kept the armor muted so the biotic sphere did the talking.
 - **Dazzler:** pink OSL off the hand effect. It's always a balance between how much glow adds to the story and how much it starts to hide the details you worked on.
@@ -38,13 +37,9 @@ Get those three right with rough brushwork and it reads. Get them wrong with per
 
 Painting every nearby surface equally bright. If the chest, both arms, the base and the face are all the same glow color, there's no falloff, so there's no light. It just looks like the mini is that color. Leave the far side dark, and fade the glow as it moves away from the source.
 
-## Should you use an airbrush?
+## Sponge or airbrush?
 
-It helps a lot for soft, broad glows, which is why a few of the minis above used one. But it's not required. I still use both: I like the airbrush effect more, but it's not always the most practical choice, so the makeup sponges still come out. Thin glazes get you the rest of the way.
-
-If you do airbrush, one habit of mine: I mix The Army Painter's airbrush medium into almost everything, even paints that are already formulated for the airbrush. And practice sheets are worth it before you point it at a finished mini.
-
-![An airbrush practice sheet printed with circles and dots](img:airbrush-practice-sheet.jpg "Airbrush practice sheets: dots and circles before real minis.")
+An airbrush helps a lot for soft, broad glows, but it's not required. I still use both: I like the airbrush effect more, but it's not always the most practical choice, so the makeup sponges still come out. If you're thinking about one, I wrote up [how I eased into the airbrush](../easing-into-the-airbrush/).
 
 ## Tradeoffs
 

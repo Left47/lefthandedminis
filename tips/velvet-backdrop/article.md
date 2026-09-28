@@ -35,9 +35,7 @@ Mine is a black velvet photography backdrop from Amazon (it's in the gear box on
 - **White or grey** for bright, cheerful minis, or when you want the photo to feel clean and catalog-like.
 - **Colored paper** when a background color helps the mini (see the [budget setup](../budget-mini-photography/)).
 
-## The rabbit hole
-
-On the process side, this felt like leveling up a different part of the hobby. Macro photography really is becoming its own rabbit hole, and I'm not mad about it. If you're shooting on a DSLR, here's [my settings card, and what I'd change now](../old-dslr-for-minis/) for black backgrounds.
+Macro photography really is becoming its own rabbit hole, and I'm not mad about it. If you're shooting on a DSLR, here's [my settings card, and what I'd change now](../old-dslr-for-minis/).
 
 ## Checklist
 
@@ -45,6 +43,5 @@ On the process side, this felt like leveling up a different part of the hobby. M
 - Smoothed and lint-rolled
 - Mini a little way in front of the curve
 - Light on the mini, not the fabric
-- Compare against your old backdrop once, just to enjoy it
 
 **Next:** now that the background is sorted, find the [golden angle](../golden-angle/).

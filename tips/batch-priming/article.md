@@ -4,7 +4,7 @@ Priming is the least glamorous step in the hobby, and one of the most important.
 
 ## Why this matters
 
-Paint grips primer much better than bare plastic or resin, and primer shows you mold lines and gaps you missed. Batching it means the boring prep happens once, outside, on a day with good weather, and every mini on the shelf is ready to paint the moment you feel like painting. That's a huge help for [getting out of a slump](../hobby-slump/).
+Paint grips primer much better than bare plastic or resin, and primer shows you mold lines and gaps you missed. Batching it means the boring prep happens once, and every mini on the shelf is ready to paint the moment you feel like painting. That's a huge help for [getting out of a slump](../hobby-slump/).
 
 ## The short version
 
@@ -20,7 +20,7 @@ Line the minis up on something disposable, hold the can 6 to 12 inches away, and
 Primer color sets the starting point for every color on top.
 
 - **White** makes bright colors pop and look clean, but shadows have to be painted in, and any missed spot shows up as bright white.
-- **Grey** is the middle ground. Colors stay fairly bright, and it's forgiving if a recess doesn't get full coverage. It's my default for Marvel United.
+- **Grey** is the middle ground. Colors stay fairly bright, and it's forgiving if a recess doesn't get full coverage.
 - **Black** gives you shadows for free and makes dark, gritty or metallic minis faster, but bright colors need extra coats.
 
 ## My batch setup
@@ -35,30 +35,11 @@ Primer color sets the starting point for every color on top.
 ![Rows of primed minis on foam boards](img:batch-primed-foam.jpg "Another batch day: rows of minis on foam boards.")
 
 
-## Quick zenithal: free contrast from two cans
-
-I do this one, and you can see it in the photos here. It's called zenithal priming: dark underneath, light from above, like sunlight hitting the mini from overhead.
-
-1. Prime the whole batch black first, the same way as above.
-2. Take a white can and do just a couple of quick swipes across the batch from above, keeping the same angle each time.
-
-The white only catches the top-facing surfaces, so every mini ends up with built-in highlights and shadows before you've opened a single paint pot. It's an easy way to get some contrast on the mini fast.
-
-## Rattlecans first, airbrush later
-
-These days I also prime with the airbrush, using Vallejo primers. But I didn't move on to that for a long time, and rattlecans did the job just fine until then. There's no rush.
-
-An airbrush earns its place when you want finer control, or when the weather won't cooperate: rattlecans need decent conditions (not too humid, not too cold), while a portable spray booth lets you airbrush indoors. The zenithal works the same way with an airbrush: black primer first, then white from above at a consistent angle.
-
-## Multipart kits
-
-For kits that come off a sprue, prime after assembly for most minis, but leave hard-to-reach parts (a cape, a shield arm) separate if painting behind them would be a pain. When I started building Shatterpoint and other multipart kits, I primed them in batches the same way.
-
-![A batch of grey-primed Shatterpoint minis on a foam board](img:shatterpoint-primed.jpg "Shatterpoint minis, assembled and primed in one go.")
+Once you've got a black-primed batch, a couple of white swipes from above gets you [a quick zenithal](../zenithal-priming/) for free contrast. These days I also prime with the airbrush, but I didn't move on to that for a long time, and rattlecans did the job fine until then ([more on easing into the airbrush](../easing-into-the-airbrush/)).
 
 ## Tradeoffs
 
-- **Rattlecan vs. airbrush.** Rattlecans are cheap and fast for big batches. An airbrush is more controlled and works indoors, but it's more setup and cleanup.
+- **Rattlecan vs. airbrush.** Rattlecans are cheap and fast for big batches, but they need decent weather (not too humid, not too cold). An airbrush is more controlled and works indoors, but it's more setup and cleanup.
 - **Brand primer vs. hardware store.** Hobby-brand primers are finer and made for minis. Hardware-store primer is much cheaper and has worked fine for me.
 - **Batch size.** Bigger batches save time, but only prime what you'll paint in the next few months, so dust doesn't settle on everything.
 
@@ -70,7 +51,6 @@ For kits that come off a sprue, prime after assembly for most minis, but leave h
 - Somewhere ventilated (respirator for long sessions)
 - Can 6 to 12 inches away, start pointed off the minis
 - Lots of quick thin sweeps from every angle, including under capes
-- Optional zenithal: black first, then a couple of white swipes from above
 - Dry fully before painting
 
 **Next:** once they're primed, [magnetize the whole batch](../magnetize-200-minis/) so they store and travel easily.

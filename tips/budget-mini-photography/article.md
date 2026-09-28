@@ -44,15 +44,15 @@ Every mini has a [golden angle](../golden-angle/). Rotate the mini a little betw
 
 ## What I use now (and what I started with)
 
-My early setup was about this simple: a dark sheet curved behind the mini on the kitchen counter, with a lamp off to the side. These days I use a small light box and my old Canon DSLR for finished shots ([here's that setup](../old-dslr-for-minis/)), but the principles are exactly the same: one clean light, a seamless background, a steady camera.
+My early setup was about this simple: a dark sheet curved behind the mini on a counter, with a lamp off to the side. These days I use a small light box and my old Canon DSLR for finished shots ([here's that setup](../old-dslr-for-minis/)), but the principles are exactly the same: one clean light, a seamless background, a steady camera.
 
-![An early setup with a dark curved backdrop on a counter and a lamp](img:early-photo-setup.jpg "An early setup: dark backdrop, one lamp, kitchen counter.")
+![An early setup with a dark curved backdrop on a counter and a lamp](img:early-photo-setup.jpg "An early setup: dark backdrop and one lamp.")
 
 When my photography caught up, I re-shot some of my earliest Marvel United minis. It was a fun time capsule, and a good reminder that a lot of "bad" old minis were really just bad old photos.
 
 ## After the shot: keep editing simple
 
-Editing could be a whole guide on its own, but for a budget setup, keep it simple. Crop to the mini, then lower the exposure a little and bump the contrast slightly until the photo matches what you see in real life. That's usually all it needs.
+For a budget setup, keep editing simple. Crop to the mini, then lower the exposure a little and bump the contrast slightly until the photo matches what you see in real life. That's usually all it needs.
 
 ## Tradeoffs
 

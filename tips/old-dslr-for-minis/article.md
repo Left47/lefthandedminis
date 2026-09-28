@@ -1,4 +1,4 @@
-I shoot my finished minis on a Canon Rebel T5i from 2013. No Wi-Fi, no Bluetooth, no modern conveniences. I can only assume the "i" stands for internet. But it has a decent sensor and just enough manual control to make tiny plastic heroes look their best. I shoot with the kit lens that came with it, and that's fine. To be honest, phone cameras are pretty fine for this now too.
+I shoot my finished minis on a Canon Rebel T5i from 2013. No Wi-Fi, no Bluetooth, no modern conveniences. I can only assume the "i" stands for internet. But it has a decent sensor and just enough manual control to make tiny plastic heroes look their best, so if you've got an old camera in a closet, give it a second life. I shoot with the kit lens that came with it, and that's fine. To be honest, phone cameras are pretty fine for this now too.
 
 ![A Canon Rebel on a tripod with a mini on the rear screen, painting desk behind](post:2025-08-01-canon-t5i/02.jpg "The chunky old Rebel, mid-shoot.")
 
@@ -48,15 +48,11 @@ I still shoot all my video on my iPhone. Trying to shoot video on this DSLR is p
 The order I'd upgrade in, and only when you hit the limit:
 
 1. **Light and stability first.** A daylight source and a tripod or mug. This is most of the difference.
-2. **A better background.** For dark shots, [black velvet](../velvet-backdrop/) was the cheapest big upgrade I've made.
+2. **A better background.** For dark shots, [black velvet](../velvet-backdrop/) was one of the cheapest upgrades I've made.
 3. **A light box.** Even, soft light that doesn't need rearranging every shoot.
 4. **Glass, maybe.** The kit lens is fine, and I still use mine. If you really want to fill the frame with a mini, a true macro lens (the Canon EF-S 60mm f/2.8 Macro is a common pick for these bodies) or a 50mm lens plus extension tubes will get you closer.
 
 The point is an upgrade path, not a shopping list. If your photos are soft because the camera moved, a macro lens won't fix it.
-
-## Got an old camera in a closet?
-
-Give it a second life for hobby pics. Good lighting and consistent settings do most of the heavy lifting. Fancy new gear is nice, but it's not always necessary.
 
 ## Checklist
 

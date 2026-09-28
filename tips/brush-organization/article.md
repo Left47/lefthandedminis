@@ -4,7 +4,7 @@ Brush racks, 3D-printed holders and numbered systems all look great in photos. T
 
 ## Why this matters
 
-Once you own more than three or four brushes, they start to look the same from the handle end, especially when they're standing bristles-up in a cup. You grab the wrong one, use your good detail brush for drybrushing, and it's never the same again. A good organization system should work while you're painting, at a glance, without thinking.
+Once you own more than three or four brushes, they start to look the same from the handle end, especially when they're standing bristles-up in a cup. Grab the wrong one and your good detail brush ends up drybrushing. A good organization system should work while you're painting, at a glance, without thinking.
 
 ## The short version
 
@@ -42,14 +42,6 @@ The exact code doesn't matter; pick whatever makes sense to you and stick with i
 - **It handles brush "retirement."** When a good brush loses its point, change its tape color and give it a second life.
 
 ![A work-in-progress Zeratul mini on a painting handle, next to a row of striped brushes](img:taped-brushes-zeratul.jpg "Zeratul mid-paint, with the striped brushes lined up alongside.")
-
-## Keep the good ones good
-
-Organization only helps if the brushes survive. A few habits matter more than any holder:
-
-- Don't dip past the ferrule (the metal part). Paint dries up inside it and splays the bristles.
-- Rinse often while painting, and clean properly at the end with brush soap.
-- Store brushes bristles-up or flat, never bristles-down in the water cup.
 
 ## Checklist
 

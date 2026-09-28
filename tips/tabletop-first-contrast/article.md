@@ -22,21 +22,19 @@ Decide how far away the mini will be seen from, then spend your effort on the fe
 
 ## Values first, color second
 
-The mini that taught me this was Rhino. It was my first mostly monochrome mini, and with no color to lean on, the shadows, midtones and highlights had to do all the storytelling. Finding the transitions across the armor plates and skin felt like a crash course in lighting, and it's the most useful thing I'd recommend to anyone who wants their minis to read better. Try painting one mini in basically one color. You'll learn more about contrast than from any blending tutorial.
+The mini that taught me this was Rhino. It was my first mostly monochrome mini, and with no color to lean on, the shadows, midtones and highlights had to do all the storytelling. It felt like a crash course in lighting. If you want your minis to read better, try painting one in basically one color.
 
 ![Rhino painted in a mostly monochrome scheme](post:2025-12-28-rhino/01.jpg "Rhino: a mostly one-color mini where the values do all the work.")
 
 ## Squads and teams
 
-Contrast works at the group level too. When I painted the Mass Effect squad together, I leaned on cool blues against warm reds and a shared basing scheme so the team read as a unit. Group shots are a good forcing function: they show you fast where consistency works and where a single mini is off.
-
-My first full Blood Bowl roster (the Tomb Kings) was also my first real attempt at army-style painting, and the big lesson was balancing speed against detail across a whole team. For linemen, readable bone with warm shadows and crisp gold edges beat slow blends every time.
+Contrast works at the group level too. On the Mass Effect squad I leaned on cool blues against warm reds and a shared basing scheme so the team read as a unit. On my first full Blood Bowl roster, the Tomb Kings, the big lesson was balancing speed against detail across a whole team.
 
 ## Bonus hot take: real metallics beat NMM on the table
 
 Non-metallic metal (NMM) is painting shiny metal with regular, non-metallic paints: hand-placed reflections, gradients from dark to bright white. The pros use it for competition pieces and photography, and in a close-up photo it can look incredible.
 
-On the table, I think actual metallic paint looks better. NMM is painted for one viewing angle and one imagined light source, so it looks its best from the angle it was painted for. Real metallic pigment catches whatever light is in the room and shifts as the mini moves, which is exactly how metal behaves. It's also far faster, which matters when you're painting a whole team. If you want your metal to read from across the table, [drybrushed metallics](../metallic-drybrushing/) will get you there in a fraction of the time.
+On the table, I think actual metallic paint looks better. NMM is painted for one viewing angle and one imagined light source, so it looks its best from the angle it was painted for. Real metallic pigment catches whatever light is in the room and shifts as the mini moves. It's also far faster, which matters when you're painting a whole team. If you want your metal to read from across the table, [drybrushed metallics](../metallic-drybrushing/) will get you there in a fraction of the time.
 
 ## How to decide a mini is finished
 
@@ -45,7 +43,7 @@ On the table, I think actual metallic paint looks better. NMM is painted for one
 - The base doesn't compete with the mini.
 - Nothing is actively distracting (a missed spot, a shiny thumbprint).
 
-If all four are true, it's done. On Darth Maul, the face still wasn't where I wanted it, and I called him done anyway and moved on to the next project. That's a feature, not a failure. Momentum is worth more than one perfect face.
+If all four are true, it's done. On Darth Maul, the face still wasn't where I wanted it, and I called him done anyway and moved on to the next project. Momentum is worth more than one perfect face.
 
 ## Tradeoffs
 

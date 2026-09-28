@@ -12,7 +12,7 @@ Use a bigger soft brush, load it with metallic, then wipe off almost all of it b
 
 ## The workflow
 
-1. **Basecoat the metal areas in blue-grey.** A blue-grey underlayer gives steel more depth than painting metal straight over black. The cool tone reads as reflected sky in the shadows. My two favorites are Vallejo Game Color Steel Grey (72.102) and Army Painter Warpaints Fanatic Wolf Grey.
+1. **Basecoat the metal areas in blue-grey.** A blue-grey underlayer gives steel more depth than painting metal straight over black. My two favorites are Vallejo Game Color Steel Grey (72.102) and Army Painter Warpaints Fanatic Wolf Grey.
 2. **Finish the non-metal areas first.** Skin, cloth, leather, base. If you're going to matte varnish, do it now, before the metallics. Matte varnish dulls metallic shine, so metallics go on after.
 3. **Load a larger soft brush with metallic.** Don't use your good detail brush. A cheap, soft, slightly larger brush works best.
 4. **Wipe off almost everything.** Keep going on the paper towel until the brush looks nearly dry. That "nearly" is the whole technique.
@@ -20,7 +20,7 @@ Use a bigger soft brush, load it with metallic, then wipe off almost all of it b
 6. **Add a brighter pass on the very top edges.** A second, lighter metallic (or the same one, even drier) on the corners and rivets that would catch the most light.
 7. **Optional: a wash to dirty it back down.** Brown or black wash in the recesses if it looks too clean.
 
-On Bebop I used Vallejo Gunmetal and Rough Iron over the blue-grey. I honestly don't remember which went where, and that's kind of the point: the exact bottles matter much less than the lighting principle. Dark and cool underneath, metal only where light would actually hit.
+On Bebop I used Vallejo Gunmetal and Rough Iron over the blue-grey. I honestly don't remember which went where. The exact bottles matter much less than the idea: dark and cool underneath, metal only where light would actually hit.
 
 ![Vallejo Steel Grey and Warpaints Fanatic Wolf Grey bottles held in hand](img:blue-grey-favorites.jpg "My two go-to blue-greys for under metal.")
 

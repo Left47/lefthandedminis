@@ -8,7 +8,7 @@ Paint racks fill up fast with colors that looked great in the store and never ge
 
 ## The short version
 
-Buy the colors that remove friction from things you paint often, not colors that merely look interesting on a rack. In practice that usually means, in this order:
+Buy the colors that remove friction from things you paint often, not colors that just look interesting on a rack. In practice that's about ten bottles, roughly in this order:
 
 1. **Charcoal and off-white** instead of pure black and pure white
 2. **Premixed skin tones**
@@ -17,13 +17,13 @@ Buy the colors that remove friction from things you paint often, not colors that
 5. **Neons or fluorescents** for glow effects
 6. **A deep black red or oxblood**
 
-Counted by bottle, that's roughly ten (two neutrals, a few skin tones, a couple of purples and pinks, and so on). Fill the slots in as you need them.
+Fill them in as you need them, not all at once.
 
 ## Why each one earns its spot
 
-**Charcoal and off-white.** Pure black and pure white are harsh. A charcoal or very dark grey lets you still highlight "black" things, and an off-white or bone gives you a top highlight that doesn't look chalky. You'll use both on almost every mini.
+**Charcoal and off-white.** Pure black and pure white are harsh. A charcoal or very dark grey lets you still highlight "black" things, and an off-white or bone gives you a top highlight that doesn't look chalky. Both get used constantly.
 
-**Premixed skin tones.** Mixing skin every session means it never quite matches the last time. A light, mid and deep premixed skin tone (and a shade for each) makes faces faster and more consistent across a squad. Ms. Marvel was the mini where I practiced deeper skin tones, and having the right bottles ready made that far easier than mixing on the fly.
+**Premixed skin tones.** Mixing skin every session means it never quite matches the last time. A light, mid and deep premixed skin tone (and a shade for each) makes faces faster and more consistent across a squad.
 
 These are the ones I actually reach for:
 
@@ -42,13 +42,9 @@ These are the ones I actually reach for:
 
 **Black red or oxblood.** Inside of mouths, brick, leather, dried blood, dark capes. It shows up everywhere once you have it.
 
-## What about specialty paints?
+## What about speed paints?
 
-Speed paints and contrast-style paints are a different kind of buy: they're a technique, not just a color. My first try with Army Painter Speedpaints was as a base layer on Werewolf by Night, and the fur and muscle definition looked great before I'd added any highlights. Worth trying once you're comfortable with basics.
-
-Specialty metallics are similar. I tried Turbo Dork's color-shifting metallics on Mysterio's helmet. Trickier to work with than regular metallics, but the effect fit the character.
-
-![Army Painter Speedpaint bottles next to a mini in progress](img:speedpaint-wip.jpg "Speedpaints on the desk mid-project.")
+Speed paints and contrast-style paints are a different kind of buy: they're a technique, not just a color. I first used Army Painter Speedpaints as a base layer on Werewolf by Night, and the fur and muscle definition looked great before I'd added any highlights. Worth trying once you're comfortable with the basics.
 
 ## Tradeoffs
 

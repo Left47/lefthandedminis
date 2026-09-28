@@ -1,4 +1,4 @@
-I didn't start with a hobby room. I started at a folding table at San Diego Comic-Con in 2023, with a paper plate for a palette, a handful of paint pots and a free mini from a paint-and-take. That session is the whole reason this site exists, and it's also the best argument I know for keeping your first setup small.
+I didn't start with a hobby room. I started at a folding table at San Diego Comic-Con in 2023, with a paper plate for a palette, a handful of paint pots and a mini from a paint-and-take. That session is the whole reason this site exists, and it's also the best argument I know for keeping your first setup small.
 
 ![A primed paint-and-take mini on a table at SDCC 2023, with paper plate palettes behind it](img:sdcc-paint-and-take-mini.jpg "Where it started: a paint-and-take mini at SDCC 2023.")
 
@@ -16,12 +16,12 @@ You need two brushes, a small handful of paints, primer, a cup of water, some pa
 - **A handful of paints.** Whatever covers your mini's main colors, plus black, white, a metallic if it has armor or weapons, and a wash. A starter set usually does this in one box.
 - **Primer.** Paint sticks to primer much better than to bare plastic. A hardware-store rattlecan works (see [batch priming](../batch-priming/)).
 - **Water and paper towel.** Two cups is nice (one for rinsing, one clean), but one works. The towel is for wiping excess paint off the brush before it touches the mini.
-- **Decent light.** A daylight-ish desk lamp or a window. Warm, dim light makes every color look muddy and hides mistakes until the next morning.
+- **Decent light.** A daylight-ish desk lamp or a window. Warm, dim light makes colors look muddy and hides mistakes.
 - **Something to hold the mini.** A painting handle is great. So is anything you can stick the base to with a bit of putty. A lot of my early minis were painted on top of an old pill bottle.
 
 ![Early Ultron mini sitting on a pill bottle used as a painting handle](img:early-ultron-bottle-handle.jpg "An early Marvel United mini on my very high-tech pill bottle handle.")
 
-My own first home kit after SDCC was exactly this small: a cheap set of brushes and a Vallejo starter set from Amazon, with a pill bottle standing in as the handle.
+My own first home kit after SDCC was exactly this small: a cheap set of brushes, a Vallejo starter set and a pill bottle for a handle.
 
 ## What the first session should actually be
 
@@ -39,7 +39,7 @@ Give the first mini a modest goal and a time box. I'd treat it as an under-an-ho
 
 - **An airbrush.** Amazing later, overkill now.
 - **A wet palette.** Useful once you're doing layers and blends. A plate or a lid works on day one.
-- **Premium brushes.** Buy them once you know how to keep a point (and once you've learned not to jam the bristles into the paint pot).
+- **Premium brushes.** Buy them once you know how to keep a point.
 - **Fifty paints.** Buy colors when a mini asks for them. The [next 10 paints](../next-10-paints/) guide covers what's actually worth adding.
 
 ## The real goal

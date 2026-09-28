@@ -1,4 +1,4 @@
-For my first hundred-plus minis, my process was basically: open the paints, start slapping colors on, figure it out as I go. Then I got to Maestro, a Hulk variant with purple, green, gold, blue, red and skin all fighting for attention, and for the first time I stopped and planned before I painted. It changed how the whole mini went.
+For my first 150 or so minis, my process was basically: open the paints, start slapping colors on, figure it out as I go. Then I got to Maestro (mini number 150, as it happens), a Hulk variant with a lot of colors fighting for attention, and for the first time I stopped and planned which paints I'd use before I painted.
 
 ![Palette planned out for Maestro, with base, mid and highlight for each color and the bottles lined up](post:2025-06-23-palette-planning/01.jpg "The Maestro plan: each color gets a base, a mid and a highlight before any paint touches the mini.")
 
@@ -34,23 +34,19 @@ Planning also helps you make deliberate choices instead of default ones. For my 
 - **Raph:** Light Green (Model Color)
 - **Mikey:** Emerald (Model Color)
 
-Same base, four different highlights, and each turtle suddenly reads as his own character. That only happened because I sat down and decided it in advance.
+Same base, four different highlights, and each turtle reads as his own character.
 
 ![The four turtles with different skin tone highlights](post:2025-10-21-turtle-skin-tones/01.jpg "Four highlights, one base: the Cowabunga color theory.")
 
-## Try a limited-palette challenge
+## Do I still do this?
 
-If you want to practice planning, a color challenge forces it. For the #MyColorMyMini challenge, the rule was one Pantone color plus its complement (or a triad). The generator gave me Melon Dream (#FF9A8A), basically salmon pink, and I used it on Ultron. Before painting, I doodled a few scheme options side by side and picked from there.
-
-![Doodled scheme options for the MyColorMyMini challenge with color swatches](img:mycolormymini-doodles.jpg "Doodling scheme options before committing.")
+The habit stuck. I still plan things out a lot. But sometimes I just paint for fun and figure it out as I go, and that's fine too. I don't get hung up on following exactly the same process every time.
 
 ## Tradeoffs
 
 - **Planning takes time on small minis.** For a one-color mini or a quick grunt, just dive in.
-- **Plans change.** That's fine. The plan is a starting point, not a contract. If a highlight looks wrong on the actual mini, swap it.
+- **Plans change.** If a highlight looks wrong on the actual mini, swap it.
 - **Big squads benefit most.** Plan once, paint the whole team the same way.
-
-The habit stuck. I still plan things out a lot. But sometimes I just paint for fun and figure it out as I go, and that's fine too. I don't get hung up on following exactly the same process every time.
 
 ## Checklist
 

@@ -1,6 +1,6 @@
 You don't always have a hobby slump. Sometimes you have a setup problem.
 
-When I haven't painted in a while, it's rarely because I stopped liking it. It's usually because the paints are buried under something, the next step on the current mini is fuzzy, or the mini on the desk has entered the "I've been working on this forever" stage (hi, Devil Dinosaur). Starting feels heavier than the actual painting.
+With two little kids and a bunch of other interests, I go through slumps all the time, and I don't always mind. But when I do want to get back to the desk, the thing in the way is usually small: the paints are buried, the next step on the current mini is fuzzy, or the mini on the desk has hit the "I've been working on this forever" stage (hi, Devil Dinosaur). Starting feels heavier than the actual painting.
 
 ![A tidy painting desk with paint racks on the wall](img:painting-desk.jpg "The desk, on a good day. Starting is easy when it looks like this.")
 
@@ -17,9 +17,11 @@ A slump is sometimes a motivation problem. More often, it's an activation-energy
 
 And a fifth, just as valid: **take a break.** The hobby should be easy to come back to, not an obligation.
 
+The fastest fix for me, though, is a reason to use the minis. More on that below.
+
 ## 1. Start tiny
 
-Pick the smallest possible next step. Not "finish Moon Girl." Just "basecoat her boots." Once the brush is wet, you'll often keep going. And if you don't, you still moved the mini forward.
+Pick the smallest possible next step. Not "finish Moon Girl." Just one area of her. Once the brush is wet, you'll often keep going. And if you don't, you still moved the mini forward.
 
 ## 2. Set a 20-minute limit
 
@@ -35,12 +37,13 @@ When painting feels like too much, do something that makes the next painting ses
 - [Prime a batch](../batch-priming/) so future you has options
 - Texture some bases
 - Refill the wet palette and plan colors for the next mini
+- Leave the current mini out with its paints next to it, and write the next step on a sticky note
 
-It still counts as hobby time, and it lowers the activation energy for next time.
+It still counts as hobby time, and it makes the next session easier to start.
 
 ## 4. Revisit older projects
 
-Pull out something you painted a year ago. When I re-shot some of my earliest Marvel United minis, it was a fun time capsule of my painting journey, and honestly a great motivator: every brushstroke really did add up. A WIP roundup does something similar, a quick look at everything in progress reminds you how much is already underway.
+Pull out something you painted a year ago. When I re-shot some of my earliest Marvel United minis, it was a fun time capsule of my painting journey, and honestly a great motivator: every brushstroke really did add up. A WIP roundup does something similar: a quick look at everything in progress reminds you how much is already underway.
 
 ![An early Mystique mini from my first months of painting](img:early-mystique.jpg "An early mini. Looking back is the fastest way to see progress.")
 
@@ -50,18 +53,9 @@ Big projects are where slumps love to hide. The upside of a big mini is that it'
 
 ## What actually works for me
 
-Honestly, slumps happen to me all the time. With two little kids and a bunch of other interests, the brushes sit untouched for stretches, and I don't always mind. The hobby is supposed to fit around life, not the other way around.
-
 What pulls me back most reliably is a reason to use the minis. When my [Blood Bowl league](../../grenadiers/) started up, playing with my team every week made me want to keep working on them: another player finished, the bases upgraded, a backup player built after a rough game. For me, a game on the calendar does more than any trick on this page.
 
 If you're in a slump, look for your version of that: a league, a weekly game night, a friend who wants to play, or a painting buddy to check in with.
-
-## Make your setup do the work
-
-- **Leave the current mini out,** with its paints next to it.
-- **Keep one clear spot** on the desk where you can sit and paint immediately.
-- **Write the next step on a sticky note** when you stop ("highlight the cape").
-- **Keep a small "quick win" mini** ready for low-energy days.
 
 ## Checklist
 
