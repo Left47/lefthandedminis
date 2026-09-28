@@ -387,7 +387,24 @@
       "venue": "Regulatory Stadium",
       "weather": "Very Sunny",
       "summary": "Four Tomb Guardians, zero Guardians removed, and a Thrower who strolled in twice. Alison steals the MVP off a losing side.",
-      "photos": [],
+      "photos": [
+        {
+          "file": "01.jpg",
+          "alt": "A Grenadiers knight standing over a Stunned Tomb Kings player, with the gold Tomb Guardians looming beyond"
+        },
+        {
+          "file": "02.jpg",
+          "alt": "Overhead view of the scrum around the center logo, gold Tomb Kings pressing into the knights"
+        },
+        {
+          "file": "03.jpg",
+          "alt": "Low-angle shot of a Grenadiers catcher carrying the ball while the Tomb Kings wall holds midfield"
+        },
+        {
+          "file": "04.jpg",
+          "alt": "The whole pitch mid-match, the Tomb Kings wall in the middle and two Grenadiers out wide"
+        }
+      ],
       "facts": [],
       "broadcast": [
         [
