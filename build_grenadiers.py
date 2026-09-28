@@ -245,7 +245,7 @@ def build_match(data, m, prev, nxt):
     ver = match_card(data, m, folder)
     og, og_size = f"{url}share.jpg?v={ver}", (CARD_W, CARD_H)
     og_title = f"MD{m['md']}: Grenadiers {score} {m['opponent']}"
-    desc = f"{data['league']} S{s}, Matchday {m['md']}: {data['team']} {score} {m['opponent']} ({m['race']}). {m['summary']}"
+    desc = m['summary']
 
     booth = '\n'.join(
         f'<p class="line {spk.lower()}"><span class="spk">{E(spk)}</span><span class="said">{md(txt)}</span></p>'
