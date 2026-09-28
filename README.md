@@ -2,7 +2,7 @@
 
 Source for the Left-Handed Minis site: every post's photos and captions, plus a small build script that turns them into a static, crawlable site on GitHub Pages.
 
-**Live site:** https://left47.github.io/lefthandedminis/
+**Live site:** https://www.lefthandedminis.com/
 
 ## Adding or editing a post
 
@@ -31,4 +31,4 @@ A separate Blood Bowl section at `/grenadiers/`, kept out of the Instagram galle
 2. Put photos in `grenadiers/s<N>/md<M>/` and list them in the JSON. With no photos, the page falls back to the team shot.
 3. Run `python3 build_grenadiers.py` and commit what it generates.
 
-Share links look like `https://left47.github.io/lefthandedminis/grenadiers/s9/md5/`.
+Share links look like `https://www.lefthandedminis.com/grenadiers/s9/md5/`.

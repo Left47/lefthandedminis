@@ -12,7 +12,7 @@ Photos for a match go in grenadiers/s<N>/md<M>/ and are listed in the JSON.
 import glob, hashlib, html, json, os, re
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
-SITE_URL = "https://left47.github.io/lefthandedminis/"
+SITE_URL = "https://www.lefthandedminis.com/"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SEC = os.path.join(ROOT, 'grenadiers')
 E = lambda s: html.escape(str(s), quote=True)

@@ -15,7 +15,7 @@ To move to a custom domain, change SITE_URL below and rebuild.
 import html, json, os, re, datetime
 from PIL import Image, ImageOps
 
-SITE_URL = "https://left47.github.io/lefthandedminis/"
+SITE_URL = "https://www.lefthandedminis.com/"
 SITE_NAME = "Left-Handed Minis"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
