@@ -33,5 +33,21 @@
       "sentAt": "2025-10-31T10:57:18.863Z"
     }
   },
-  "source": "instagram-archive"
+  "source": "instagram-archive",
+  "reshares": [
+    {
+      "instagram": {
+        "id": "6abac90ac9bf7dae52129dc6",
+        "dueAt": "2026-10-30T12:07:00-04:00"
+      },
+      "threads": {
+        "id": "6abac90ec9bf7dae52129e22",
+        "dueAt": "2026-10-30T12:37:00-04:00"
+      },
+      "tiktok": {
+        "id": "6abac911c9bf7dae52129ee7",
+        "dueAt": "2026-10-30T18:32:00-04:00"
+      }
+    }
+  ]
 }

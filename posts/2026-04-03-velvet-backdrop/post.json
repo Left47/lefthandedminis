@@ -45,5 +45,21 @@
       "sentAt": "2026-04-03T10:57:39.919Z"
     }
   },
-  "source": "instagram-archive"
+  "source": "instagram-archive",
+  "reshares": [
+    {
+      "instagram": {
+        "id": "6abac9181118876b8191bbe3",
+        "dueAt": "2026-11-06T12:07:00-05:00"
+      },
+      "threads": {
+        "id": "6abac91dba34c0520f452dd0",
+        "dueAt": "2026-11-06T12:37:00-05:00"
+      },
+      "tiktok": {
+        "id": "6abac9223ac9f26496aa496b",
+        "dueAt": "2026-11-06T18:32:00-05:00"
+      }
+    }
+  ]
 }
