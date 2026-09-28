@@ -75,3 +75,12 @@
 .card.match .img{aspect-ratio:4/3}
 .hhg .pn{padding-top:4px;padding-bottom:28px}
 .hhg footer .wrap{gap:10px}
+
+/* equal-height match cards */
+.hhg .grid{align-items:stretch}
+.card.match{display:flex;flex-direction:column}
+.card.match .meta{flex:1;display:flex;flex-direction:column}
+.card.match .meta h3{min-height:2.4em}
+.hhg .grid{grid-auto-rows:1fr}
+.card.match .img{aspect-ratio:4/3;overflow:hidden}
+.card.match .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
