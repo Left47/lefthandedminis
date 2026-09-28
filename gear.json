@@ -68,6 +68,39 @@
       ]
     },
     {
+      "name": "Magnets & storage",
+      "items": [
+        {
+          "name": "6x2mm neodymium magnets",
+          "note": "The size I glue under every base",
+          "url": "https://amzn.to/3My7FGO",
+          "id": "3My7FGO",
+          "match": "magnetiz"
+        },
+        {
+          "name": "Magnetic receptive sheets",
+          "note": "Lines the storage boxes so minis stay put",
+          "url": "https://amzn.to/3KwPwIV",
+          "id": "3KwPwIV",
+          "match": "magnetiz"
+        },
+        {
+          "name": "Stackable plastic boxes",
+          "note": "Holds the magnetized minis",
+          "url": "https://amzn.to/4pxPHmd",
+          "id": "4pxPHmd",
+          "match": "magnetiz"
+        },
+        {
+          "name": "Canvas storage box",
+          "note": "Carries the stack to game night",
+          "url": "https://amzn.to/4iTOrY4",
+          "id": "4iTOrY4",
+          "match": "magnetiz"
+        }
+      ]
+    },
+    {
       "name": "Photography",
       "items": [
         {
