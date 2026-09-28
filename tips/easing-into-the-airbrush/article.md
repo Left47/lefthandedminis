@@ -32,6 +32,10 @@ A few habits that helped:
 
 I still use both. I like the airbrush effect more, but it's not always the most practical choice, so the makeup sponges still come out for a quick glow or a small area.
 
+## What you actually need
+
+An airbrush and a compressor. That's it. Everything else in the gear box on this page (the medium, the cleaner, the cleaning pot, the spray booth) is gear I use and like, but it's nice to have, not required. Start with the basics and add the rest if you find yourself wanting it.
+
 ## Tradeoffs
 
 - **Setup and cleanup.** A rattlecan or a sponge is ready in seconds. An airbrush means setup, thinning and cleaning every session.
