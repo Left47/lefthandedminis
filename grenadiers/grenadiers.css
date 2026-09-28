@@ -111,3 +111,9 @@
 .opp-list{margin-bottom:48px}
 .opp-list ul{padding-left:18px}
 .opp-list h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase}
+/* two- and three-photo collages fill the row */
+.collage.n2{grid-template-columns:1fr 1fr;grid-auto-rows:clamp(240px,40vw,480px)}
+.collage.n2 .big{grid-column:auto;grid-row:auto}
+.collage.n3 .tile:not(.big){grid-column:span 2}
+@media(max-width:600px){.collage.n2{grid-template-columns:1fr;grid-auto-rows:clamp(220px,70vw,420px)}
+  .collage.n3 .tile:not(.big){grid-column:auto}}

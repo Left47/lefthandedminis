@@ -275,7 +275,16 @@
       "venue": "The Stadium",
       "weather": "Nice, for once",
       "summary": "We won the trenches and lost the scoreboard. Two dead elves, one dead squire, and Dragon Princes running rings around us.",
-      "photos": [],
+      "photos": [
+        {
+          "file": "01.jpg",
+          "alt": "Grenadiers knights in shallow focus squaring up to the Shimmerveil Hurricanes' High Elves"
+        },
+        {
+          "file": "02.jpg",
+          "alt": "The Grenadiers' front line facing the full High Elf team across the pitch"
+        }
+      ],
       "facts": [
         [
           "Winnings",
