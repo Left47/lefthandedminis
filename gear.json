@@ -122,6 +122,13 @@
           "match": "cleaning pot"
         },
         {
+          "name": "Gaahleri Mobius airbrush (0.2 mm)",
+          "note": "The airbrush I use",
+          "url": "https://link.amazon/B06aFFnWd",
+          "id": "B06aFFnWd",
+          "match": "gaahleri|mobius"
+        },
+        {
           "name": "Timbertech airbrush compressor",
           "note": "The compressor I run my airbrush on, with a tank, regulator and moisture trap",
           "url": "https://link.amazon/B0bS4X4NS",
