@@ -5,6 +5,20 @@
       "name": "At the painting desk",
       "items": [
         {
+          "name": "Vallejo starter paint set",
+          "note": "The paint set I started with at home",
+          "url": "https://link.amazon/A05YCkNqN",
+          "id": "A05YCkNqN",
+          "match": "vallejo starter"
+        },
+        {
+          "name": "Nicpro 21-piece miniature brush set",
+          "note": "The cheap brush set I started with, drybrush included",
+          "url": "https://link.amazon/B07OPRbJQ",
+          "id": "B07OPRbJQ",
+          "match": "nicpro"
+        },
+        {
           "name": "Portable modular painting station",
           "note": "All-in-one station with brush cleaner and holders",
           "url": "https://amzn.to/4kXV6kC",
@@ -44,6 +58,13 @@
     {
       "name": "Tools & prep",
       "items": [
+        {
+          "name": "Rust-Oleum Painter's Touch 2X primer",
+          "note": "Cheap rattlecan I prime every batch with. White, grey and black are all on the same page",
+          "url": "https://link.amazon/B0dXevWmi",
+          "id": "B0dXevWmi",
+          "match": "rust-?oleum|rattlecan"
+        },
         {
           "name": "Precision pin vise drill set",
           "note": "Copper hand drill with 20 micro bits, for pinning and magnets",
@@ -109,6 +130,13 @@
           "url": "https://amzn.to/41IqGLE",
           "id": "41IqGLE",
           "match": "light ?box"
+        },
+        {
+          "name": "Black velvet photo backdrop",
+          "note": "Light-absorbing, non-reflective black for dark backgrounds",
+          "url": "https://link.amazon/B0gB0J666",
+          "id": "B0gB0J666",
+          "match": "velvet"
         }
       ]
     },

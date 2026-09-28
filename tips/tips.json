@@ -1,0 +1,391 @@
+{
+  "shelves": [
+    {
+      "id": "hobby",
+      "title": "Hobby Tips",
+      "kicker": "Painting, photos & workflow",
+      "intro": "The stuff I wish someone had told me when I picked up a brush in 2023. Cheap fixes first, tradeoffs explained, and no pretending every mini has to be a display piece.",
+      "sections": [
+        {
+          "name": "Start here",
+          "tips": [
+            "your-first-mini",
+            "your-first-10-minis"
+          ]
+        },
+        {
+          "name": "Painting",
+          "tips": [
+            "tabletop-first-contrast",
+            "plan-the-palette",
+            "next-10-paints",
+            "metallic-drybrushing",
+            "beginner-osl",
+            "basing-as-composition"
+          ]
+        },
+        {
+          "name": "Photography",
+          "tips": [
+            "budget-mini-photography",
+            "golden-angle",
+            "old-dslr-for-minis",
+            "velvet-backdrop"
+          ]
+        },
+        {
+          "name": "Prep, storage & workflow",
+          "tips": [
+            "batch-priming",
+            "magnetize-200-minis",
+            "marvel-united-storage",
+            "brush-organization",
+            "hobby-slump"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sdcc",
+      "title": "SDCC Field Guide",
+      "kicker": "San Diego Comic-Con for first-timers",
+      "intro": "What I've learned from five trips to San Diego Comic-Con, turned into a plan a first-timer can actually follow. Personal experience, not official Comic-Con policy: current-year rules always get checked against comic-con.org.",
+      "sections": []
+    }
+  ],
+  "tips": {
+    "your-first-mini": {
+      "title": "Your first mini: the minimum setup that actually matters",
+      "dek": "Two brushes, a handful of paints, primer, water, paper towel and decent light. Everything else can wait.",
+      "cover": "img:sdcc-paint-and-take-mini.jpg",
+      "posts": [
+        "2025-10-12-early-marvel-united-reshoot"
+      ],
+      "related": [
+        "your-first-10-minis",
+        "batch-priming",
+        "next-10-paints"
+      ],
+      "gear": [
+        "A05YCkNqN",
+        "B07OPRbJQ",
+        "B0dXevWmi",
+        "3Xv1oyq"
+      ],
+      "status": "live",
+      "focus": 0.55,
+      "updated": "2026-09-28"
+    },
+    "your-first-10-minis": {
+      "title": "Your first 10 minis: a better beginner roadmap",
+      "dek": "Just get started. Give each early mini one job, don't be precious about them, and let photos show you the progress.",
+      "cover": "img:early-ultron-bottle-handle.jpg",
+      "posts": [
+        "2025-10-12-early-marvel-united-reshoot",
+        "2025-04-18-winter-soldier",
+        "2025-06-01-may-2025-recap"
+      ],
+      "related": [
+        "your-first-mini",
+        "tabletop-first-contrast",
+        "budget-mini-photography"
+      ],
+      "gear": [],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "tabletop-first-contrast": {
+      "title": "Tabletop-first painting: contrast beats perfect blends",
+      "dek": "Paint for the distance the mini will actually be seen from. Readable beats smooth.",
+      "cover": "post:2025-11-25-harley-quinn/01.jpg",
+      "posts": [
+        "2025-12-28-rhino",
+        "2025-11-25-harley-quinn",
+        "2026-04-14-2026-so-far"
+      ],
+      "related": [
+        "plan-the-palette",
+        "basing-as-composition",
+        "hobby-slump"
+      ],
+      "gear": [],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "plan-the-palette": {
+      "title": "Plan the palette before you paint",
+      "dek": "Five minutes lining up base, mid and highlight for every color saves an hour of guessing on the mini.",
+      "cover": "post:2025-06-23-palette-planning/01.jpg",
+      "posts": [
+        "2025-06-23-palette-planning",
+        "2025-06-26-maestro",
+        "2025-10-21-turtle-skin-tones",
+        "2025-04-21-my-color-my-mini"
+      ],
+      "related": [
+        "next-10-paints",
+        "tabletop-first-contrast",
+        "your-first-10-minis"
+      ],
+      "gear": [],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "next-10-paints": {
+      "title": "The next 10 paints to buy after a starter set",
+      "dek": "Buy the colors that remove friction from what you paint often, not the ones that look fun on the rack.",
+      "cover": "img:paint-rack.jpg",
+      "posts": [
+        "2025-10-21-turtle-skin-tones",
+        "2025-11-21-ms-marvel"
+      ],
+      "related": [
+        "plan-the-palette",
+        "beginner-osl",
+        "your-first-mini"
+      ],
+      "gear": [],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "metallic-drybrushing": {
+      "title": "Metallic drybrushing that looks like metal, not silver dust",
+      "dek": "Almost-dry brush, light strokes, a blue-grey underlayer, and metallics saved for last.",
+      "cover": "post:2025-10-24-bebop/01.jpg",
+      "posts": [
+        "2025-10-24-bebop",
+        "2025-04-25-mysterio"
+      ],
+      "related": [
+        "tabletop-first-contrast",
+        "next-10-paints",
+        "basing-as-composition"
+      ],
+      "gear": [],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "beginner-osl": {
+      "title": "Beginner OSL: make the light source read before you chase smoothness",
+      "dek": "The light has to be brighter than what it lights, and it has to fade with distance. Glow paint alone won't do it.",
+      "cover": "post:2025-10-31-ghost-rider/01.jpg",
+      "posts": [
+        "2025-08-12-darth-maul",
+        "2025-10-31-ghost-rider",
+        "2026-04-10-dazzler",
+        "2026-02-10-liara"
+      ],
+      "related": [
+        "next-10-paints",
+        "tabletop-first-contrast",
+        "old-dslr-for-minis"
+      ],
+      "gear": [
+        "430OOKd"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "basing-as-composition": {
+      "title": "Basing as composition, not decoration",
+      "dek": "A good base supports the pose, tells a bit of the story, and points the eye at the face. Then it gets out of the way.",
+      "cover": "post:2025-10-10-raphael/01.jpg",
+      "posts": [
+        "2025-04-18-winter-soldier",
+        "2025-10-10-raphael",
+        "2025-11-04-donatello",
+        "2026-04-07-skaven-team"
+      ],
+      "related": [
+        "tabletop-first-contrast",
+        "beginner-osl",
+        "golden-angle"
+      ],
+      "gear": [],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "budget-mini-photography": {
+      "title": "Budget mini photography: make the paint job look like it does in person",
+      "dek": "Your minis don't suck, your lighting does. Construction paper, a daylight bulb, a mug and a timer fix most of it.",
+      "cover": "post:2025-10-13-budget-photo-setup/08.jpg",
+      "posts": [
+        "2025-10-13-budget-photo-setup",
+        "2025-10-12-early-marvel-united-reshoot"
+      ],
+      "related": [
+        "golden-angle",
+        "old-dslr-for-minis",
+        "velvet-backdrop"
+      ],
+      "gear": [
+        "41IqGLE"
+      ],
+      "status": "live",
+      "focus": 0.95,
+      "updated": "2026-09-28"
+    },
+    "golden-angle": {
+      "title": "Every mini has a golden angle",
+      "dek": "Sculptors design a pose to read from one direction. Rotate, shoot a few, and find it.",
+      "cover": "post:2025-10-13-budget-photo-setup/06.jpg",
+      "posts": [
+        "2025-10-13-budget-photo-setup",
+        "2026-09-27-brotherhood-x-force-build"
+      ],
+      "related": [
+        "budget-mini-photography",
+        "basing-as-composition",
+        "velvet-backdrop"
+      ],
+      "gear": [],
+      "status": "live",
+      "focus": 0.95,
+      "updated": "2026-09-28"
+    },
+    "old-dslr-for-minis": {
+      "title": "Shooting minis on an old DSLR (and when better gear actually helps)",
+      "dek": "My 2013 Canon Rebel and its kit lens, the settings card I started with, and what I'd change now: better light instead of flash.",
+      "cover": "post:2025-08-01-canon-t5i/02.jpg",
+      "posts": [
+        "2025-08-01-canon-t5i",
+        "2026-04-03-velvet-backdrop"
+      ],
+      "related": [
+        "budget-mini-photography",
+        "velvet-backdrop",
+        "golden-angle"
+      ],
+      "gear": [
+        "41IqGLE",
+        "B0gB0J666"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "velvet-backdrop": {
+      "title": "Foam vs. velvet: the cheapest photo upgrade I've made",
+      "dek": "Same mini, same light. Black velvet eats stray light so the background goes truly black and the paint does the work.",
+      "cover": "post:2026-04-03-velvet-backdrop/05.jpg",
+      "posts": [
+        "2026-04-03-velvet-backdrop"
+      ],
+      "related": [
+        "old-dslr-for-minis",
+        "budget-mini-photography",
+        "golden-angle"
+      ],
+      "gear": [
+        "B0gB0J666",
+        "41IqGLE"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "batch-priming": {
+      "title": "Priming in batches with a rattlecan",
+      "dek": "Cheap hardware-store primer, the right color for the game, and a whole army done in one session so future you can just paint.",
+      "cover": "img:batch-primed-foam.jpg",
+      "posts": [
+        "2025-06-16-priming-process",
+        "2025-07-16-shatterpoint-wip"
+      ],
+      "related": [
+        "your-first-mini",
+        "magnetize-200-minis",
+        "tabletop-first-contrast"
+      ],
+      "gear": [
+        "B0dXevWmi",
+        "430OOKd"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "magnetize-200-minis": {
+      "title": "How I magnetized about 200 minis in about 20 minutes",
+      "dek": "A baking sheet, parchment paper, hot glue and 6x2mm magnets. The station is what makes it fast.",
+      "cover": "img:magnetized-box.jpg",
+      "posts": [
+        "2026-01-20-magnetizing-200-minis",
+        "2025-03-26-marvel-united-storage"
+      ],
+      "related": [
+        "marvel-united-storage",
+        "batch-priming",
+        "brush-organization"
+      ],
+      "gear": [
+        "3My7FGO",
+        "3KwPwIV",
+        "4pxPHmd",
+        "4iTOrY4"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    },
+    "marvel-united-storage": {
+      "title": "How I store a whole Marvel United collection",
+      "dek": "Grab-and-go core boxes, one wooden case for every expansion card, and numbered boxes that tell you where every mini lives.",
+      "cover": "img:marvel-united-shelf.jpg",
+      "posts": [
+        "2025-03-26-marvel-united-storage",
+        "2026-01-20-magnetizing-200-minis"
+      ],
+      "related": [
+        "magnetize-200-minis",
+        "brush-organization",
+        "hobby-slump"
+      ],
+      "gear": [
+        "3KwPwIV",
+        "4pxPHmd"
+      ],
+      "status": "live",
+      "focus": 0.45,
+      "updated": "2026-09-28"
+    },
+    "brush-organization": {
+      "title": "Brush organization without gadgets",
+      "dek": "Masking tape stripes on the handle. Less magic, more dead simple.",
+      "cover": "img:taped-brushes.jpg",
+      "posts": [
+        "2026-08-05-zeratul-wip"
+      ],
+      "related": [
+        "hobby-slump",
+        "next-10-paints",
+        "your-first-mini"
+      ],
+      "gear": [
+        "4isqPsb",
+        "41A1MNk",
+        "3XyxObg"
+      ],
+      "status": "live",
+      "focus": 0.8,
+      "updated": "2026-09-28"
+    },
+    "hobby-slump": {
+      "title": "Hobby slump or setup problem? Four ways to restart momentum",
+      "dek": "Sometimes it's motivation. More often the paints are buried and the next step is fuzzy. Make starting smaller.",
+      "cover": "img:painting-desk.jpg",
+      "posts": [
+        "2026-07-18-holy-hand-grenadiers-begin",
+        "2026-09-27-backup-backup-squire",
+        "2025-10-12-early-marvel-united-reshoot",
+        "2026-07-30-moon-girl-devil-dinosaur"
+      ],
+      "related": [
+        "brush-organization",
+        "your-first-10-minis",
+        "tabletop-first-contrast"
+      ],
+      "gear": [
+        "4kXV6kC"
+      ],
+      "status": "live",
+      "updated": "2026-09-28"
+    }
+  }
+}

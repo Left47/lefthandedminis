@@ -6,10 +6,13 @@ Generates:
   posts/<slug>/index.html    one crawlable page per post
   games/<slug>/index.html    one page per game
   gear/index.html            full gear list with "seen in" post links
+  tips/index.html            hobby tips shelves (from tips/tips.json)
+  tips/<slug>/index.html     one long-form guide per tip (from tips/<slug>/article.md)
   posts/<slug>/thumb.jpg     600x750 grid thumbnail (only if missing)
   sitemap.xml, robots.txt
 
 Run after adding or editing a post:  python3 build.py
+Review draft tips locally:          python3 build.py --drafts   (never commit that output)
 To move to a custom domain, change SITE_URL below and rebuild.
 """
 import html, json, os, re, datetime
@@ -100,7 +103,7 @@ def head(title, desc, canonical, rel, image=None, extra=''):
 <nav class="topnav" aria-label="Site">
   <div class="wrap">
     <a class="brand" href="{rel}" aria-label="{SITE_NAME} home"><img src="{rel}assets/logo-fist.png" alt=""><span class="brand-name">{SITE_NAME}</span></a>
-    <a href="{rel}#gallery">Gallery</a>
+    <a href="{rel}#gallery">Gallery</a>{f'{chr(10)}    <a href="{rel}tips/">Tips</a>' if TIPS_LIVE else ''}
     <a href="{rel}#about">About</a>
     <a href="{rel}gear/">Gear</a>
     <a href="{rel}grenadiers/">Blood Bowl League</a>
@@ -236,6 +239,9 @@ def build_post(p, posts, games):
     if p.get('gear'):
         items = ''.join(f'<li><a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a><span>{E(it.get("note", ""))}</span></li>' for it in p['gear'])
         gear_box = f'<div class="panel-box"><h2>Gear in this post</h2><ul>{items}</ul><p class="seen-in">Affiliate links. <a href="{rel}gear/">All gear</a></p></div>'
+    if p.get('tips'):
+        items = ''.join(f'<li><a href="{rel}tips/{t["slug"]}/">{E(t["title"])} →</a><span>{E(t["dek"])}</span></li>' for t in p['tips'])
+        gear_box = f'<div class="panel-box guide-box"><h2>The full guide</h2><ul>{items}</ul></div>' + gear_box
     same = [q for q in games[game] if q is not p][:4]
     more = ''
     if same:
@@ -299,6 +305,18 @@ def build_home(posts, games, gear):
               "logo": SITE_URL + 'assets/logo-badge.png', "sameAs": [u for _, u in SOCIALS]}
     extra = (f'<script type="application/ld+json">{json.dumps(site_ld)}</script>\n'
              f'<script type="application/ld+json">{json.dumps(org_ld)}</script>')
+    tips_strip = ''
+    if TIPS_LIVE:
+        firsts = {}
+        for t in TIPS_LIVE:
+            firsts.setdefault((t['shelf']['id'], t['section']), t)
+        picks = (list(firsts.values()) + [t for t in TIPS_LIVE if t not in firsts.values()])[:4]
+        tips_strip = f'''<section class="tips-strip" id="tips">
+  <div class="wrap">
+    <div class="section-head"><h2>Hobby tips</h2><a class="btn" href="tips/">All tips →</a></div>
+    <div class="grid tip-grid">{''.join(tip_card(t, rel) for t in picks)}</div>
+  </div>
+</section>'''
     body = f'''<header class="hero" id="top">
   <div class="wrap">
     <a class="badge" href="{rel}" aria-label="{SITE_NAME} home"><img src="assets/logo-badge.png" width="260" height="132" alt="{SITE_NAME}"></a>
@@ -317,7 +335,7 @@ def build_home(posts, games, gear):
 {''.join(card(p, rel) for p in posts)}
 </main>
 </section>
-
+{tips_strip}
 <section class="about" id="about">
   <div class="wrap">
     <figure class="panel">
@@ -346,11 +364,192 @@ def build_home(posts, games, gear):
     write('index.html', head(f"{SITE_NAME} | Miniature painting & tabletop games", desc, SITE_URL, rel, extra=extra) + body + foot(rel))
 
 
-def build_sitemap(posts, games):
+# ---------------------------------------------------------------- hobby tips
+# Long-form guides live in tips/<slug>/article.md, with metadata and shelf order
+# in tips/tips.json. Only tips with "status": "live" are built; run
+# `python3 build.py --drafts` to also render drafts (with their [[gap: ...]]
+# notes shown) for review. Never commit a --drafts build.
+# Inside article.md:  ![alt](post:<post-slug>/02.jpg "caption")  or  ![alt](img:<file>.jpg "caption")
+# for images (img: files live in tips/img/), and [[gap: note]] on its own line for
+# questions still open (shown in drafts, stripped from live pages).
+
+TIPS_LIVE = []   # filled by load_tips(); drives the nav link and home strip
+GAP_RE = re.compile(r'^\[\[gap:\s*(.*?)\]\]\s*$', re.M | re.S)
+IMG_RE = re.compile(r'^!\[([^\]]*)\]\((post|img):([^\s)]+)(?:\s+"([^"]*)")?\)\s*$', re.M)
+
+
+def tip_src(kind, path):
+    """(path relative to ROOT, site path) for a post: or img: reference."""
+    rp = f'posts/{path}' if kind == 'post' else f'tips/img/{path}'
+    if not os.path.exists(os.path.join(ROOT, rp)):
+        raise SystemExit(f'tips: missing image {rp}')
+    return rp
+
+
+def img_size(rp):
+    with Image.open(os.path.join(ROOT, rp)) as im:
+        return ImageOps.exif_transpose(im).size
+
+
+def render_article(md_text, rel, drafts, slug, skip=None):
+    import markdown  # pip install markdown
+    gaps = GAP_RE.findall(md_text)
+    cover_cap = []
+    if drafts:
+        md_text = GAP_RE.sub(lambda m: f'\n<aside class="gap"><strong>Draft gap</strong> {E(m.group(1))}</aside>\n', md_text)
+    else:
+        if gaps:
+            print(f'  WARNING {slug}: {len(gaps)} unresolved [[gap]] note(s) stripped from the live page')
+        md_text = GAP_RE.sub('', md_text)
+
+    def fig(m):
+        alt, kind, path, cap = m.groups()
+        rp = tip_src(kind, path)
+        w, h = img_size(rp)
+        if rp == skip:
+            cover_cap.append(cap or '')
+            return ''  # already shown as the page's cover image
+        c = f'<figcaption>{E(cap)}</figcaption>' if cap else ''
+        shape = ' tall' if h > w * 1.05 else ''
+        return f'\n<figure class="tip-fig{shape}"><img src="{rel}{rp}" width="{w}" height="{h}" alt="{E(alt)}" loading="lazy">{c}</figure>\n'
+    md_text = IMG_RE.sub(fig, md_text)
+    return markdown.markdown(md_text, extensions=['extra', 'sane_lists']), len(gaps), (cover_cap or [''])[0]
+
+
+def load_tips(drafts):
+    cfg = json.load(open(os.path.join(ROOT, 'tips', 'tips.json')))
+    tips = []
+    for shelf in cfg['shelves']:
+        for sec in shelf['sections']:
+            for slug in sec['tips']:
+                t = dict(cfg['tips'][slug], slug=slug, shelf=shelf, section=sec['name'])
+                if t.get('status') != 'live' and not drafts:
+                    continue
+                t['md'] = open(os.path.join(ROOT, 'tips', slug, 'article.md')).read()
+                kind, path = t['cover'].split(':', 1)
+                t['cover_rp'] = tip_src(kind, path)
+                t['updated'] = t.get('updated') or datetime.date.today().isoformat()
+                tips.append(t)
+    return cfg, tips
+
+
+def make_tip_card(t):
+    out = os.path.join(ROOT, 'tips', t['slug'], 'card.jpg')
+    src = os.path.join(ROOT, t['cover_rp'])
+    if os.path.exists(out) and os.path.getmtime(out) >= max(os.path.getmtime(src), os.path.getmtime(os.path.join(ROOT, 'tips', 'tips.json'))):
+        return
+    im = ImageOps.exif_transpose(Image.open(src)).convert('RGB')
+    ImageOps.fit(im, (800, 600), Image.LANCZOS, centering=(0.5, t.get('focus', 0.4))).save(out, quality=80, optimize=True)
+
+
+def tip_card(t, rel):
+    return f'''<a class="card tip-card" href="{rel}tips/{t['slug']}/">
+  <div class="img"><img loading="lazy" src="{rel}tips/{t['slug']}/card.jpg" width="800" height="600" alt="">
+    <span class="kind">{E(t['section'])}</span></div>
+  <div class="meta"><h3>{E(t['title'])}</h3><p class="dek">{E(t['dek'])}</p></div>
+</a>'''
+
+
+def build_tip(t, by_slug, posts_by_slug, gear_by_id, drafts):
+    rel = '../../'
+    url = f"{SITE_URL}tips/{t['slug']}/"
+    body_html, ngaps, cover_cap = render_article(t['md'], rel, drafts, t['slug'], skip=t['cover_rp'])
+    cover = SITE_URL + t['cover_rp']
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": t['title'], "description": t['dek'],
+          "image": [cover], "url": url, "dateModified": t['updated'],
+          "author": {"@type": "Person", "name": "Jim", "url": SITE_URL + '#about'},
+          "publisher": {"@type": "Organization", "name": SITE_NAME, "logo": {"@type": "ImageObject", "url": SITE_URL + 'assets/logo-badge.png'}}}
+    crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": SITE_NAME, "item": SITE_URL},
+        {"@type": "ListItem", "position": 2, "name": "Tips", "item": SITE_URL + 'tips/'},
+        {"@type": "ListItem", "position": 3, "name": t['title'], "item": url}]}
+    extra = (f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+             f'<script type="application/ld+json">{json.dumps(crumbs, ensure_ascii=False)}</script>')
+    if drafts and t.get('status') != 'live':
+        extra += '\n<meta name="robots" content="noindex">'
+    w, h = img_size(t['cover_rp'])
+    side = []
+    seen = [posts_by_slug[s] for s in t.get('posts', []) if s in posts_by_slug]
+    if seen:
+        items = ''.join(f'''<li><a href="{rel}posts/{p['slug']}/"><img src="{rel}posts/{p['slug']}/thumb.jpg" width="600" height="750" alt="" loading="lazy"><span><strong>{E(p['title'])}</strong><em>{E(p.get('game', ''))} · {fmt_date(p.get('date'))}</em></span></a></li>''' for p in seen)
+        side.append(f'<div class="panel-box seen-posts"><h2>As seen on Instagram</h2><ul>{items}</ul></div>')
+    gear = [gear_by_id[g] for g in t.get('gear', []) if g in gear_by_id]
+    if gear:
+        items = ''.join(f'<li><a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a><span>{E(it.get("note", ""))}</span></li>' for it in gear)
+        side.append(f'<div class="panel-box"><h2>Gear in this guide</h2><ul>{items}</ul><p class="seen-in">Affiliate links, so using them supports me. <a href="{rel}gear/">All gear</a></p></div>')
+    related = [by_slug[s] for s in t.get('related', []) if s in by_slug]
+    if related:
+        items = ''.join(f'<li><a href="{rel}tips/{r["slug"]}/">{E(r["title"])}</a><span>{E(r["dek"])}</span></li>' for r in related)
+        side.append(f'<div class="panel-box"><h2>Keep going</h2><ul>{items}</ul></div>')
+    banner = ''
+    if drafts and t.get('status') != 'live':
+        banner = f'<div class="wrap"><p class="draft-banner">Draft preview · {ngaps} open question{"s" if ngaps != 1 else ""} · not on the live site</p></div>'
+    body = f'''<div class="wrap crumbs"><a href="{rel}">Home</a> › <a href="{rel}tips/">Tips</a> › {E(t['section'])}</div>
+{banner}
+<header class="wrap tip-head">
+  <div class="tip-head-text">
+    <div class="kicker">{E(t['shelf']['title'])} · {E(t['section'])}</div>
+    <h1>{E(t['title'])}</h1>
+    <p class="dek">{E(t['dek'])}</p>
+  </div>
+  <figure class="tip-cover"><img src="{rel}{t['cover_rp']}" width="{w}" height="{h}" alt="" fetchpriority="high" style="object-position:50% {int(t.get('focus', 0.4) * 100)}%">{f'<figcaption>{E(cover_cap)}</figcaption>' if cover_cap else ''}</figure>
+</header>
+<div class="wrap tip-layout">
+  <article class="prose">
+{body_html}
+  </article>
+  <aside class="tip-side">{''.join(side)}</aside>
+</div>
+'''
+    write(f"tips/{t['slug']}/index.html", head(f"{t['title']} | {SITE_NAME}", t['dek'], url, rel, cover, extra) + body + foot(rel))
+
+
+def build_tips_index(cfg, tips):
+    rel = '../'
+    url = SITE_URL + 'tips/'
+    desc = "Hobby tips from Left-Handed Minis: beginner painting, contrast, color, OSL, basing, budget mini photography, priming, magnetizing and storage."
+    groups = ''
+    for shelf in cfg['shelves']:
+        st = [t for t in tips if t['shelf']['id'] == shelf['id']]
+        if not st:
+            continue
+        secs = ''
+        for sec in shelf['sections']:
+            cards = [t for t in st if t['section'] == sec['name']]
+            if cards:
+                secs += f'<h3 class="shelf-sec">{E(sec["name"])}</h3><div class="grid tip-grid">{"".join(tip_card(t, rel) for t in cards)}</div>'
+        groups += f'''<section class="shelf" id="{E(shelf['id'])}">
+  <div class="shelf-head"><div class="kicker">{E(shelf['kicker'])}</div><h2>{E(shelf['title'])}</h2><p>{E(shelf['intro'])}</p></div>
+  {secs}
+</section>'''
+    body = f'''<div class="wrap crumbs"><a href="{rel}">Home</a> › Tips</div>
+<header class="wrap page-head"><h1>Tips</h1><p>{E(desc)}</p></header>
+<main class="wrap">{groups}</main>
+'''
+    write('tips/index.html', head(f"Miniature painting & hobby tips | {SITE_NAME}", desc, url, rel) + body + foot(rel))
+
+
+def clean_tips(cfg, tips):
+    """Remove built pages for tips that aren't being built this run (e.g. drafts)."""
+    keep = {t['slug'] for t in tips}
+    for slug in cfg['tips']:
+        if slug not in keep:
+            for f in ('index.html', 'card.jpg'):
+                fp = os.path.join(ROOT, 'tips', slug, f)
+                if os.path.exists(fp):
+                    os.remove(fp)
+    if not tips and os.path.exists(os.path.join(ROOT, 'tips', 'index.html')):
+        os.remove(os.path.join(ROOT, 'tips', 'index.html'))
+
+
+def build_sitemap(posts, games, tips=()):
     today = datetime.date.today().isoformat()
     urls = [(SITE_URL, today), (SITE_URL + 'gear/', today)]
     urls += [(f"{SITE_URL}games/{slugify(g)}/", max((p.get('date') or '2025-01-01') for p in games[g])) for g in games]
     urls += [(f"{SITE_URL}posts/{p['slug']}/", p.get('date') or today) for p in posts]
+    if tips:
+        urls.append((SITE_URL + 'tips/', max(t['updated'] for t in tips)))
+        urls += [(f"{SITE_URL}tips/{t['slug']}/", t['updated']) for t in tips]
     body = ''.join(f'<url><loc>{E(u)}</loc><lastmod>{d}</lastmod></url>' for u, d in urls)
     write('sitemap.xml', f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n')
     write('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n')
@@ -358,22 +557,41 @@ def build_sitemap(posts, games):
 
 
 def main():
+    import sys
+    drafts = '--drafts' in sys.argv
     posts = load()
     gear = json.load(open(os.path.join(ROOT, 'gear.json')))
     link_gear(posts, gear)
     games = {}
     for p in posts:
         games.setdefault(p.get('game') or 'Other', []).append(p)
+    cfg, tips = load_tips(drafts)
+    TIPS_LIVE[:] = tips
+    posts_by_slug = {p['slug']: p for p in posts}
+    for t in tips:
+        for s in t.get('posts', []):
+            if s in posts_by_slug:
+                posts_by_slug[s].setdefault('tips', []).append(t)
+            else:
+                print(f"  WARNING tip {t['slug']}: unknown post {s}")
     for p in posts:
         make_thumb(p)
         build_post(p, posts, games)
     for g, gp in games.items():
         build_game(g, gp)
     build_gear(gear)
+    clean_tips(cfg, tips)
+    if tips:
+        by_slug = {t['slug']: t for t in tips}
+        gear_by_id = {it['id']: it for gr in gear['groups'] for it in gr['items']}
+        for t in tips:
+            make_tip_card(t)
+            build_tip(t, by_slug, posts_by_slug, gear_by_id, drafts)
+        build_tips_index(cfg, tips)
     build_home(posts, games, gear)
-    n = build_sitemap(posts, games)
+    n = build_sitemap(posts, games, [t for t in tips if t.get('status') == 'live'])
     linked = sum(1 for p in posts if p.get('gear'))
-    print(f'{len(posts)} posts, {len(games)} games, {n} sitemap URLs, {linked} posts with gear links')
+    print(f'{len(posts)} posts, {len(games)} games, {len(tips)} tips{" (drafts included)" if drafts else ""}, {n} sitemap URLs, {linked} posts with gear links')
     for gr in gear['groups']:
         for it in gr['items']:
             print(f"  {it['name']}: {len(it['posts'])} posts")
