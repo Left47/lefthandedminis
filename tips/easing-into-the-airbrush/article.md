@@ -34,7 +34,7 @@ I still use both. I like the airbrush effect more, but it's not always the most 
 
 ## What you actually need
 
-An airbrush and a compressor. That's it. Everything else in the gear box on this page (the medium, the cleaner, the cleaning pot, the spray booth) is gear I use and like, but it's nice to have, not required. Start with the basics and add the rest if you find yourself wanting it.
+An airbrush, a compressor and a hose to connect them (compressors often come with one). That's it. Everything else in the gear box on this page (the quick-release hose kit, the medium, the cleaner, the cleaning pot, the spray booth) is gear I use and like, but it's nice to have, not required. Start with the basics and add the rest if you find yourself wanting it.
 
 ## Tradeoffs
 
