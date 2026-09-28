@@ -101,3 +101,13 @@
   .collage.n4 .tile:not(.big):last-child{grid-column:span 2}
   .collage.n7 .tile:not(.big):nth-last-child(-n+2){grid-column:auto}}
 .lead{padding-top:24px}
+
+/* TourPlay links */
+.board a.name{text-decoration:none;color:inherit}
+.board a.name:hover{text-decoration:underline;text-decoration-thickness:3px}
+.hhg-hero .tp{color:var(--gold);font-weight:900;text-decoration:none;margin-left:auto}
+.hhg-hero .tp:hover{text-decoration:underline}
+.box a{color:var(--blue);font-weight:700}
+.opp-list{margin-bottom:48px}
+.opp-list ul{padding-left:18px}
+.opp-list h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase}

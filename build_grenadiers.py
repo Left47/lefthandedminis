@@ -136,6 +136,11 @@ def build_match(data, m, prev, nxt):
     blocks.append(f'<div class="box"><h2>The infirmary</h2><ul>{inj}</ul>{cas}</div>')
     if m.get('standouts'):
         blocks.append('<div class="box"><h2>Credit where it\'s due</h2><ul>' + ''.join(f'<li>{md(x)}</li>' for x in m['standouts']) + '</ul></div>')
+    blocks.append('<div class="box"><h2>On TourPlay</h2><ul>'
+                  f'<li><a href="{E(m["tourplay_match"])}" rel="noopener">Full match record ↗</a></li>'
+                  f'<li><a href="{E(m["opponent_url"])}" rel="noopener">{E(m["opponent"])} team page ↗</a></li>'
+                  f'<li><a href="{E(data["tourplay"])}" rel="noopener">{E(data["team"])} team page ↗</a></li>'
+                  f'<li><a href="{E(data["league_url"])}" rel="noopener">{E(data["league"])} S{s} ↗</a></li></ul></div>')
     if m.get('facts'):
         blocks.append('<div class="box"><h2>Match facts</h2><dl>' + ''.join(f'<dt>{E(k)}</dt><dd>{E(v)}</dd>' for k, v in m['facts']) + '</dl></div>')
 
@@ -148,11 +153,11 @@ def build_match(data, m, prev, nxt):
   <div class="wrap">
     <p class="kicker">{E(data['league'])} · Season {s} · Matchday {m['md']}</p>
     <div class="board">
-      <div class="side us"><span class="name">{E(data['team'])}</span><span class="race">{E(data['race'])}</span></div>
+      <div class="side us"><a class="name" href="{E(data['tourplay'])}" rel="noopener">{E(data['team'])}</a><span class="race">{E(data['race'])}</span></div>
       <div class="score"><span>{m['for']}</span><i>–</i><span>{m['against']}</span></div>
-      <div class="side them"><span class="name">{E(m['opponent'])}</span><span class="race">{E(m['race'])}</span></div>
+      <div class="side them"><a class="name" href="{E(m['opponent_url'])}" rel="noopener">{E(m['opponent'])}</a><span class="race">{E(m['race'])}</span></div>
     </div>
-    <p class="meta"><span class="res {r}">{'Win' if r == 'W' else 'Loss' if r == 'L' else 'Draw'}</span> {E(m['venue'])} · {E(m['weather'])}</p>
+    <p class="meta"><span class="res {r}">{'Win' if r == 'W' else 'Loss' if r == 'L' else 'Draw'}</span> {E(m['venue'])} · {E(m['weather'])} <a class="tp" href="{E(m['tourplay_match'])}" rel="noopener">Match on TourPlay ↗</a></p>
   </div>
 </header>
 <main>
@@ -211,6 +216,8 @@ def build_index(data):
 <main class="wrap">
   <div class="section-head"><h2>Match reports</h2></div>
   <div class="grid">{''.join(cards)}</div>
+  <div class="box opp-list"><h2>This season's opponents</h2><ul>{''.join(f'<li>MD{m["md"]}: <a href="{E(m["opponent_url"])}" rel="noopener">{E(m["opponent"])}</a> ({E(m["race"])}) · <a href="{E(m["tourplay_match"])}" rel="noopener">match ↗</a></li>' for m in ms)}</ul>
+    <p class="small"><a href="{E(data['league_url'])}" rel="noopener">{E(data['league'])} on TourPlay ↗</a></p></div>
 </main>
 '''
     open(os.path.join(SEC, 'index.html'), 'w').write(

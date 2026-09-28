@@ -147,7 +147,9 @@
       "standouts": [
         "The Treeman, for launching a teammate downfield. It didn't work. It was still beautiful."
       ],
-      "cover": "02.jpg"
+      "cover": "02.jpg",
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/677832",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/roster/215297"
     },
     {
       "md": 2,
@@ -260,7 +262,9 @@
         "**Erebus Blazeflare** and **Citizen Snips** with the touchdowns",
         "MVP **Secondfloor Basement**, a Journeyman, just to twist the knife",
         "**Shag Rug** and a Journeyman both sent off for fouling"
-      ]
+      ],
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/681933",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/roster/215769"
     },
     {
       "md": 3,
@@ -361,7 +365,9 @@
         "**Syezelriha The Conqueror** opened the scoring",
         "**Calarel Brygolor** (Phoenix Warrior): four completions",
         "MVP **Sasha, Destiny Shepherd** (White Lion)"
-      ]
+      ],
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/687051",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/roster/213948"
     },
     {
       "md": 4,
@@ -466,7 +472,9 @@
       "standouts": [
         "**Khakters The Exalted** (Tomb Guardian): three casualties",
         "**Takatenus** (Thrower): both touchdowns"
-      ]
+      ],
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/696807",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/roster/215777"
     },
     {
       "md": 5,
@@ -657,7 +665,10 @@
         "MVP **Vulzala** the Trained Troll, who clubbed, threw, and assisted",
         "**Turkrer** the Doom Diver, for sticking the landing and the touchdown",
         "**Zirr** the Bomma, for the fireworks"
-      ]
+      ],
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/726146",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/roster/214738"
     }
-  ]
+  ],
+  "league_url": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9"
 }
