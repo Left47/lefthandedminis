@@ -157,8 +157,16 @@ def load():
             if os.path.exists(fp):
                 p['caps'][k] = open(fp).read().strip()
         p['search'] = (p['title'] + ' ' + ' '.join(p['caps'].values())).lower()
+        # Go-live time: the Instagram slot from Buffer (the gallery mirrors the
+        # Instagram feed), else the earliest scheduled channel, else post.json's date.
+        buf = p.get('buffer') or {}
+        due = (buf.get('instagram') or {}).get('dueAt') or min(
+            (v['dueAt'] for v in buf.values() if isinstance(v, dict) and v.get('dueAt')), default=None)
+        p['live'] = due or p.get('date') or '0000'
+        if due:
+            p['date'] = due[:10]
         posts.append(p)
-    posts.sort(key=lambda p: (p.get('date') or '0000', p['slug']), reverse=True)
+    posts.sort(key=lambda p: (p['live'], p['slug']), reverse=True)
     return posts
 
 
