@@ -103,6 +103,7 @@ def head(title, desc, canonical, rel, image=None, extra=''):
     <a href="{rel}#gallery">Gallery</a>
     <a href="{rel}#about">About</a>
     <a href="{rel}gear/">Gear</a>
+    <a href="{rel}grenadiers/">Blood Bowl League</a>
     <a href="mailto:lefthandedminis@gmail.com">Contact</a>
   </div>
 </nav>
@@ -127,7 +128,7 @@ def card(p, rel):
     return f'''<a class="card" href="{rel}posts/{p['slug']}/" data-game="{E(p.get('game', ''))}">
   <div class="img"><img loading="lazy" src="{rel}posts/{p['slug']}/thumb.jpg" width="600" height="750" alt="{E(p['images'][0].get('alt') or p['title'])}">
     {f'<span class="count">{len(p["images"])} photos</span>' if len(p['images']) > 1 else ''}
-    {f'<span class="kind">{kind}</span>' if kind else ''}{'<span class="unposted">Not posted yet</span>' if p.get('status') == 'unposted' else ''}</div>
+    {f'<span class="kind">{kind}</span>' if kind else ''}</div>
   <div class="meta"><h3>{E(p['title'])}</h3>
     <div class="sub">{f'<span class="res {res.strip()[0].upper()}">{E(res)}</span>' if res else ''}<span>{E(p.get('game', ''))}</span><span aria-hidden="true">·</span><span>{fmt_date(p.get('date'))}</span></div>
   </div>
@@ -225,7 +226,7 @@ def build_post(p, posts, games):
         main_cap = f'<div class="caption">{caption_html(p["caps"][keys[0]])}</div>'
         others = ''.join(f'<details class="alt-cap"><summary>{LABELS.get(k, k)} caption</summary><div class="caption">{caption_html(p["caps"][k])}</div></details>' for k in keys[1:])
     else:
-        main_cap = '<p class="unposted-note">Not posted yet. Caption coming soon.</p>'
+        main_cap = ''
         others = ''
     meta_bits = [f'<span class="res {p["result"].strip()[0].upper()}">{E(p["result"])}</span>' if p.get('result') else '',
                  f'<a href="{rel}games/{slugify(game)}/">{E(game)}</a>' if game else '',
@@ -235,7 +236,6 @@ def build_post(p, posts, games):
     if p.get('gear'):
         items = ''.join(f'<li><a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a><span>{E(it.get("note", ""))}</span></li>' for it in p['gear'])
         gear_box = f'<div class="panel-box"><h2>Gear in this post</h2><ul>{items}</ul><p class="seen-in">Affiliate links. <a href="{rel}gear/">All gear</a></p></div>'
-    note = f'<p class="note">{E(p["note"])}</p>' if p.get('note') else ''
     same = [q for q in games[game] if q is not p][:4]
     more = ''
     if same:
@@ -252,7 +252,6 @@ def build_post(p, posts, games):
     <header><div class="sub">{meta}</div><h1>{E(p['title'])}</h1></header>
     {main_cap}{others}
     {gear_box}
-    {note}
   </div>
 </article>
 {more}
