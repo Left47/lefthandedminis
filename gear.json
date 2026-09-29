@@ -33,6 +33,14 @@
           "match": "painting station"
         },
         {
+          "name": "Krydrufi portable painting station",
+          "note": "The modular painting kit that lets me paint at the kitchen table",
+          "url": "https://www.krydrufi.com/jimthomas",
+          "id": "krydrufi",
+          "store": "Krydrufi",
+          "match": "krydrufi"
+        },
+        {
           "name": "Kolinsky sable miniature brushes",
           "note": "Fuumuui 5-pack, sizes 00000 to 3",
           "url": "https://amzn.to/4isqPsb",

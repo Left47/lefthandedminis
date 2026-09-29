@@ -191,7 +191,7 @@ def gear_card(it, rel, seen=True):
         seen_html = f'<div class="seen-in">Seen in {links}{more}</div>'
     return f'''<div class="gear-card">
   <strong>{E(it['name'])}</strong>{f'<span>{E(it["note"])}</span>' if it.get('note') else ''}
-  <a class="buy" href="{E(it['url'])}" target="_blank" rel="sponsored noopener">View on Amazon →</a>
+  <a class="buy" href="{E(it['url'])}" target="_blank" rel="sponsored noopener">View on {E(it.get('store', 'Amazon'))} →</a>
   {seen_html}
 </div>'''
 
