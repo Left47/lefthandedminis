@@ -39,7 +39,7 @@ Give the first mini a modest goal and a time box. I'd treat it as an under-an-ho
 
 - **An airbrush.** Amazing later, overkill now.
 - **A wet palette.** Useful once you're doing layers and blends. A plate or a lid works on day one.
-- **Premium brushes.** Buy them once you know how to keep a point.
+- **Premium brushes.** Kolinsky sable brushes are worth it once you know what you're doing, but they're not a starter buy.
 - **Fifty paints.** Buy colors when a mini asks for them. The [next 10 paints](../next-10-paints/) guide covers what's actually worth adding.
 
 ## The real goal

@@ -14,6 +14,8 @@ Wrap stripes of masking tape (or colored washi tape) around each handle. I do th
 
 On my daily drivers, the stripes sit near the end of the handle, so I can read them even when the brushes are lying in a pile or standing in a cup. Different colors and different numbers of stripes tell them apart at a glance, and a couple of brushes get a band of tape up near the ferrule instead.
 
+The daily drivers themselves are Kolinsky sable: a Fuumuui set and da Vinci Maestro Series 35 brushes in sizes 0, 1 and 3 (both are in the gear box). I've decided they're worth it once you know what you're doing, but they're not a starter buy.
+
 ![Three striped brushes on the cutting mat next to an unpainted metal mini held in a tweezer clamp](img:taped-brushes-wip.jpg "Mid-session: the stripes make the right brush easy to grab.")
 
 ## An example code

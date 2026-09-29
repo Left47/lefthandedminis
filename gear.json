@@ -40,6 +40,13 @@
           "match": "kolinsky|sable brush"
         },
         {
+          "name": "da Vinci Maestro Series 35 Kolinsky sable brush",
+          "note": "My daily drivers in sizes 0, 1 and 3 (link is size 1)",
+          "url": "https://link.amazon/B09tuPvRx",
+          "id": "B09tuPvRx",
+          "match": "da ?vinci|maestro series"
+        },
+        {
           "name": "The Masters brush cleaner & preserver",
           "note": "Keeps the good brushes good",
           "url": "https://amzn.to/41A1MNk",
