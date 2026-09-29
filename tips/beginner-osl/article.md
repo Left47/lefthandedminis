@@ -25,7 +25,7 @@ Get those three right with rough brushwork and it reads. Get them wrong with per
 ## What I've tried
 
 - **Darth Maul:** my first lightsaber. I tried makeup sponges for the lighting and some glazing on the beams, and I was pretty happy with the glow.
-- **Catwoman:** I laid down Army Painter base colors, then airbrushed Vallejo highlights for an orange glow coming up from below.
+- **Catwoman:** I laid down a mix of Army Painter colors, then airbrushed Vallejo highlights for an orange glow coming up from below.
 - **Vulture:** fluorescent green layered over a white base to get an eerie glow.
 - **The Joker:** I let the airbrush handle most of the glow creeping up his suit. Still learning to balance neon pop without going full rave, but it worked this time.
 - **Liara:** kept the glow tight so it reads as contained energy, and kept the armor muted so the biotic sphere did the talking.
