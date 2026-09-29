@@ -17,6 +17,8 @@ After you spray black, take a white can and do a couple of quick swipes across t
 3. **Switch to white.** Hold the can above the batch at a consistent angle and do just a couple of quick swipes across it. Don't chase full coverage. You only want the white to land on the surfaces facing up.
 4. **Stop early.** Too many passes and the whole mini turns grey, which throws away the contrast you were after.
 
+Grey works as the base coat too. My latest batch was grey with a quick pass of white from above, and the difference was still easy to see on the big flat panels of the Quinjet. Black gives you deeper shadows, grey keeps the colors on top a little brighter.
+
 ![Rows of minis on foam boards after a zenithal prime](img:batch-primed-foam-2.jpg "Another zenithal batch on the foam boards.")
 
 ## Same idea with an airbrush
@@ -29,7 +31,7 @@ The zenithal gives you a map of where the light falls before you start painting.
 
 ## Checklist
 
-- Full black prime, thin passes, every angle
+- Full black (or grey) prime, thin passes, every angle
 - Dry before the white
 - A couple of white swipes from above, same angle each time
 - Stop before it turns grey

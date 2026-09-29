@@ -293,7 +293,8 @@
       "cover": "img:batch-primed-foam.jpg",
       "posts": [
         "2025-06-16-priming-process",
-        "2025-07-16-shatterpoint-wip"
+        "2025-07-16-shatterpoint-wip",
+        "2026-09-29-priming-backlog-cleared"
       ],
       "related": [
         "zenithal-priming",
@@ -306,7 +307,7 @@
         "430OOKd"
       ],
       "status": "live",
-      "updated": "2026-09-28"
+      "updated": "2026-09-29"
     },
     "magnetize-200-minis": {
       "title": "How I magnetized about 200 minis in about 20 minutes",
@@ -397,10 +398,11 @@
     },
     "zenithal-priming": {
       "title": "Quick zenithal priming with two rattlecans",
-      "dek": "Black first, then a couple of white swipes from above. Free contrast before you open a paint pot.",
+      "dek": "Black or grey first, then a couple of white swipes from above. Free contrast before you open a paint pot.",
       "cover": "img:batch-primed-foam-2.jpg",
       "posts": [
-        "2025-06-16-priming-process"
+        "2025-06-16-priming-process",
+        "2026-09-29-priming-backlog-cleared"
       ],
       "related": [
         "batch-priming",
@@ -413,7 +415,7 @@
         "B0cx17N61"
       ],
       "status": "live",
-      "updated": "2026-09-28"
+      "updated": "2026-09-29"
     },
     "easing-into-the-airbrush": {
       "title": "Easing into the airbrush (there's no rush)",

@@ -1,0 +1,52 @@
+{
+  "slug": "2026-09-29-priming-backlog-cleared",
+  "date": "2026-09-29",
+  "title": "Priming backlog: cleared",
+  "type": "wip",
+  "game": "Marvel: Crisis Protocol",
+  "series": "Quinjet · Crashed Sentinel",
+  "images": [
+    {
+      "file": "01-quinjet-sentinel.jpg",
+      "alt": "Grey-primed Quinjet terrain nose in the foreground over the Crashed Sentinel terrain, a tray of primed Crisis Protocol minis soft in the background",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-full-backlog.jpg",
+      "alt": "A full tray of grey-primed Crisis Protocol minis and scatter terrain behind the primed Quinjet and Roxxon Quick Change sign",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-quinjet-overhead.jpg",
+      "alt": "Overhead view of the primed Quinjet beside the Roxxon Quick Change sign and the Crashed Sentinel building ruin",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-zenithal-wings.jpg",
+      "alt": "Close angle on the Quinjet's wings and tail, top panels lighter from the white zenithal pass and undersides grey",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md",
+    "reel": "reel.md"
+  },
+  "links": {
+    "Quinjet terrain (affiliate)": "https://link.amazon/B06HE7jq8",
+    "Rust-Oleum 2X primer (affiliate)": "https://link.amazon/B0dXevWmi",
+    "Spray can trigger handle (affiliate)": "https://link.amazon/B03eJpf67",
+    "Crashed Sentinel Terrain Pack": "https://www.atomicmassgames.com/character/crashed-sentinel-terrain-pack/"
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "music": "Pixabay: maeve, catchy reels (original sound muted)"
+  },
+  "note": "Carousel on Instagram + Threads; reel (reel.mp4, reel.md caption) on Instagram + TikTok. Reel Buffer IDs live under reel.buffer.",
+  "buffer": {}
+}

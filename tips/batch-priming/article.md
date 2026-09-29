@@ -27,10 +27,11 @@ Primer color sets the starting point for every color on top.
 
 1. **Clean up the minis first.** Mold lines and flash are much easier to see and fix before primer.
 2. **Line them up on something disposable.** I use strips of foam on a tarp. Spacing them out lets the spray reach every side.
-3. **Spray somewhere well ventilated.** I don't usually wear a respirator for a quick batch, only when I'm priming for a long time. For me it's more of an airbrush-session thing.
-4. **Hold the can 6 to 12 inches away.** Start spraying pointed away from the minis, then sweep quickly across the whole batch. You're after a thin layer, not full coverage in one go.
-5. **Repeat from every angle.** Go again from the front, back, sides and above, and don't forget to spray up underneath capes and coats. More thin passes are better than one thick spray that fills in the detail.
-6. **Let it dry fully** before you start painting.
+3. **Check the humidity first.** Rattlecan primer goes on best somewhere around 40 to 60% humidity. I just do a quick search for the humidity before I head out to the garage. The day I cleared my whole Crisis Protocol backlog it was about 45%.
+4. **Spray somewhere well ventilated.** I don't usually wear a respirator for a quick batch, only when I'm priming for a long time. For me it's more of an airbrush-session thing.
+5. **Hold the can 6 to 12 inches away.** Start spraying pointed away from the minis, then sweep quickly across the whole batch. You're after a thin layer, not full coverage in one go.
+6. **Repeat from every angle.** Go again from the front, back, sides and above, and don't forget to spray up underneath capes and coats. More thin passes are better than one thick spray that fills in the detail.
+7. **Let it dry fully** before you start painting.
 
 Big batches mean a lot of button pressing, and my hands cramp up sometimes. A clip-on trigger handle turns the rattlecan into a little spray gun, which makes long sessions a lot more comfortable (it's in the gear box on this page).
 
@@ -41,13 +42,14 @@ Once you've got a black-primed batch, a couple of white swipes from above gets y
 
 ## Tradeoffs
 
-- **Rattlecan vs. airbrush.** Rattlecans are cheap and fast for big batches, but they need decent weather (not too humid, not too cold). An airbrush is more controlled and works indoors, but it's more setup and cleanup.
+- **Rattlecan vs. airbrush.** Rattlecans are cheap and fast for big batches, but they need decent weather (roughly 40 to 60% humidity, and not too cold). An airbrush is more controlled and works indoors, but it's more setup and cleanup.
 - **Brand primer vs. hardware store.** Hobby-brand primers are finer and made for minis. Hardware-store primer is much cheaper and has worked fine for me.
 - **Batch size.** Bigger batches save time, but only prime what you'll paint in the next few months, so dust doesn't settle on everything.
 
 ## Checklist
 
 - Mold lines cleaned
+- Humidity somewhere around 40 to 60%
 - Primer color chosen for the game
 - Minis spaced out on something disposable
 - Somewhere ventilated (respirator for long sessions)
