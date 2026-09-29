@@ -191,7 +191,8 @@ def buy_links(it):
 def gear_li(it):
     main = f'<a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a>'
     alts = ''.join(f' <a class="alt-buy" href="{E(u)}" target="_blank" rel="sponsored noopener">also on {E(st)}</a>' for st, u in buy_links(it)[1:])
-    return f'<li>{main}{alts}<span>{E(it.get("note", ""))}</span></li>'
+    code = f'<span class="gear-code">{E(it["code"])}</span>' if it.get('code') else ''
+    return f'<li>{main}{alts}<span>{E(it.get("note", ""))}</span>{code}</li>'
 
 
 def gear_card(it, rel, seen=True):
@@ -201,7 +202,7 @@ def gear_card(it, rel, seen=True):
         more = f' and {len(it["posts"]) - 3} more' if len(it['posts']) > 3 else ''
         seen_html = f'<div class="seen-in">Seen in {links}{more}</div>'
     return f'''<div class="gear-card">
-  <strong>{E(it['name'])}</strong>{f'<span>{E(it["note"])}</span>' if it.get('note') else ''}
+  <strong>{E(it['name'])}</strong>{f'<span>{E(it["note"])}</span>' if it.get('note') else ''}{f'<span class="gear-code">{E(it["code"])}</span>' if it.get('code') else ''}
   {''.join(f'<a class="buy" href="{E(u)}" target="_blank" rel="sponsored noopener">View on {E(st)} →</a>' for st, u in buy_links(it))}
   {seen_html}
 </div>'''

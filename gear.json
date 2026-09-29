@@ -26,9 +26,9 @@
           "match": "paint rack|paint organizer"
         },
         {
-          "name": "Krydrufi portable painting station",
+          "name": "Krydrufi V1 2.0 modular painting station",
           "note": "The modular painting kit that lets me paint at the kitchen table, with brush cleaner and holders built in",
-          "url": "https://www.krydrufi.com/jimthomas",
+          "url": "https://www.krydrufi.com/oqk05a",
           "id": "krydrufi",
           "store": "Krydrufi",
           "match": "krydrufi|painting station",
@@ -40,7 +40,8 @@
           ],
           "legacy_ids": [
             "4kXV6kC"
-          ]
+          ],
+          "code": "15% off at Krydrufi with code lefthanded"
         },
         {
           "name": "Kolinsky sable miniature brushes",
