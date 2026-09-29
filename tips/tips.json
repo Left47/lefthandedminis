@@ -171,11 +171,11 @@
     "beginner-osl": {
       "title": "Beginner OSL: make the light source read before you chase smoothness",
       "dek": "The light has to be brighter than what it lights, and it has to fade with distance. Glow paint alone won't do it.",
-      "cover": "post:2025-10-31-ghost-rider/01.jpg",
+      "cover": "post:2026-04-10-dazzler/01.jpg",
       "posts": [
-        "2025-08-12-darth-maul",
-        "2025-10-31-ghost-rider",
         "2026-04-10-dazzler",
+        "2025-10-07-catwoman",
+        "2025-08-12-darth-maul",
         "2026-02-10-liara"
       ],
       "related": [
@@ -188,7 +188,8 @@
         "430OOKd"
       ],
       "status": "live",
-      "updated": "2026-09-28"
+      "updated": "2026-09-28",
+      "focus": 0.4
     },
     "basing-as-composition": {
       "title": "Basing as composition, not decoration",

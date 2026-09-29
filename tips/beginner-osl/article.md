@@ -1,6 +1,6 @@
 OSL (object source lighting) is painting light that comes from something in the scene: a lightsaber, a flaming skull, a glowing hand, a vat of toxic sludge. It's one of the most fun effects to try, and one of the easiest to overdo. I've had glows I was happy with, and I've had ones that were "a bit meh" (my words on Commander Shepard), so this is the version I wish I'd read first.
 
-![Ghost Rider with a flaming skull and orange glow on the jacket](post:2025-10-31-ghost-rider/01.jpg "Ghost Rider: wet-blended fire with a touch of airbrushed OSL.")
+![Dazzler with pink light glowing off her hand onto her arm, costume and base](post:2026-04-10-dazzler/01.jpg "Dazzler: pink OSL off the hand effect.")
 
 ## Why this matters
 
@@ -25,11 +25,13 @@ Get those three right with rough brushwork and it reads. Get them wrong with per
 ## What I've tried
 
 - **Darth Maul:** my first lightsaber. I tried makeup sponges for the lighting and some glazing on the beams, and I was pretty happy with the glow.
-- **Ghost Rider:** the fire was wet blended (my usual approach), with a touch of airbrushed OSL to push the glow further.
+- **Catwoman:** I laid down Army Painter base colors, then airbrushed Vallejo highlights for an orange glow coming up from below.
 - **Vulture:** fluorescent green layered over a white base to get an eerie glow.
 - **The Joker:** I let the airbrush handle most of the glow creeping up his suit. Still learning to balance neon pop without going full rave, but it worked this time.
 - **Liara:** kept the glow tight so it reads as contained energy, and kept the armor muted so the biotic sphere did the talking.
 - **Dazzler:** pink OSL off the hand effect. It's always a balance between how much glow adds to the story and how much it starts to hide the details you worked on.
+
+![Catwoman lit orange from below, crouched on a brick ledge](post:2025-10-07-catwoman/02.jpg "Catwoman: an airbrushed orange glow from below.")
 
 ![The Joker in progress with green glow creeping up the suit](img:joker-glow-wip.jpg "Joker mid-glow, still on the painting handle.")
 
