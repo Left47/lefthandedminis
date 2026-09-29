@@ -183,6 +183,17 @@ def link_gear(posts, gear):
                 p.setdefault('gear', []).append(it)
 
 
+def buy_links(it):
+    """(store, url) pairs for a gear item: the main link plus any "also" links."""
+    return [(it.get('store', 'Amazon'), it['url'])] + [(a.get('store', 'Amazon'), a['url']) for a in it.get('also', [])]
+
+
+def gear_li(it):
+    main = f'<a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a>'
+    alts = ''.join(f' <a class="alt-buy" href="{E(u)}" target="_blank" rel="sponsored noopener">also on {E(st)}</a>' for st, u in buy_links(it)[1:])
+    return f'<li>{main}{alts}<span>{E(it.get("note", ""))}</span></li>'
+
+
 def gear_card(it, rel, seen=True):
     seen_html = ''
     if seen and it.get('posts'):
@@ -191,7 +202,7 @@ def gear_card(it, rel, seen=True):
         seen_html = f'<div class="seen-in">Seen in {links}{more}</div>'
     return f'''<div class="gear-card">
   <strong>{E(it['name'])}</strong>{f'<span>{E(it["note"])}</span>' if it.get('note') else ''}
-  <a class="buy" href="{E(it['url'])}" target="_blank" rel="sponsored noopener">View on {E(it.get('store', 'Amazon'))} →</a>
+  {''.join(f'<a class="buy" href="{E(u)}" target="_blank" rel="sponsored noopener">View on {E(st)} →</a>' for st, u in buy_links(it))}
   {seen_html}
 </div>'''
 
@@ -237,7 +248,7 @@ def build_post(p, posts, games):
     meta = ' <span aria-hidden="true">·</span> '.join(b for b in meta_bits if b)
     gear_box = ''
     if p.get('gear'):
-        items = ''.join(f'<li><a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a><span>{E(it.get("note", ""))}</span></li>' for it in p['gear'])
+        items = ''.join(gear_li(it) for it in p['gear'])
         gear_box = f'<div class="panel-box"><h2>Gear in this post</h2><ul>{items}</ul><p class="seen-in">Affiliate links. <a href="{rel}gear/">All gear</a></p></div>'
     if p.get('tips'):
         items = ''.join(f'<li><a href="{rel}tips/{t["slug"]}/">{E(t["title"])} →</a><span>{E(t["dek"])}</span></li>' for t in p['tips'])
@@ -475,7 +486,7 @@ def build_tip(t, by_slug, posts_by_slug, gear_by_id, drafts):
         side.append(f'<div class="panel-box seen-posts"><h2>As seen on Instagram</h2><ul>{items}</ul></div>')
     gear = [gear_by_id[g] for g in t.get('gear', []) if g in gear_by_id]
     if gear:
-        items = ''.join(f'<li><a href="{E(it["url"])}" target="_blank" rel="sponsored noopener">{E(it["name"])}</a><span>{E(it.get("note", ""))}</span></li>' for it in gear)
+        items = ''.join(gear_li(it) for it in gear)
         side.append(f'<div class="panel-box"><h2>Gear in this guide</h2><ul>{items}</ul><p class="seen-in">Affiliate links, so using them supports me. <a href="{rel}gear/">All gear</a></p></div>')
     related = [by_slug[s] for s in t.get('related', []) if s in by_slug]
     if related:

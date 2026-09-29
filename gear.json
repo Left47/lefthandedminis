@@ -26,19 +26,21 @@
           "match": "paint rack|paint organizer"
         },
         {
-          "name": "Portable modular painting station",
-          "note": "All-in-one station with brush cleaner and holders",
-          "url": "https://amzn.to/4kXV6kC",
-          "id": "4kXV6kC",
-          "match": "painting station"
-        },
-        {
           "name": "Krydrufi portable painting station",
-          "note": "The modular painting kit that lets me paint at the kitchen table",
+          "note": "The modular painting kit that lets me paint at the kitchen table, with brush cleaner and holders built in",
           "url": "https://www.krydrufi.com/jimthomas",
           "id": "krydrufi",
           "store": "Krydrufi",
-          "match": "krydrufi"
+          "match": "krydrufi|painting station",
+          "also": [
+            {
+              "store": "Amazon",
+              "url": "https://amzn.to/4kXV6kC"
+            }
+          ],
+          "legacy_ids": [
+            "4kXV6kC"
+          ]
         },
         {
           "name": "Kolinsky sable miniature brushes",
