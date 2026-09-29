@@ -114,9 +114,6 @@
   .caption p{margin:0 0 12px}.caption p:last-child{margin:0}
   .caption .tag{color:var(--blue);font-weight:700}
   .caption a{color:var(--blue);font-weight:700;text-decoration:none}
-  details.alt-cap{border:2px solid var(--ink);background:var(--paper);padding:10px 14px}
-  details.alt-cap summary{font:900 13px Lato,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
-  details.alt-cap .caption{border:0;padding:10px 0 0}
   .panel-box{background:var(--paper);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:14px 16px}
   .panel-box h2{font:900 13px Lato,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin:0 0 10px}
   .panel-box ul{margin:0;padding:0;list-style:none;display:grid;gap:8px}

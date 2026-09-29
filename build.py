@@ -26,7 +26,6 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">')
 KINDS = {'match-report': 'Match report', 'build': 'Build', 'wip': 'WIP', 'finished': 'Finished', 'game-night': 'Game night',
          'tip': 'Hobby tip', 'roundup': 'Roundup', 'team': 'Team shot'}
-LABELS = {'instagram': 'Instagram', 'threads': 'Threads', 'tiktok': 'TikTok', 'bluesky': 'Bluesky'}
 SOCIALS = [('Instagram', 'https://instagram.com/lefthandedminis'), ('Threads', 'https://www.threads.net/@lefthandedminis'),
            ('TikTok', 'https://tiktok.com/@lefthandedminis'), ('YouTube', 'https://www.youtube.com/@lefthandedminis'),
            ('Bluesky', 'https://bsky.app/profile/lefthandedminis.bsky.social'), ('Facebook', 'https://www.facebook.com/530614806807869'),
@@ -236,13 +235,10 @@ def build_post(p, posts, games):
     photos = '\n'.join(
         f'<figure><img src="{im["file"]}" width="{im.get("width", "")}" height="{im.get("height", "")}" alt="{E(im.get("alt") or p["title"])}"'
         + (LAZY if i else EAGER) + '></figure>' for i, im in enumerate(p['images']))
-    keys = list(p['caps'])
-    if keys:
-        main_cap = f'<div class="caption">{caption_html(p["caps"][keys[0]])}</div>'
-        others = ''.join(f'<details class="alt-cap"><summary>{LABELS.get(k, k)} caption</summary><div class="caption">{caption_html(p["caps"][k])}</div></details>' for k in keys[1:])
-    else:
-        main_cap = ''
-        others = ''
+    # Only the Instagram caption is public; Threads/TikTok/reel captions stay in
+    # the repo files for Buffer (and still feed gear matching via p['search']).
+    cap = p['caps'].get('instagram') or next(iter(p['caps'].values()), '')
+    main_cap = f'<div class="caption">{caption_html(cap)}</div>' if cap else ''
     meta_bits = [f'<span class="res {p["result"].strip()[0].upper()}">{E(p["result"])}</span>' if p.get('result') else '',
                  f'<a href="{rel}games/{slugify(game)}/">{E(game)}</a>' if game else '',
                  E(p.get('league') or p.get('series') or ''), fmt_date(p.get('date'))]
@@ -268,7 +264,7 @@ def build_post(p, posts, games):
   <div class="photos">{photos}</div>
   <div class="post-side">
     <header><div class="sub">{meta}</div><h1>{E(p['title'])}</h1></header>
-    {main_cap}{others}
+    {main_cap}
     {gear_box}
   </div>
 </article>
