@@ -8,7 +8,7 @@ An airbrush is the most expensive and most intimidating tool on most painting de
 
 ## The short version
 
-Don't rush it. When you do start, practice on a sheet before a mini, thin your paint (I mix airbrush medium into almost everything), and use it where it shines: priming and soft glows.
+Don't rush it. When you do start, start with a cheap airbrush, practice on a sheet before a mini, thin your paint (I mix airbrush medium into almost everything), and use it where it shines: priming and soft glows.
 
 ## How I eased into it
 
@@ -24,7 +24,7 @@ A few habits that helped:
 
 ## Where I use it now
 
-- **Priming.** I prime with the airbrush and Vallejo primers now, including [zenithal priming](../zenithal-priming/): black first, then white from above at a consistent angle.
+- **Priming.** I prime with my cheap starter airbrush and Vallejo primers now, including [zenithal priming](../zenithal-priming/): black first, then white from above at a consistent angle.
 - **Soft glows.** On the Joker, I let the airbrush handle most of the glow creeping up his suit. See [beginner OSL](../beginner-osl/) for the logic behind a glow.
 - **Smooth transitions on big areas.** On Shadow King, I wanted the blending to feel like light khaki in outdoor sunlight.
 
@@ -34,7 +34,9 @@ I still use both. I like the airbrush effect more, but it's not always the most 
 
 ## What you actually need
 
-An airbrush, a compressor and a hose to connect them (compressors often come with one). That's it. Everything else in the gear box on this page (the quick-release hose kit, the medium, the cleaner, the cleaning pot, the spray booth) is gear I use and like, but it's nice to have, not required. Start with the basics and add the rest if you find yourself wanting it.
+An airbrush, a compressor and a hose to connect them (compressors often come with one). That's it.
+
+Start with a cheap airbrush. A starter one will probably last you the first year while you learn how to use it without clogging it constantly, and how to take it apart and clean it without breaking it. I still use my cheap starter airbrush for all my priming, and save the nicer one for painting. Everything else in the gear box on this page (the nicer airbrush, the quick-release hose kit, the medium, the cleaner, the cleaning pot, the spray booth) is gear I use and like, but it's nice to have, not required. Start with the basics and add the rest if you find yourself wanting it.
 
 ## Tradeoffs
 
@@ -45,6 +47,7 @@ An airbrush, a compressor and a hose to connect them (compressors often come wit
 ## Checklist
 
 - Wait until you know what you want it for
+- Start with a cheap airbrush
 - Practice sheets before minis
 - Airbrush medium in the paint
 - Respirator for longer sessions

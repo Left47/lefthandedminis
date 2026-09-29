@@ -122,8 +122,15 @@
           "match": "cleaning pot"
         },
         {
+          "name": "Master Airbrush G233 starter kit",
+          "note": "Cheap starter airbrush with three needle sizes. Mine does all my priming",
+          "url": "https://link.amazon/B09vCCpth",
+          "id": "B09vCCpth",
+          "match": "master airbrush|g233"
+        },
+        {
           "name": "Gaahleri Mobius airbrush (0.2 mm)",
-          "note": "The airbrush I use",
+          "note": "My nicer airbrush, for painting. The starter one handles priming",
           "url": "https://link.amazon/B06aFFnWd",
           "id": "B06aFFnWd",
           "match": "gaahleri|mobius"
