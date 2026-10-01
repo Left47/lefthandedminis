@@ -6,13 +6,58 @@
   "game": "Blood Bowl",
   "project": "Holy Hand Grenadiers",
   "images": [
-    {"file": "01-squires-8-and-11.jpg", "alt": "Holy Hand Grenadiers squires numbered 8 and 11 in focus, olive tunics with red scarves and slate blue knee pads, on green bases with white number labels, more squires blurred behind", "width": 1080, "height": 1350},
-    {"file": "02-red-in-progress.jpg", "alt": "Overhead close-up of a brush laying red onto a squire held on a painting handle, with a wet palette and more squires in the background", "width": 1080, "height": 1350},
-    {"file": "03-squad-at-the-station.jpg", "alt": "Six work-in-progress Bretonnian squires, including numbers 8 to 11, lined up in the painting station tray, Krydrufi logo on the station behind them", "width": 1080, "height": 1350}
+    {
+      "file": "01-squires-8-and-11.jpg",
+      "alt": "Holy Hand Grenadiers squires numbered 8 and 11 in focus, olive tunics with red scarves and slate blue knee pads, on green bases with white number labels, more squires blurred behind",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-red-in-progress.jpg",
+      "alt": "Overhead close-up of a brush laying red onto a squire held on a painting handle, with a wet palette and more squires in the background",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-squad-at-the-station.jpg",
+      "alt": "Six work-in-progress Bretonnian squires, including numbers 8 to 11, lined up in the painting station tray, Krydrufi logo on the station behind them",
+      "width": 1080,
+      "height": 1350
+    }
   ],
-  "captions": {"instagram": "instagram.md", "threads": "threads.md", "tiktok": "tiktok.md", "reel": "reel.md"},
-  "links": {"Krydrufi V1 2.0 painting station (affiliate, code lefthanded)": "https://www.krydrufi.com/oqk05a"},
-  "reel": {"file": "reel.mp4", "music": "none (silent timelapse; add music in app)", "buffer": {}},
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md",
+    "reel": "reel.md"
+  },
+  "links": {
+    "Krydrufi V1 2.0 painting station (affiliate, code lefthanded)": "https://www.krydrufi.com/oqk05a"
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "music": "none (silent timelapse; add music in app)",
+    "buffer": {
+      "instagram": {
+        "id": "6abdbd2b24db200ef442fb44",
+        "dueAt": "2026-10-28T06:07:00-04:00"
+      },
+      "tiktok": {
+        "id": "6abdbd2d24db200ef442fb75",
+        "dueAt": "2026-10-20T06:34:00-04:00",
+        "title": "Squires keep dying, I keep painting"
+      }
+    }
+  },
   "note": "Carousel on Instagram + Threads; reel (vertical timelapse of the Sept 30 session) on Instagram + TikTok. Reel Buffer IDs live under reel.buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6abdbd21b29c0fecf41209fc",
+      "dueAt": "2026-10-25T07:27:00-04:00"
+    },
+    "threads": {
+      "id": "6abdbd277b21e6b4b73637b2",
+      "dueAt": "2026-10-19T10:17:00-04:00"
+    }
+  }
 }
