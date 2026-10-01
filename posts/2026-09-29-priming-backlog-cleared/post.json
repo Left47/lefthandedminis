@@ -17,7 +17,8 @@
     "instagram": "instagram.md",
     "threads": "threads.md",
     "tiktok": "tiktok.md",
-    "reel": "reel.md"
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "links": {
     "Quinjet terrain (affiliate)": "https://link.amazon/B06HE7jq8",
@@ -31,7 +32,7 @@
     "buffer": {
       "instagram": {
         "id": "6abc3a0ebc79f721888b39f3",
-        "dueAt": "2026-10-21T06:07:00-04:00"
+        "dueAt": "2026-10-25T07:27:00-04:00"
       },
       "tiktok": {
         "id": "6abc3a113b1eb12e6e3956c4",
@@ -40,7 +41,7 @@
       }
     }
   },
-  "note": "Carousel on Instagram + Threads; reel (reel.mp4, reel.md caption) on Instagram + TikTok. Reel Buffer IDs live under reel.buffer.",
+  "note": "Carousel on Instagram, Threads + TikTok; reel on Instagram + TikTok, spaced apart from the carousel. Reel Buffer IDs live under reel.buffer.",
   "buffer": {
     "instagram": {
       "id": "6abc3a02bc79f721888b3902",
@@ -49,6 +50,11 @@
     "threads": {
       "id": "6abc3a07bc79f721888b3982",
       "dueAt": "2026-10-15T09:32:00-04:00"
+    },
+    "tiktok": {
+      "id": "6abe5b88ecb687b12492a653",
+      "dueAt": "2026-10-24T09:32:00-04:00",
+      "title": "Priming backlog: cleared"
     }
   }
 }

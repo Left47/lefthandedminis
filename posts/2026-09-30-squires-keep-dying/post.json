@@ -29,7 +29,8 @@
     "instagram": "instagram.md",
     "threads": "threads.md",
     "tiktok": "tiktok.md",
-    "reel": "reel.md"
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "links": {
     "Krydrufi V1 2.0 painting station (affiliate, code lefthanded)": "https://www.krydrufi.com/oqk05a"
@@ -49,15 +50,20 @@
       }
     }
   },
-  "note": "Carousel on Instagram + Threads; reel (vertical timelapse of the Sept 30 session) on Instagram + TikTok. Reel Buffer IDs live under reel.buffer.",
+  "note": "Carousel on Instagram, Threads + TikTok; reel on Instagram + TikTok, spaced apart from the carousel. Reel Buffer IDs live under reel.buffer.",
   "buffer": {
     "instagram": {
       "id": "6abdbd21b29c0fecf41209fc",
-      "dueAt": "2026-10-25T07:27:00-04:00"
+      "dueAt": "2026-10-21T06:07:00-04:00"
     },
     "threads": {
       "id": "6abdbd277b21e6b4b73637b2",
       "dueAt": "2026-10-19T10:17:00-04:00"
+    },
+    "tiktok": {
+      "id": "6abe5b8fecb687b12492a6f7",
+      "dueAt": "2026-10-27T06:34:00-04:00",
+      "title": "Squires keep dying, I keep painting"
     }
   }
 }
