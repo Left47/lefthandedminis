@@ -1,0 +1,8 @@
+# Keep text files LF on every OS (Windows clones would otherwise turn captions and scripts into CRLF)
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.mp4 binary
+*.mov binary
