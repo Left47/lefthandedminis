@@ -54,5 +54,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac028c2ad2f47bd7d488e23",
+      "dueAt": "2026-11-07T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac028c85831428806a5d8a9",
+      "dueAt": "2026-11-07T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac028ce08f9f1f9691a54c7",
+      "dueAt": "2026-11-07T17:32:00-05:00",
+      "title": "Happy N7 Day 🚀"
+    }
+  }
 }

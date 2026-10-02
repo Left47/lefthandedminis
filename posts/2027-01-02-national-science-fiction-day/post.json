@@ -36,5 +36,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac029384b07e9a1f4cfecfa",
+      "dueAt": "2027-01-02T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac0293cad2f47bd7d4896b9",
+      "dueAt": "2027-01-02T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac029415831428806a5e1b7",
+      "dueAt": "2027-01-02T17:32:00-05:00",
+      "title": "National Sci-Fi Day 🛸"
+    }
+  }
 }

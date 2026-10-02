@@ -30,5 +30,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac028b05831428806a5d445",
+      "dueAt": "2026-11-03T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac028b4ad2f47bd7d488cf5",
+      "dueAt": "2026-11-03T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac028b7ad2f47bd7d488d48",
+      "dueAt": "2026-11-03T17:32:00-05:00",
+      "title": "Election Day 🇺🇸"
+    }
+  }
 }

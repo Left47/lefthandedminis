@@ -42,5 +42,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac0287df942e39137fe452b",
+      "dueAt": "2026-10-20T11:07:00-04:00"
+    },
+    "threads": {
+      "id": "6ac028826091822e8919e7e6",
+      "dueAt": "2026-10-20T11:37:00-04:00"
+    },
+    "tiktok": {
+      "id": "6ac0288708f9f1f9691a4e74",
+      "dueAt": "2026-10-20T17:32:00-04:00",
+      "title": "National Pizza Month 🍕"
+    }
+  }
 }

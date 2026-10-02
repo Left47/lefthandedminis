@@ -18,5 +18,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer. Grid only covers Jan-Apr 2026 finishes; refresh it with later work before Dec 31.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac029285831428806a5df39",
+      "dueAt": "2026-12-31T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac0292b5831428806a5df68",
+      "dueAt": "2026-12-31T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac0292e08f9f1f9691a5b80",
+      "dueAt": "2026-12-31T17:32:00-05:00",
+      "title": "2026 in minis 🎉"
+    }
+  }
 }

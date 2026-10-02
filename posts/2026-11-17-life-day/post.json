@@ -24,5 +24,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac028d5f942e39137fe4c8f",
+      "dueAt": "2026-11-17T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac028d86091822e8919ee36",
+      "dueAt": "2026-11-17T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac028db6091822e8919ee72",
+      "dueAt": "2026-11-17T17:32:00-05:00",
+      "title": "Happy Life Day ✨"
+    }
+  }
 }

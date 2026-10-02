@@ -36,5 +36,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac028e44b07e9a1f4cfe542",
+      "dueAt": "2026-11-26T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac028e808f9f1f9691a5646",
+      "dueAt": "2026-11-26T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac028ed4b07e9a1f4cfe605",
+      "dueAt": "2026-11-26T17:32:00-05:00",
+      "title": "Happy Thanksgiving 🦃"
+    }
+  }
 }

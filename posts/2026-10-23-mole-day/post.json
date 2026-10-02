@@ -24,5 +24,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac0288f4b07e9a1f4cfde81",
+      "dueAt": "2026-10-23T18:02:00-04:00"
+    },
+    "threads": {
+      "id": "6ac028915831428806a5d0f2",
+      "dueAt": "2026-10-23T18:22:00-04:00"
+    },
+    "tiktok": {
+      "id": "6ac028946091822e8919ea06",
+      "dueAt": "2026-10-23T19:02:00-04:00",
+      "title": "Happy Mole Day 🧪"
+    }
+  }
 }

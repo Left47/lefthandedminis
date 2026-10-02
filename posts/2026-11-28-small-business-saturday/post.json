@@ -24,5 +24,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac028f44b07e9a1f4cfe695",
+      "dueAt": "2026-11-28T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac028f8f942e39137fe4e16",
+      "dueAt": "2026-11-28T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac028fbf942e39137fe4e5e",
+      "dueAt": "2026-11-28T17:32:00-05:00",
+      "title": "Small Business Saturday 🛍️"
+    }
+  }
 }

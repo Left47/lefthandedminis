@@ -36,5 +36,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac028695831428806a5ca54",
+      "dueAt": "2026-10-14T11:07:00-04:00"
+    },
+    "threads": {
+      "id": "6ac0286e6091822e8919e696",
+      "dueAt": "2026-10-14T11:37:00-04:00"
+    },
+    "tiktok": {
+      "id": "6ac02872ad2f47bd7d48873d",
+      "dueAt": "2026-10-14T17:32:00-04:00",
+      "title": "Happy National Fossil Day 🦖"
+    }
+  }
 }

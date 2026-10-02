@@ -72,5 +72,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac0290ff942e39137fe4f95",
+      "dueAt": "2026-12-28T11:07:00-05:00"
+    },
+    "threads": {
+      "id": "6ac029176091822e8919f25b",
+      "dueAt": "2026-12-28T11:37:00-05:00"
+    },
+    "tiktok": {
+      "id": "6ac029214b07e9a1f4cfea35",
+      "dueAt": "2026-12-28T17:32:00-05:00",
+      "title": "Happy birthday, Stan Lee 🎂"
+    }
+  }
 }

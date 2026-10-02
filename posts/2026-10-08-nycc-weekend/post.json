@@ -72,5 +72,19 @@
     "tiktok": "tiktok.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6ac0284df942e39137fe406b",
+      "dueAt": "2026-10-08T11:07:00-04:00"
+    },
+    "threads": {
+      "id": "6ac028554b07e9a1f4cfd6b3",
+      "dueAt": "2026-10-08T11:37:00-04:00"
+    },
+    "tiktok": {
+      "id": "6ac0285e5831428806a5c9b5",
+      "dueAt": "2026-10-08T17:32:00-04:00",
+      "title": "Happy NYCC weekend 🦸"
+    }
+  }
 }
