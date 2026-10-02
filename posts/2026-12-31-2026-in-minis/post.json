@@ -1,0 +1,22 @@
+{
+  "slug": "2026-12-31-2026-in-minis",
+  "date": "2026-12-31",
+  "title": "2026 in minis",
+  "type": "roundup",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01-grid.jpg",
+      "alt": "Four-by-four grid of minis painted in 2026: the Mass Effect squad, Tomb Kings, human and Skaven Blood Bowl players, Longshot, Ultron and Dazzler",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer. Grid only covers Jan-Apr 2026 finishes; refresh it with later work before Dec 31.",
+  "buffer": {}
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "2026-11-07-n7-day",
+  "date": "2026-11-07",
+  "title": "N7 Day",
+  "type": "roundup",
+  "game": "Mass Effect",
+  "images": [
+    {
+      "file": "01-mass-effect-squad.jpg",
+      "alt": "The painted Normandy squad together: Shepard, Garrus, Wrex, Tali and Liara",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-shepard.jpg",
+      "alt": "Commander Shepard with an orange omni-tool",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-femshep.jpg",
+      "alt": "FemShep with her rifle raised",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-garrus.jpg",
+      "alt": "Garrus Vakarian with his sniper rifle",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05-wrex.jpg",
+      "alt": "Wrex in red krogan armor with a shotgun",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06-tali.jpg",
+      "alt": "Tali'Zorah in purple with her hood and visor",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07-liara.jpg",
+      "alt": "Liara T'Soni in white with a biotic glow",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

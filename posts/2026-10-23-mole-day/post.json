@@ -1,0 +1,28 @@
+{
+  "slug": "2026-10-23-mole-day",
+  "date": "2026-10-23",
+  "title": "Mole Day",
+  "type": "roundup",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01-mole-man.jpg",
+      "alt": "Mole Man in green with a teal cape and his staff",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-mole-man.jpg",
+      "alt": "Mole Man from behind, cape sweeping over a rocky base",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

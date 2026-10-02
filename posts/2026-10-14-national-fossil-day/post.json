@@ -1,0 +1,40 @@
+{
+  "slug": "2026-10-14-national-fossil-day",
+  "date": "2026-10-14",
+  "title": "National Fossil Day",
+  "type": "roundup",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01-moon-girl-devil-dinosaur.jpg",
+      "alt": "Devil Dinosaur's red head and teeth, held in hand",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-moon-girl-devil-dinosaur.jpg",
+      "alt": "Moon Girl riding Devil Dinosaur",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-tomb-kings-thrower.jpg",
+      "alt": "Tomb Kings skeleton thrower in gold, mid-throw",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-tomb-kings-blitzer.jpg",
+      "alt": "Tomb Kings skeleton blitzer in black and gold, charging",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

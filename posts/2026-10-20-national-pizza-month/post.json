@@ -1,0 +1,46 @@
+{
+  "slug": "2026-10-20-national-pizza-month",
+  "date": "2026-10-20",
+  "title": "National Pizza Month",
+  "type": "roundup",
+  "game": "TMNT",
+  "images": [
+    {
+      "file": "01-collage.jpg",
+      "alt": "Grid collage of the painted minis in this post: Leonardo with twin katanas on a sewer base; Raphael with his sai on a sewer base; Donatello with his bo staff on a sewer base; Michelangelo with a pizza and his skateboard",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-leonardo.jpg",
+      "alt": "Leonardo with twin katanas on a sewer base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-raphael.jpg",
+      "alt": "Raphael with his sai on a sewer base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-donatello.jpg",
+      "alt": "Donatello with his bo staff on a sewer base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05-michelangelo.jpg",
+      "alt": "Michelangelo with a pizza and his skateboard",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

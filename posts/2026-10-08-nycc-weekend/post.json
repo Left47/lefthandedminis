@@ -1,0 +1,76 @@
+{
+  "slug": "2026-10-08-nycc-weekend",
+  "date": "2026-10-08",
+  "title": "New York Comic Con weekend",
+  "type": "roundup",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01-collage.jpg",
+      "alt": "Grid collage of the painted minis in this post: Mysterio with his fishbowl helmet and green smoke effects; Spider-Man 2099 crouched on a rooftop base; Apocalypse in blue armor with pink cables; Galactus in purple and blue on a lunar base; Batman with cape spread over a Bat-Signal base; Harley Quinn in red and black on a green bubbling base; Dazzler with pink light blasting from her hands; Monochrome grey Rhino charging; Maestro, the bearded future Hulk, flexing",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-mysterio.jpg",
+      "alt": "Mysterio with his fishbowl helmet and green smoke effects",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-spider-man-2099.jpg",
+      "alt": "Spider-Man 2099 crouched on a rooftop base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-apocalypse.jpg",
+      "alt": "Apocalypse in blue armor with pink cables",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05-galactus.jpg",
+      "alt": "Galactus in purple and blue on a lunar base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06-batman.jpg",
+      "alt": "Batman with cape spread over a Bat-Signal base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07-harley-quinn.jpg",
+      "alt": "Harley Quinn in red and black on a green bubbling base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08-dazzler.jpg",
+      "alt": "Dazzler with pink light blasting from her hands",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "09-rhino.jpg",
+      "alt": "Monochrome grey Rhino charging",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "10-maestro.jpg",
+      "alt": "Maestro, the bearded future Hulk, flexing",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-11-28-small-business-saturday",
+  "date": "2026-11-28",
+  "title": "Small Business Saturday",
+  "type": "roundup",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01-brotherhood-x-force-buil.jpg",
+      "alt": "Unpainted Quicksilver mini held in hand",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-brotherhood-x-force-buil.jpg",
+      "alt": "Assembled Blob in front of the assembly guide on an iPad",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

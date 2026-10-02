@@ -1,0 +1,34 @@
+{
+  "slug": "2027-02-14-super-bowl-sunday",
+  "date": "2027-02-14",
+  "title": "Super Bowl Sunday",
+  "type": "roundup",
+  "game": "Blood Bowl",
+  "images": [
+    {
+      "file": "01-squires-keep-dying.jpg",
+      "alt": "Holy Hand Grenadiers squires in red and slate blue on numbered green bases",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-grail-knight-blitzer-cat.jpg",
+      "alt": "A Grail Knight Blitzer with a gold sunburst halo",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-md5-goblins.jpg",
+      "alt": "The Grenadiers on the pitch mid-match",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

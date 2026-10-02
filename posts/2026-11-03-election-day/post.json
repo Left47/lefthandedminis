@@ -1,0 +1,34 @@
+{
+  "slug": "2026-11-03-election-day",
+  "date": "2026-11-03",
+  "title": "Election Day",
+  "type": "roundup",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01-patriotic-flyer.jpg",
+      "alt": "Captain America (Sam Wilson) in flight over a flag backdrop with a Get Out and Vote banner",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-iron-patriot.jpg",
+      "alt": "Iron Patriot in red, white and blue armor on rocket flames",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-us-agent.jpg",
+      "alt": "U.S. Agent with his shield",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

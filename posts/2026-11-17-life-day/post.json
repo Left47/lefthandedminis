@@ -1,0 +1,28 @@
+{
+  "slug": "2026-11-17-life-day",
+  "date": "2026-11-17",
+  "title": "Life Day",
+  "type": "roundup",
+  "game": "Star Wars Shatterpoint",
+  "images": [
+    {
+      "file": "01-darth-maul.jpg",
+      "alt": "Darth Maul with his red double-bladed lightsaber",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-ahsoka.jpg",
+      "alt": "Ahsoka Tano with twin white lightsabers",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

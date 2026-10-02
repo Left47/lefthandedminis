@@ -1,0 +1,76 @@
+{
+  "slug": "2026-12-28-stan-lee-birthday",
+  "date": "2026-12-28",
+  "title": "Happy birthday, Stan Lee",
+  "type": "roundup",
+  "game": "Marvel United",
+  "images": [
+    {
+      "file": "01-collage.jpg",
+      "alt": "Grid collage of the painted minis in this post: The Thing, orange and rocky, fists raised; Doctor Doom in green cloak and steel mask; The Human Torch, flaming on; Angel with white wings in the classic yellow and blue; Beast in the classic yellow and blue X-Men uniform; Marvel Girl in the classic yellow and blue X-Men uniform; Daredevil in red; Loki with horned helmet and scepter; Mole Man with his staff and teal cape",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-fantastic-four-and-frien.jpg",
+      "alt": "The Thing, orange and rocky, fists raised",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-fantastic-four-and-frien.jpg",
+      "alt": "Doctor Doom in green cloak and steel mask",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-fantastic-four-and-frien.jpg",
+      "alt": "The Human Torch, flaming on",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05-x-men-yellow-and-blue.jpg",
+      "alt": "Angel with white wings in the classic yellow and blue",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06-x-men-yellow-and-blue.jpg",
+      "alt": "Beast in the classic yellow and blue X-Men uniform",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07-x-men-yellow-and-blue.jpg",
+      "alt": "Marvel Girl in the classic yellow and blue X-Men uniform",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08-daredevil.jpg",
+      "alt": "Daredevil in red",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "09-loki.jpg",
+      "alt": "Loki with horned helmet and scepter",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "10-mole-man.jpg",
+      "alt": "Mole Man with his staff and teal cape",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "2027-01-02-national-science-fiction-day",
+  "date": "2027-01-02",
+  "title": "National Science Fiction Day",
+  "type": "roundup",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01-zeratul-wip.jpg",
+      "alt": "Zeratul in purple and teal with his warp blade",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-terran-starter.jpg",
+      "alt": "StarCraft Terran starter set marines and buildings",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-first-40k-chapter.jpg",
+      "alt": "Blue Space Marine with a bolt rifle on a desert base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-als-awareness-marine.jpg",
+      "alt": "The ALS Awareness Space Marine in red",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

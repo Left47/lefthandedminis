@@ -1,0 +1,40 @@
+{
+  "slug": "2026-11-26-thanksgiving",
+  "date": "2026-11-26",
+  "title": "Happy Thanksgiving",
+  "type": "roundup",
+  "game": "Blood Bowl",
+  "images": [
+    {
+      "file": "01-squires-keep-dying.jpg",
+      "alt": "Holy Hand Grenadiers squires in red and slate blue on numbered green bases",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-human-team.jpg",
+      "alt": "The full human Blood Bowl team in blue",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-skaven-team.jpg",
+      "alt": "The Skaven Blood Bowl team",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-tomb-kings-rise.jpg",
+      "alt": "The Tomb Kings Blood Bowl team in black and gold",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}

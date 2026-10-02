@@ -1,0 +1,28 @@
+{
+  "slug": "2026-10-29-national-cat-day",
+  "date": "2026-10-29",
+  "title": "National Cat Day",
+  "type": "roundup",
+  "game": "DC United",
+  "images": [
+    {
+      "file": "01-catwoman.jpg",
+      "alt": "Catwoman crouched on a rooftop chimney, whip curling around her",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-catwoman.jpg",
+      "alt": "Catwoman from another angle, whip raised",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
+  "buffer": {}
+}
