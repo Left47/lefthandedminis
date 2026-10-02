@@ -1,0 +1,75 @@
+{
+  "slug": "2026-10-31-happy-halloween",
+  "date": "2026-10-31",
+  "title": "Happy Halloween",
+  "type": "roundup",
+  "game": "Hobby",
+  "images": [
+    {
+      "file": "01-collage.jpg",
+      "alt": "Three-by-three grid of spooky painted minis on black: Ghost Rider, Carnage, Werewolf by Night, Hela, Venom, a Tomb Kings Tomb Guardian, Blade, Sauron and Hush",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-ghost-rider.jpg",
+      "alt": "Ghost Rider with a flaming skull and chain, riding his fire-trailing motorcycle",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-carnage.jpg",
+      "alt": "Red, tendril-covered Carnage lunging on a sandy base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-werewolf.jpg",
+      "alt": "Shaggy brown Werewolf by Night in green pants, claws raised and fangs bared",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05-hela.jpg",
+      "alt": "Hela in black and green with her antlered headdress, on a pale base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "06-venom.jpg",
+      "alt": "Venom crouched with his long red tongue out, white spider emblem on black",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "07-tomb-guardian.jpg",
+      "alt": "Blood Bowl Tomb Guardian, a mummy in black and gold armor hefting a stone block",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "08-blade.jpg",
+      "alt": "Blade in sunglasses and a long grey coat, gripping a bloodied sword",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "09-sauron.jpg",
+      "alt": "Green winged Sauron with purple shorts, swooping over a rocky base",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "10-hush.jpg",
+      "alt": "Bandage-wrapped Hush in a brown trench coat on a broken stone base",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "buffer": {}
+}
