@@ -1,6 +1,6 @@
 Snapped a three-game skid in Blood Bowl 🏈
 
-2–1 over a goblin team whose troll literally threw a teammate downfield for a touchdown. Respect.
+2–1 over a goblin team, back to 2–3 on the season. Their troll literally threw a teammate downfield for a touchdown. Respect.
 
 Both of our scores came from the same Rogerin-to-Nezot pass. The price was five casualties and one very dead squire. RIP Ortrun Heinz.
 
