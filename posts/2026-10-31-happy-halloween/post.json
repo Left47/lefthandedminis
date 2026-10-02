@@ -4,6 +4,7 @@
   "title": "Happy Halloween",
   "type": "roundup",
   "game": "Hobby",
+  "hold": true,
   "images": [
     {
       "file": "01-collage.jpg",

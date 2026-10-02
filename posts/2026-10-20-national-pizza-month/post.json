@@ -4,6 +4,7 @@
   "title": "National Pizza Month",
   "type": "roundup",
   "game": "TMNT",
+  "hold": true,
   "images": [
     {
       "file": "01-collage.jpg",

@@ -4,6 +4,7 @@
   "title": "Life Day",
   "type": "roundup",
   "game": "Star Wars Shatterpoint",
+  "hold": true,
   "images": [
     {
       "file": "01-darth-maul.jpg",

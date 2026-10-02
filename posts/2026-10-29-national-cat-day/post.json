@@ -4,6 +4,7 @@
   "title": "National Cat Day",
   "type": "roundup",
   "game": "DC United",
+  "hold": true,
   "images": [
     {
       "file": "01-catwoman.jpg",

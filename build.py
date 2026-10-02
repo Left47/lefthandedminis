@@ -168,6 +168,13 @@ def load():
         p['live'] = due or p.get('date') or '0000'
         if due:
             p['date'] = due[:10]
+        # "hold": true keeps a scheduled post off the site until its go-live
+        # time passes; the hourly "Rebuild gallery" workflow publishes it then.
+        if p.get('hold') and due and datetime.datetime.fromisoformat(due) > datetime.datetime.now(datetime.timezone.utc):
+            page = os.path.join(d, 'index.html')
+            if os.path.exists(page):
+                os.remove(page)
+            continue
         posts.append(p)
     posts.sort(key=lambda p: (p['live'], p['slug']), reverse=True)
     return posts

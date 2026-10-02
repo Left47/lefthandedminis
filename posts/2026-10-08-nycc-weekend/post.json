@@ -4,6 +4,7 @@
   "title": "New York Comic Con weekend",
   "type": "roundup",
   "game": "Hobby",
+  "hold": true,
   "images": [
     {
       "file": "01-collage.jpg",

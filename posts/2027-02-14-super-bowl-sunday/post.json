@@ -4,6 +4,7 @@
   "title": "Super Bowl Sunday",
   "type": "roundup",
   "game": "Blood Bowl",
+  "hold": true,
   "images": [
     {
       "file": "01-squires-keep-dying.jpg",

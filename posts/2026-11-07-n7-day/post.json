@@ -4,6 +4,7 @@
   "title": "N7 Day",
   "type": "roundup",
   "game": "Mass Effect",
+  "hold": true,
   "images": [
     {
       "file": "01-mass-effect-squad.jpg",

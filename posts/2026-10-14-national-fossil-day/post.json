@@ -4,6 +4,7 @@
   "title": "National Fossil Day",
   "type": "roundup",
   "game": "Hobby",
+  "hold": true,
   "images": [
     {
       "file": "01-moon-girl-devil-dinosaur.jpg",

@@ -4,6 +4,7 @@
   "title": "2026 in minis",
   "type": "roundup",
   "game": "Hobby",
+  "hold": true,
   "images": [
     {
       "file": "01-grid.jpg",

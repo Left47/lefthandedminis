@@ -4,6 +4,7 @@
   "title": "Happy birthday, Stan Lee",
   "type": "roundup",
   "game": "Marvel United",
+  "hold": true,
   "images": [
     {
       "file": "01-collage.jpg",
