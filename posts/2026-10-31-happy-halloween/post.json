@@ -7,7 +7,7 @@
   "hold": true,
   "images": [
     {
-      "file": "01-collage.jpg",
+      "file": "01-collage-v2.jpg",
       "alt": "Three-by-three grid of spooky painted minis on black: Ghost Rider, Carnage, Werewolf by Night, Hela, Venom, a Tomb Kings Tomb Guardian, Blade, Sauron and Hush",
       "width": 1080,
       "height": 1350
@@ -19,8 +19,8 @@
       "height": 1350
     },
     {
-      "file": "03-carnage.jpg",
-      "alt": "Red, tendril-covered Carnage lunging on a sandy base",
+      "file": "03-carnage-front.jpg",
+      "alt": "Red, tendril-covered Carnage lunging forward, jaws open, on a sandy base",
       "width": 1080,
       "height": 1350
     },
