@@ -22,7 +22,9 @@
   "captions": {
     "instagram": "instagram.md",
     "threads": "threads.md",
-    "tiktok": "tiktok.md"
+    "tiktok": "tiktok.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
   "buffer": {
@@ -39,5 +41,12 @@
       "dueAt": "2026-10-23T19:02:00-04:00",
       "title": "Happy Mole Day 🧪"
     }
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/mole-man_supercut_vertical.mp4",
+    "music": "Pixabay: arpmedia-timelapse-music-569446.mp3 (no original sound)",
+    "track": "arpmedia-timelapse-music-569446.mp3",
+    "buffer": {}
   }
 }

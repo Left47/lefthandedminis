@@ -40,7 +40,9 @@
   "captions": {
     "instagram": "instagram.md",
     "threads": "threads.md",
-    "tiktok": "tiktok.md"
+    "tiktok": "tiktok.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
   "buffer": {
@@ -57,5 +59,12 @@
       "dueAt": "2026-10-20T17:32:00-04:00",
       "title": "National Pizza Month 🍕"
     }
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/michelangelo_supercut_vertical.mp4",
+    "music": "Pixabay: prettyjohn1-hip-hop-hip-hop-beat-527067.mp3 (no original sound)",
+    "track": "prettyjohn1-hip-hop-hip-hop-beat-527067.mp3",
+    "buffer": {}
   }
 }

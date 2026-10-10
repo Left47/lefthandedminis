@@ -70,7 +70,9 @@
   "captions": {
     "instagram": "instagram.md",
     "threads": "threads.md",
-    "tiktok": "tiktok.md"
+    "tiktok": "tiktok.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "buffer": {
     "instagram": {
@@ -86,5 +88,12 @@
       "dueAt": "2026-10-31T11:32:00-04:00",
       "title": "Happy Halloween 🎃"
     }
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/sauron_supercut_vertical.mp4",
+    "music": "Pixabay: zec53-psycho-industrial-cinematic-tension-suspenseful-soundtrack-346944.mp3 (no original sound)",
+    "track": "zec53-psycho-industrial-cinematic-tension-suspenseful-soundtrack-346944.mp3",
+    "buffer": {}
   }
 }

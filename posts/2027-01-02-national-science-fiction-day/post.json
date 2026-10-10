@@ -34,7 +34,9 @@
   "captions": {
     "instagram": "instagram.md",
     "threads": "threads.md",
-    "tiktok": "tiktok.md"
+    "tiktok": "tiktok.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "note": "Holiday roundup post built from existing gallery photos; scheduled for Jim to review in Buffer.",
   "buffer": {
@@ -51,5 +53,12 @@
       "dueAt": "2027-01-02T17:32:00-05:00",
       "title": "National Sci-Fi Day 🛸"
     }
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/als-marine_supercut_vertical.mp4",
+    "music": "Pixabay: absounds-80s-super-hero-retro-synthwave-trailer-272804.mp3 (no original sound)",
+    "track": "absounds-80s-super-hero-retro-synthwave-trailer-272804.mp3",
+    "buffer": {}
   }
 }
