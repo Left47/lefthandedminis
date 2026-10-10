@@ -39,5 +39,20 @@
   "links": {
     "Krydrufi V1 2.0 painting station (affiliate, code lefthanded)": "https://www.krydrufi.com/oqk05a",
     "da Vinci Maestro Series 35 Kolinsky sable brush (affiliate)": "https://link.amazon/B09tuPvRx"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6aca4321bba9419ccb03dcdd",
+      "dueAt": "2026-11-01T07:27:00-05:00"
+    },
+    "threads": {
+      "id": "6aca4327d9cab260a7c72621",
+      "dueAt": "2026-10-22T09:32:00-04:00"
+    },
+    "tiktok": {
+      "id": "6aca432dd9cab260a7c726ab",
+      "dueAt": "2026-10-31T09:32:00-04:00",
+      "title": "Grenadiers WIP"
+    }
   }
 }
