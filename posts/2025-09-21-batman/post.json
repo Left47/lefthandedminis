@@ -31,7 +31,9 @@
     }
   ],
   "captions": {
-    "instagram": "instagram.md"
+    "instagram": "instagram.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "buffer": {
     "instagram": {
@@ -39,5 +41,12 @@
       "sentAt": "2025-09-21T11:27:27.973Z"
     }
   },
-  "source": "instagram-archive"
+  "source": "instagram-archive",
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/batman_supercut_vertical.mp4",
+    "music": "Pixabay: rifky250884-the-storm-breaks-tonight-323244.mp3 (no original sound)",
+    "track": "rifky250884-the-storm-breaks-tonight-323244.mp3",
+    "buffer": {}
+  }
 }

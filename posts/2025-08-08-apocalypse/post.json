@@ -55,7 +55,9 @@
     }
   ],
   "captions": {
-    "instagram": "instagram.md"
+    "instagram": "instagram.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "buffer": {
     "instagram": {
@@ -63,5 +65,12 @@
       "sentAt": "2025-08-08T10:57:51.610Z"
     }
   },
-  "source": "instagram-archive"
+  "source": "instagram-archive",
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/apocalypse_supercut_vertical.mp4",
+    "music": "Pixabay: alex_kizenkov-epic-heroic-cinematic-trailer-141634.mp3 (no original sound)",
+    "track": "alex_kizenkov-epic-heroic-cinematic-trailer-141634.mp3",
+    "buffer": {}
+  }
 }

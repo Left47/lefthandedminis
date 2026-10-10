@@ -31,7 +31,9 @@
     }
   ],
   "captions": {
-    "instagram": "instagram.md"
+    "instagram": "instagram.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "buffer": {
     "instagram": {
@@ -39,5 +41,12 @@
       "sentAt": "2025-10-24T10:57:27.992Z"
     }
   },
-  "source": "instagram-archive"
+  "source": "instagram-archive",
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Supercuts/bebop_supercut_vertical.mp4",
+    "music": "Pixabay: lnplusmusic-hip-hop-hip-hop-beat-607791.mp3 (no original sound)",
+    "track": "lnplusmusic-hip-hop-hip-hop-beat-607791.mp3",
+    "buffer": {}
+  }
 }
