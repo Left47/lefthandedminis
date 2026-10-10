@@ -41,11 +41,11 @@
     "buffer": {
       "instagram": {
         "id": "6abdbd2b24db200ef442fb44",
-        "dueAt": "2026-10-28T06:07:00-04:00"
+        "dueAt": "2026-11-01T07:27:00-05:00"
       },
       "tiktok": {
         "id": "6abdbd2d24db200ef442fb75",
-        "dueAt": "2026-10-20T06:34:00-04:00",
+        "dueAt": "2026-10-24T09:32:00-04:00",
         "title": "Squires keep dying, I keep painting"
       }
     }
@@ -58,11 +58,11 @@
     },
     "threads": {
       "id": "6abdbd277b21e6b4b73637b2",
-      "dueAt": "2026-10-19T10:17:00-04:00"
+      "dueAt": "2026-10-22T09:32:00-04:00"
     },
     "tiktok": {
       "id": "6abe5b8fecb687b12492a6f7",
-      "dueAt": "2026-10-27T06:34:00-04:00",
+      "dueAt": "2026-10-31T09:32:00-04:00",
       "title": "Squires keep dying, I keep painting"
     }
   }
