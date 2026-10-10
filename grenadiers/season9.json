@@ -694,6 +694,181 @@
       ],
       "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/726146",
       "opponent_url": "https://tourplay.net/en/blood-bowl/roster/214738"
+    },
+    {
+      "md": 6,
+      "opponent": "Oak City Lucharitos",
+      "race": "Halfling",
+      "for": 0,
+      "against": 1,
+      "venue": "Regulatory Stadium",
+      "weather": "Nice",
+      "summary": "The rematch. Two Treemen, a Master Chef pinching rerolls, and a game decided by dodges. One Halfling touchdown was all it took.",
+      "cover": "02-knights-push.jpg",
+      "photos": [
+        {
+          "file": "01-kickoff.jpg",
+          "alt": "Nezot Tirasse, the antler-crested Knight Catcher, waiting near the loose ball at kickoff"
+        },
+        {
+          "file": "02-knights-push.jpg",
+          "alt": "Grenadier knights in a cage pushing upfield, luchador halflings around them"
+        },
+        {
+          "file": "03-ball-carrier.jpg",
+          "alt": "An antler-crested knight on the Carrier marker beside the halfling Treeman"
+        },
+        {
+          "file": "04-failed-dodge.jpg",
+          "alt": "A Grenadier knight face-down after a failed dodge, the halflings closing in"
+        },
+        {
+          "file": "05-treeman.jpg",
+          "alt": "The Treeman Locustthorn looming over a Grenadier squire, a caped luchador halfling in front"
+        },
+        {
+          "file": "06-wrestle.jpg",
+          "alt": "Midfield pile-up after a squire's Wrestle brought down the halfling ball carrier"
+        },
+        {
+          "file": "07-luchadors.jpg",
+          "alt": "Two masked luchador halflings in green and gold in front of the Grenadier knights"
+        }
+      ],
+      "facts": [
+        [
+          "Winnings",
+          "+55,000 gp"
+        ],
+        [
+          "Dedicated Fans",
+          "−1"
+        ],
+        [
+          "Inducements faced",
+          "Blitzer's Best Keg, Halfling Master Chef"
+        ]
+      ],
+      "broadcast": [
+        [
+          "JIM",
+          "Good evening, Blood Bowl fans! It's a rematch: the Grenadiers beat these Halflings two–nil back on Matchday 1, and the Lucharitos have brought reinforcements. A keg of Blitzer's Best and a Master Chef rattling pots on the sideline."
+        ],
+        [
+          "BOB",
+          "The Chef, Jim! Every half that little cook is pinching re-rolls off the Grenadier bench with the smell of pie. You can't hit what you can't re-roll!"
+        ],
+        [
+          "JIM",
+          "Knights start sharp, though. Rogerin D'Armignac finds his man downfield on 26 minutes. That's the passing game doing its job."
+        ],
+        [
+          "BOB",
+          "And then the tree walks in. Locustthorn the Treeman plants himself in front of Rogerin and... oh, that's a thick branch to the helmet. Thrower stretchered off!"
+        ],
+        [
+          "JIM",
+          "Nine minutes later the tree does it again. Squire Kunigunde Steinberger flattened, Badly Hurt. Two swings, two casualties. That's the whole Halfling offence right there, Bob: one enormous plant."
+        ],
+        [
+          "BOB",
+          "The Grenadiers try to bully the ball through the Halfling line, and the Treeman stuns the carrier! Ball loose, Halflings swarming it like it's the last pie at the buffet."
+        ],
+        [
+          "JIM",
+          "A knight scoops it up on a six, Bob, a SIX... and then trips over his own spurs on the dodge. Ball back on the turf."
+        ],
+        [
+          "BOB",
+          "Little Lambert Tinyfoot tries to get his own boot in at 74. Nothing doing, Jim, squire armour holds."
+        ],
+        [
+          "JIM",
+          "Second half, and here's a squire with ideas! She dodges out, goes for it, goes for it AGAIN, and Wrestles the Halfling ball carrier into the dirt! Both of them flat on their backs!"
+        ],
+        [
+          "BOB",
+          "Moments later a Grail Knight tries the same dodge, fails it, and knocks himself clean out. Burned a re-roll on the way down, too. Nuffle giveth, Jim."
+        ],
+        [
+          "JIM",
+          "And credit to the Grenadiers, they hold the Halflings out for over two hours of match clock... until the 140th minute. Clothair Mugwort, the Halfling Catcher, scampers through and dots it down. One–nil Lucharitos!"
+        ],
+        [
+          "BOB",
+          "Grenadiers throw the kitchen sink. Gracien De Cobie connects one more pass at 149, but the clock beats them. That's the ballgame."
+        ],
+        [
+          "JIM",
+          "MVP honours to Amynta for the Grenadiers, and to (who else) Locustthorn for the home side. Final: Lucharitos one, Grenadiers nil."
+        ],
+        [
+          "BOB",
+          "Lost to a tree and a pie, Jim. Long bus ride home."
+        ]
+      ],
+      "timeline_label": "Min",
+      "timeline": [
+        [
+          "26'",
+          "**Rogerin D'Armignac** completion",
+          "0–0"
+        ],
+        [
+          "40'",
+          "Locustthorn (Treeman) casualty: **Rogerin D'Armignac** Badly Hurt",
+          "0–0"
+        ],
+        [
+          "49'",
+          "Locustthorn casualty: **Kunigunde Steinberger** Badly Hurt",
+          "0–0"
+        ],
+        [
+          "74'",
+          "Lambert Tinyfoot (Halfling Hopeful) foul, no injury",
+          "0–0"
+        ],
+        [
+          "140'",
+          "Clothair Mugwort (Halfling Catcher) touchdown",
+          "0–1"
+        ],
+        [
+          "149'",
+          "**Gracien De Cobie** completion",
+          "0–1"
+        ]
+      ],
+      "timeline_note": "Times are TourPlay match-clock minutes.",
+      "spp": [
+        [
+          "#2 Amynta (Grail Knight)",
+          "MVP",
+          4
+        ],
+        [
+          "#6 Rogerin D'Armignac (Thrower)",
+          "1 completion",
+          1
+        ],
+        [
+          "#5 Gracien De Cobie (Thrower)",
+          "1 completion",
+          1
+        ]
+      ],
+      "injuries": [
+        "**Rogerin D'Armignac** (#6) and **Kunigunde Steinberger** (#9): Badly Hurt, both back for the next match"
+      ],
+      "casualties": "For 0 · Against 2",
+      "standouts": [
+        "MVP **Locustthorn** the Treeman, two swings and two casualties",
+        "**Clothair Mugwort**, for the only touchdown of the day",
+        "The whole luchador squad, masks, capes and all: a great-looking team"
+      ],
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/roster/212392",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/roster/215297"
     }
   ],
   "league_url": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9"
