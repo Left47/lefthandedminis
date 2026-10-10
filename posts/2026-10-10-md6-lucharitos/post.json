@@ -1,0 +1,48 @@
+{
+  "slug": "2026-10-10-md6-lucharitos",
+  "date": "2026-10-10",
+  "title": "Grenadiers 0–1 Oak City Lucharitos",
+  "type": "match-report",
+  "game": "Blood Bowl",
+  "project": "Holy Hand Grenadiers",
+  "league": "Bugman's Champions League, Season 9 · Matchday 6",
+  "result": "L 0–1",
+  "images": [
+    {
+      "file": "01-knights-push.jpg",
+      "alt": "Holy Hand Grenadiers knights in red and slate blue pushing upfield in a cage, with luchador halflings around them",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-ball-carrier.jpg",
+      "alt": "An antler-crested Grenadier knight on the Carrier marker beside the halfling team's Treeman",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-treeman.jpg",
+      "alt": "The halflings' Treeman Locustthorn looming over a Grenadier squire, with a caped luchador halfling in front",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-wrestle.jpg",
+      "alt": "Pile-up in midfield: a Grenadier squire and the halfling ball carrier both knocked down after a Wrestle, the ball loose beside them",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "05-luchadors.jpg",
+      "alt": "Two masked luchador halflings in green and gold in front of the Grenadier knights",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "buffer": {}
+}
