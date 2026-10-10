@@ -47,6 +47,16 @@
     "source": "Timelapse/Supercuts/mole-man_supercut_vertical.mp4",
     "music": "Pixabay: arpmedia-timelapse-music-569446.mp3 (no original sound)",
     "track": "arpmedia-timelapse-music-569446.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af74b07d37ac975c9a58",
+        "dueAt": "2026-10-23T20:32:00-04:00"
+      },
+      "tiktok": {
+        "id": "6ac9af95f91f772d457dbe8a",
+        "dueAt": "2026-10-23T21:02:00-04:00",
+        "title": "Mole Man, primer to finished 🪨"
+      }
+    }
   }
 }

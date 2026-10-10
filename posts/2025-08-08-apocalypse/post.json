@@ -71,6 +71,16 @@
     "source": "Timelapse/Supercuts/apocalypse_supercut_vertical.mp4",
     "music": "Pixabay: alex_kizenkov-epic-heroic-cinematic-trailer-141634.mp3 (no original sound)",
     "track": "alex_kizenkov-epic-heroic-cinematic-trailer-141634.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af82bba9419ccbeb623c",
+        "dueAt": "2026-11-20T12:07:00-05:00"
+      },
+      "tiktok": {
+        "id": "6ac9afa5b07d37ac975ca0b4",
+        "dueAt": "2026-11-20T19:02:00-05:00",
+        "title": "Apocalypse, primer to finished 💥"
+      }
+    }
   }
 }

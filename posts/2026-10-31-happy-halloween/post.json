@@ -94,6 +94,16 @@
     "source": "Timelapse/Supercuts/sauron_supercut_vertical.mp4",
     "music": "Pixabay: zec53-psycho-industrial-cinematic-tension-suspenseful-soundtrack-346944.mp3 (no original sound)",
     "track": "zec53-psycho-industrial-cinematic-tension-suspenseful-soundtrack-346944.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af78bba9419ccbeb6160",
+        "dueAt": "2026-10-31T18:07:00-04:00"
+      },
+      "tiktok": {
+        "id": "6ac9af99d9cab260a7af4f58",
+        "dueAt": "2026-10-31T19:02:00-04:00",
+        "title": "Sauron, primer to monster 🦖"
+      }
+    }
   }
 }

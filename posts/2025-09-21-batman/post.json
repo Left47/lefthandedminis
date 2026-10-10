@@ -47,6 +47,16 @@
     "source": "Timelapse/Supercuts/batman_supercut_vertical.mp4",
     "music": "Pixabay: rifky250884-the-storm-breaks-tonight-323244.mp3 (no original sound)",
     "track": "rifky250884-the-storm-breaks-tonight-323244.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af85b07d37ac975c9c31",
+        "dueAt": "2026-12-04T12:07:00-05:00"
+      },
+      "tiktok": {
+        "id": "6ac9afa8bba9419ccbeb6880",
+        "dueAt": "2026-12-04T19:02:00-05:00",
+        "title": "Batman, primer to finished 🦇"
+      }
+    }
   }
 }

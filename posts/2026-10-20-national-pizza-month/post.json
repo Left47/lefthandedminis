@@ -65,6 +65,16 @@
     "source": "Timelapse/Supercuts/michelangelo_supercut_vertical.mp4",
     "music": "Pixabay: prettyjohn1-hip-hop-hip-hop-beat-527067.mp3 (no original sound)",
     "track": "prettyjohn1-hip-hop-hip-hop-beat-527067.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af70bba9419ccbeb602e",
+        "dueAt": "2026-10-20T19:07:00-04:00"
+      },
+      "tiktok": {
+        "id": "6ac9af91ed92ed8fa5b6594f",
+        "dueAt": "2026-10-20T20:02:00-04:00",
+        "title": "Michelangelo, primer to finished 🍕"
+      }
+    }
   }
 }

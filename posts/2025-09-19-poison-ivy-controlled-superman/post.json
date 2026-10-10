@@ -77,6 +77,16 @@
     "source": "Timelapse/Supercuts/superman_supercut_vertical.mp4",
     "music": "Pixabay: yevhenastafiev-hero-marvel-superhero-music-526080.mp3 (no original sound)",
     "track": "yevhenastafiev-hero-marvel-superhero-music-526080.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af88ed92ed8fa5b65714",
+        "dueAt": "2026-12-11T12:07:00-05:00"
+      },
+      "tiktok": {
+        "id": "6ac9afabf91f772d457dc025",
+        "dueAt": "2026-12-11T19:02:00-05:00",
+        "title": "Controlled Superman, primer to finished ⚡"
+      }
+    }
   }
 }

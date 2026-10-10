@@ -47,6 +47,16 @@
     "source": "Timelapse/Supercuts/bebop_supercut_vertical.mp4",
     "music": "Pixabay: lnplusmusic-hip-hop-hip-hop-beat-607791.mp3 (no original sound)",
     "track": "lnplusmusic-hip-hop-hip-hop-beat-607791.mp3",
-    "buffer": {}
+    "buffer": {
+      "instagram": {
+        "id": "6ac9af7fd9cab260a7af4af4",
+        "dueAt": "2026-11-12T12:07:00-05:00"
+      },
+      "tiktok": {
+        "id": "6ac9afa3f91f772d457dbf48",
+        "dueAt": "2026-11-12T19:02:00-05:00",
+        "title": "Bebop, primer to finished 🐗"
+      }
+    }
   }
 }
