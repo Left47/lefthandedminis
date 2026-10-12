@@ -1,0 +1,15 @@
+{
+  "slug": "2026-10-12-photo-setup-second-hobby",
+  "date": "2026-10-12",
+  "title": "My mini photo setup (a whole second hobby)",
+  "type": "tip",
+  "game": "Blood Bowl",
+  "project": "Photography",
+  "images": [
+    {"file": "01-lightbox-setup.jpg", "alt": "A Canon Rebel on a tripod, tethered by cable, aimed at a small glowing lightbox of painted minis on a wooden shelf; the rear screen shows manual mode, f/32, 0.3 seconds, ISO 200", "width": 1080, "height": 1350},
+    {"file": "02-desk-tethered.jpg", "alt": "Over-the-shoulder view of the Canon Rebel at the painting desk, a Blood Bowl knight on a painting handle between two small LED lights, wall paint racks behind and the mini on the camera's rear screen", "width": 1080, "height": 1350},
+    {"file": "03-knight-result.jpg", "alt": "The resulting shot: Holy Hand Grenadiers knight number 1 on a painting handle, gold sunburst halo, slate blue armor and red tabard, paint racks melted into a soft blur behind", "width": 1080, "height": 1350}
+  ],
+  "captions": {"instagram": "instagram.md", "threads": "threads.md", "tiktok": "tiktok.md"},
+  "buffer": {}
+}
