@@ -234,20 +234,11 @@
           "match": "velvet"
         },
         {
-          "name": "Canon EOS Rebel T7",
-          "note": "Closest current model to the Rebel T6 I shoot on; the bundle adds the kit lens, a card and a bag",
-          "url": "https://link.amazon/B0hZzcsv5",
-          "id": "B0hZzcsv5",
-          "match": "rebel t[67]",
-          "also": [
-            {
-              "store": "Amazon (bundle)",
-              "url": "https://link.amazon/B0a7Rdzp4"
-            }
-          ],
-          "legacy_ids": [
-            "B0a7Rdzp4"
-          ]
+          "name": "Canon EOS Rebel T7 bundle",
+          "note": "Closest current model to the Rebel T6 I shoot on (kit lens, card and bag included)",
+          "url": "https://link.amazon/B0a7Rdzp4",
+          "id": "B0a7Rdzp4",
+          "match": "rebel t[67]"
         },
         {
           "name": "Canon EF 100mm f/2.8 Macro USM",
