@@ -42,8 +42,19 @@
     "threads": "threads.md",
     "tiktok": "tiktok.md"
   },
-  "links": {
-    "Citadel painting handle (affiliate)": "https://link.amazon/B08i5MpIw"
-  },
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6acd09737562cfd84bc2e188",
+      "dueAt": "2026-11-08T07:27:00-05:00"
+    },
+    "threads": {
+      "id": "6acd097a24350a9dcf65019d",
+      "dueAt": "2026-10-29T09:32:00-04:00"
+    },
+    "tiktok": {
+      "id": "6acd09807562cfd84bc2e3b4",
+      "dueAt": "2026-11-07T09:32:00-05:00",
+      "title": "Grenadiers highlights"
+    }
+  }
 }

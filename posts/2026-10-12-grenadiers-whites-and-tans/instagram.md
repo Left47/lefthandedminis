@@ -4,7 +4,5 @@ Another night on the Holy Hand Grenadiers. The knights' whites are finally readi
 
 Next up: detailing and metallics. Then the bases still need finishing.
 
-The handle's a Citadel one, link in bio. It's an affiliate link, so using it chips in for the metallics coming next 🙌
-
 @warhammerofficial
 #miniaturepainting #bloodbowl #bretonnian #warhammercommunity #wip
