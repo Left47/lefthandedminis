@@ -6,10 +6,43 @@
   "game": "Blood Bowl",
   "project": "Photography",
   "images": [
-    {"file": "01-lightbox-setup.jpg", "alt": "A Canon Rebel on a tripod, tethered by cable, aimed at a small glowing lightbox of painted minis on a wooden shelf; the rear screen shows manual mode, f/32, 0.3 seconds, ISO 200", "width": 1080, "height": 1350},
-    {"file": "02-desk-tethered.jpg", "alt": "Over-the-shoulder view of the Canon Rebel at the painting desk, a Blood Bowl knight on a painting handle between two small LED lights, wall paint racks behind and the mini on the camera's rear screen", "width": 1080, "height": 1350},
-    {"file": "03-knight-result.jpg", "alt": "The resulting shot: Holy Hand Grenadiers knight number 1 on a painting handle, gold sunburst halo, slate blue armor and red tabard, paint racks melted into a soft blur behind", "width": 1080, "height": 1350}
+    {
+      "file": "01-lightbox-setup.jpg",
+      "alt": "A Canon Rebel on a tripod, tethered by cable, aimed at a small glowing lightbox of painted minis on a wooden shelf; the rear screen shows manual mode, f/32, 0.3 seconds, ISO 200",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-desk-tethered.jpg",
+      "alt": "Over-the-shoulder view of the Canon Rebel at the painting desk, a Blood Bowl knight on a painting handle between two small LED lights, wall paint racks behind and the mini on the camera's rear screen",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-knight-result.jpg",
+      "alt": "The resulting shot: Holy Hand Grenadiers knight number 1 on a painting handle, gold sunburst halo, slate blue armor and red tabard, paint racks melted into a soft blur behind",
+      "width": 1080,
+      "height": 1350
+    }
   ],
-  "captions": {"instagram": "instagram.md", "threads": "threads.md", "tiktok": "tiktok.md"},
-  "buffer": {}
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "buffer": {
+    "instagram": {
+      "id": "6acd40845562ebe80f6a4376",
+      "dueAt": "2026-11-11T06:07:00-05:00"
+    },
+    "threads": {
+      "id": "6acd40892c1b16d2e1217aa8",
+      "dueAt": "2026-11-02T10:17:00-05:00"
+    },
+    "tiktok": {
+      "id": "6acd408e8465d3f29e8c6630",
+      "dueAt": "2026-11-10T06:34:00-05:00",
+      "title": "My mini photo setup (overkill edition)"
+    }
+  }
 }
