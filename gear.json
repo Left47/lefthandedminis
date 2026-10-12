@@ -241,18 +241,11 @@
           "match": "rebel t[67]"
         },
         {
-          "name": "Canon EF 100mm f/2.8 Macro USM",
+          "name": "Canon EF 100mm f/2.8 Macro USM (Renewed)",
           "note": "My macro lens (I bought it renewed; get renewed from a seller with an inspection and a guarantee)",
           "url": "https://link.amazon/B02S0XOAl",
           "id": "B02S0XOAl",
-          "match": "100 ?mm macro",
-          "store": "Amazon (renewed)",
-          "also": [
-            {
-              "store": "Amazon",
-              "url": "https://link.amazon/B06QIq0ti"
-            }
-          ]
+          "match": "100 ?mm macro"
         },
         {
           "name": "NEEWER RGB61 LED panel",
