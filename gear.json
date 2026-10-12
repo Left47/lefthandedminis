@@ -232,6 +232,27 @@
           "url": "https://link.amazon/B0gB0J666",
           "id": "B0gB0J666",
           "match": "velvet"
+        },
+        {
+          "name": "Canon EOS Rebel T7 DSLR bundle",
+          "note": "Closest current model to the Rebel T6 I shoot on",
+          "url": "https://link.amazon/B0a7Rdzp4",
+          "id": "B0a7Rdzp4",
+          "match": "rebel t[67]"
+        },
+        {
+          "name": "Canon EF 100mm f/2.8 Macro USM (Renewed)",
+          "note": "My macro lens, bought renewed",
+          "url": "https://link.amazon/B02S0XOAl",
+          "id": "B02S0XOAl",
+          "match": "100 ?mm macro"
+        },
+        {
+          "name": "NEEWER RGB61 LED panel",
+          "note": "Small LED lights for quick shots at the desk",
+          "url": "https://link.amazon/B0fymx4G4",
+          "id": "B0fymx4G4",
+          "match": "neewer|rgb61"
         }
       ]
     },
