@@ -1,6 +1,6 @@
 A squirrel instead of a Viking. 🐿️⚔️
 
-Last game of the regular season, win or go home. This was supposed to be my first ever Star Player: Ivar Eriksson, painted and ready. Then Greg very kindly pointed out I couldn't afford him. Turns out there's a cap on how much treasury you can put toward inducements, a rule I probably should have read. So the Holy Hand Grenadiers took the field with Akhorne the Squirrel and a keg instead.
+Last game of the regular season, win or go home. This was supposed to be my first ever Star Player: Ivar Eriksson, painted and ready. Then I found out there's a cap on how much treasury you can put toward inducements, a rule I probably should have read. Greg walked me through the rules, helped me find an alternative, and even lent me his Akhorne. So the Holy Hand Grenadiers took the field with a squirrel and a keg instead.
 
 Honestly, the squirrel was the star of the night. The Ghouls hit him twice early (six block dice and a knockdown), and he just kept standing. He hit the pavement and popped right back up. Later Greg rolled double 1s on the armor. The league Discord decided he must have some Gnome blood in him.
 
