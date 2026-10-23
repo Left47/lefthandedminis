@@ -869,6 +869,220 @@
       ],
       "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9/match/735595",
       "opponent_url": "https://tourplay.net/en/blood-bowl/roster/215297"
+    },
+    {
+      "md": 7,
+      "opponent": "Ghouls Just Wanna Have Fun",
+      "race": "Necromantic Horror",
+      "for": 0,
+      "against": 2,
+      "venue": "Regulatory Stadium",
+      "weather": "Nice, then Very Sunny",
+      "summary": "Win or go home. I meant to debut my first ever Star Player, Ivar Eriksson, but the budget said no, so a squirrel and a keg came instead. Akhorne refused to stay down, the sun switched off the passing game, and two fast Ghouls ended the season.",
+      "cover": "03-akhorne-vs-ghouls.jpg",
+      "photos": [
+        {
+          "file": "01-ivar.jpg",
+          "alt": "Ivar Eriksson, the Norse Star Player who was meant to debut tonight, painted with a green-trousered kit, a tankard and a broken bottle"
+        },
+        {
+          "file": "02-akhorne.jpg",
+          "alt": "Akhorne the Squirrel perched on his tree-stump base beside a Grenadier knight"
+        },
+        {
+          "file": "03-akhorne-vs-ghouls.jpg",
+          "alt": "Akhorne on his stump staring down a line of Ghouls and Zombies, a Grenadier squire beside him"
+        },
+        {
+          "file": "04-knights-advance.jpg",
+          "alt": "Two Grenadier knights pushing upfield, the antler-crested one carrying the ball"
+        },
+        {
+          "file": "05-grail-knight.jpg",
+          "alt": "Grail Knight Amynta in red and slate blue, mid-stride, with Akhorne and the Ghouls behind"
+        },
+        {
+          "file": "06-werewolf.jpg",
+          "alt": "A Werewolf leaping past a Grenadier knight, Ghouls and squires all around"
+        },
+        {
+          "file": "07-pavement.jpg",
+          "alt": "Akhorne's stump tipped over on the pitch next to a downed Werewolf, blood spatter on the turf"
+        },
+        {
+          "file": "08-scrum.jpg",
+          "alt": "A midfield scrum: the Wraith, a Werewolf, knocked-down knights and an Eye Gouge marker"
+        },
+        {
+          "file": "09-overhead.jpg",
+          "alt": "Overhead view of the pitch, Grenadiers and Ghouls locked across midfield with Akhorne out on the wing"
+        },
+        {
+          "file": "10-dugout.jpg",
+          "alt": "The Grenadiers dugout with two squires in the reserves box beside the turn track"
+        }
+      ],
+      "facts": [
+        [
+          "Winnings",
+          "+50,000 gp"
+        ],
+        [
+          "Dedicated Fans",
+          "No change"
+        ],
+        [
+          "Inducements",
+          "Akhorne the Squirrel, Blitzer's Best Keg (Grenadiers)"
+        ],
+        [
+          "Match length",
+          "4 hours 16 minutes"
+        ]
+      ],
+      "broadcast": [
+        [
+          "JIM",
+          "Good evening, Blood Bowl fans, and it's win-or-go-home under the floodlights! The Holy Hand Grenadiers need two points tonight to keep their playoff hopes breathing, and standing in the way... the shambling, howling, regenerating Ghouls Just Wanna Have Fun."
+        ],
+        [
+          "BOB",
+          "And Jim, the Grenadiers were supposed to walk out with Ivar Eriksson tonight. Instead they've walked out with... a squirrel. And a keg!"
+        ],
+        [
+          "JIM",
+          "Turns out the league's accountants only let a team crack open fifty thousand from the treasury for a Star, Bob. Akhorne the Squirrel it is, and to be fair, a keg of Blitzer's Best does wonders for the knocked-out lads on the bench."
+        ],
+        [
+          "BOB",
+          "It's a dirty one early! Boots the Zombie gets his boot in on 32 minutes. That's the Dirty Player, and the Ghouls are already putting the slipper into downed Grenadiers."
+        ],
+        [
+          "JIM",
+          "And they can't get rid of the squirrel, Bob! Two hits on Akhorne already, six block dice and a knockdown, and he's still standing. He hits the pavement and hops straight back onto his stump. There's talk in the stands of Gnome blood."
+        ],
+        [
+          "BOB",
+          "Long, grinding first stretch, and then on 139 minutes Punkin' Head, the Ghoul Runner, slips through and scores! One–nil Ghouls!"
+        ],
+        [
+          "JIM",
+          "And would you look at that sky, Bob. The sun's come out hard. Very Sunny! Minus one on every pass for the rest of the day, and the Grenadiers are a PASSING team!"
+        ],
+        [
+          "BOB",
+          "Second half, and Akhorne's flattened AGAIN... double one on the armour! That squirrel is made of oak, Jim."
+        ],
+        [
+          "JIM",
+          "More boots from the Zombies: Prancer on 161, Blue Buscetta on 174. Then the Ghouls start finding the squires. Lips crunches Siegbert Schott on 212, Badly Hurt. Grabby the Wraith does the same to Ralf Goldwasser on 229."
+        ],
+        [
+          "BOB",
+          "But the Grail Knight answers! Alejandra, the Change Warden, levels a Ghoul for a casualty on 240! Mind you, half these fellows just get back up again. Regeneration, Jim, it's very unsporting."
+        ],
+        [
+          "JIM",
+          "And there's the dagger. Fido the Werewolf, 245 minutes, touchdown! Two–nil Ghouls, and the Grenadiers' season is slipping away."
+        ],
+        [
+          "BOB",
+          "Prancer gets one more casualty in before the whistle for good measure, but the Grenadier Apothecary patches that one up. Not a single completed pass for the knights tonight, Jim. Between the sunshine and those Werewolves, the air game never got off the ground."
+        ],
+        [
+          "JIM",
+          "MVP honours to Gracien De Cobie for the Grenadiers, and to Lips for the Ghouls. Final score: Ghouls two, Grenadiers nil, and that's the end of the road for the Holy Hand Grenadiers in Season 9."
+        ],
+        [
+          "BOB",
+          "They came for a Viking, Jim. They left with a squirrel. Some nights, Nuffle just laughs."
+        ]
+      ],
+      "timeline_label": "Min",
+      "timeline": [
+        [
+          "0'",
+          "Weather Nice · Grenadiers induce **Akhorne the Squirrel** and a **Blitzer's Best Keg**",
+          "0–0"
+        ],
+        [
+          "32'",
+          "Boots (Zombie, Dirty Player) foul",
+          "0–0"
+        ],
+        [
+          "139'",
+          "Punkin' Head (Ghoul Runner) touchdown",
+          "0–1"
+        ],
+        [
+          "151'",
+          "Weather turns **Very Sunny** (−1 to every pass)",
+          "0–1"
+        ],
+        [
+          "161'",
+          "Prancer (Zombie) foul",
+          "0–1"
+        ],
+        [
+          "174'",
+          "Blue Buscetta (Zombie) foul",
+          "0–1"
+        ],
+        [
+          "212'",
+          "Lips (Zombie) casualty: **Siegbert Schott** Badly Hurt",
+          "0–1"
+        ],
+        [
+          "229'",
+          "Grabby (Wraith) casualty: **Ralf Goldwasser** Badly Hurt",
+          "0–1"
+        ],
+        [
+          "240'",
+          "**Alejandra, Change Warden** casualty",
+          "0–1"
+        ],
+        [
+          "245'",
+          "Fido (Werewolf) touchdown",
+          "0–2"
+        ],
+        [
+          "256'",
+          "Prancer (Zombie) casualty on a Grenadier, saved by the Apothecary",
+          "0–2"
+        ]
+      ],
+      "timeline_note": "Times are TourPlay match-clock minutes.",
+      "spp": [
+        [
+          "#5 Gracien De Cobie (Thrower)",
+          "MVP",
+          4
+        ],
+        [
+          "#1 Alejandra, Change Warden (Grail Knight)",
+          "1 casualty",
+          2
+        ]
+      ],
+      "injuries": [
+        "**Siegbert Schott** (#12) and **Ralf Goldwasser** (#13): Badly Hurt, no lasting effect",
+        "Prancer's late casualty was patched up by the Apothecary"
+      ],
+      "casualties": "For 1 · Against 3",
+      "standouts": [
+        "**Fido** the Werewolf, for the touchdown that sealed it",
+        "**Punkin' Head**, the Ghoul Runner who opened the scoring",
+        "MVP **Lips**, who crunched a squire on the way",
+        "**Grabby** the Wraith, who earned Mighty Blow by the end (look out, everyone)",
+        "A gorgeous, fully painted Necromantic team, orange and green from the Werewolves to the Wraith"
+      ],
+      "tourplay_match": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9",
+      "opponent_url": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9"
     }
   ],
   "league_url": "https://tourplay.net/en/blood-bowl/bugmans-champions-league-season-9"
