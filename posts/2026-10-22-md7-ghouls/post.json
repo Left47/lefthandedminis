@@ -50,5 +50,19 @@
     "threads": "threads.md",
     "tiktok": "tiktok.md"
   },
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6adb7e636bf37011a381f9c7",
+      "dueAt": "2026-11-15T07:27:00-05:00"
+    },
+    "threads": {
+      "id": "6adb7e6a7af932dee4ea0cb2",
+      "dueAt": "2026-11-05T09:32:00-05:00"
+    },
+    "tiktok": {
+      "id": "6adb7e706bf37011a381fe1d",
+      "dueAt": "2026-11-14T09:32:00-05:00",
+      "title": "A squirrel instead of a Viking 🐿️"
+    }
+  }
 }
