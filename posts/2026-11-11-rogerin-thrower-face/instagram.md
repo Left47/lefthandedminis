@@ -1,4 +1,4 @@
-Every team needs someone calling the plays. For the Holy Hand Grenadiers, that's #6 Rogerin, Knight Thrower, Sure Hands and Leader, already pointing at where the ball is going.
+Every team needs someone calling the plays. For the Holy Hand Grenadiers, that's No. 6 Rogerin, Knight Thrower, Sure Hands and Leader, already pointing at where the ball is going.
 
 Today was one small job: his face. About 27 minutes on a face this tiny, and honestly, faces at this scale are still where I struggle most. Close-ups help me see what's working and what isn't, so I made sure to grab some this time.
 

@@ -34,13 +34,40 @@
   "captions": {
     "instagram": "instagram.md",
     "threads": "threads.md",
-    "tiktok": "tiktok.md"
+    "tiktok": "tiktok.md",
+    "reel": "reel.md",
+    "tiktok_reel": "tiktok-reel.md"
   },
   "reel": {
     "file": "reel.mp4",
     "source": "Timelapse/Reels/2026-11-11/thrower_face_countdown_reel.mp4",
     "music": "Streamable Beats: Color and Shadow (no original sound)",
-    "track": "Color and Shadow.mp3"
+    "track": "Color and Shadow.mp3",
+    "buffer": {
+      "instagram": {
+        "id": "6af4c29be805a6da23106873",
+        "dueAt": "2026-11-22T18:07:00-05:00"
+      },
+      "tiktok": {
+        "id": "6af4c29c8259a45014ddd2bd",
+        "dueAt": "2026-11-22T19:02:00-05:00",
+        "title": "27 minutes, one face"
+      }
+    }
   },
-  "buffer": {}
+  "buffer": {
+    "instagram": {
+      "id": "6af4c2708259a45014ddc202",
+      "dueAt": "2026-11-18T06:07:00-05:00"
+    },
+    "threads": {
+      "id": "6af4c27053159c0c751526c3",
+      "dueAt": "2026-11-12T09:32:00-05:00"
+    },
+    "tiktok": {
+      "id": "6af4c271cd8c8b4c7cf968e6",
+      "dueAt": "2026-11-17T06:34:00-05:00",
+      "title": "Help me paint tiny faces"
+    }
+  }
 }
