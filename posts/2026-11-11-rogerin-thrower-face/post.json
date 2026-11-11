@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-11-rogerin-thrower-face",
+  "date": "2026-11-11",
+  "title": "Rogerin, one tiny face",
+  "type": "finished",
+  "game": "Blood Bowl",
+  "project": "Holy Hand Grenadiers",
+  "images": [
+    {
+      "file": "01-rogerin-front.jpg",
+      "alt": "Holy Hand Grenadiers Knight Thrower number 6 on black velvet, arm flung forward, gold stag-antler crest, slate blue helm and greaves, red and cream tunic, static grass base with a white field line",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "02-rogerin-throw.jpg",
+      "alt": "Side view of the thrower winding up with the ball held back, red tabard, cream sleeves and slate blue armor, pointing downfield",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "03-rogerin-shield.jpg",
+      "alt": "Back-left view of the thrower showing a glittery slate blue shield with gold fleur, red sash and ball in hand",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "file": "04-rogerin-crest.jpg",
+      "alt": "Back-right view of the thrower showing the gold antler crest, red scarf, shield on his back and the ball in his throwing hand",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "captions": {
+    "instagram": "instagram.md",
+    "threads": "threads.md",
+    "tiktok": "tiktok.md"
+  },
+  "reel": {
+    "file": "reel.mp4",
+    "source": "Timelapse/Reels/2026-11-11/thrower_face_countdown_reel.mp4",
+    "music": "Streamable Beats: Color and Shadow (no original sound)",
+    "track": "Color and Shadow.mp3"
+  },
+  "buffer": {}
+}
