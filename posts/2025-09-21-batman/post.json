@@ -7,25 +7,25 @@
   "images": [
     {
       "file": "01.jpg",
-      "alt": "Batman, photo 1",
+      "alt": "DC Super Heroes United Batman in grey and blue with a gold belt, cape spread over a glowing bat-signal",
       "width": 1080,
       "height": 1350
     },
     {
       "file": "02.jpg",
-      "alt": "Batman, photo 2",
+      "alt": "Batman turned slightly, the bat-signal lens lit gold below him",
       "width": 1080,
       "height": 1350
     },
     {
       "file": "03.jpg",
-      "alt": "Batman, photo 3",
+      "alt": "Batman front-on, cape lined in warm yellow light from the signal",
       "width": 1080,
       "height": 1350
     },
     {
       "file": "04.jpg",
-      "alt": "Batman, photo 4",
+      "alt": "Batman three-quarter view, cape folded around him and the signal glowing",
       "width": 1080,
       "height": 1350
     }
