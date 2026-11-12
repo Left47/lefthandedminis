@@ -1,4 +1,4 @@
-Gotham's guardian, primer to finished in one minute 🦇
+Gotham's guardian, primer to finished in 30 seconds 🦇
 
 Two hours and change of classic grey and blue, from bare primer to cape highlights, on the Batman from the Hush box of DC Super Heroes United. Painted him last year.
 

@@ -44,7 +44,7 @@
   "source": "instagram-archive",
   "reel": {
     "file": "reel.mp4",
-    "source": "Timelapse/Supercuts/batman_supercut_vertical_countdown.mp4",
+    "source": "Timelapse/Supercuts/batman_supercut_vertical_countdown_short.mp4",
     "music": "Pixabay: rifky250884-the-storm-breaks-tonight-323244.mp3 (no original sound; taken from the earlier reel's audio and extended by one looped phrase)",
     "track": "rifky250884-the-storm-breaks-tonight-323244.mp3",
     "buffer": {
@@ -58,6 +58,6 @@
         "title": "Batman, primer to finished 🦇"
       }
     },
-    "hook": "countdown + real-time stopwatch, ends on the finished 360"
+    "hook": "countdown + real-time stopwatch, trimmed to the interesting stretches (32 s), ends on a 360 that speeds across the back"
   }
 }
